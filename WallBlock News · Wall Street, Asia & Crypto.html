@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>WallBlock News · Wall Street, Asia &amp; Crypto</title>
+<style>
+:root{--bg:#1b2229;--card:#242d36;--text:#f1eee6;--muted:#a4adb5;--line:#36424d;--accent:#e3b341;--up:#5ccb8f;--down:#f0766b;--on:#14161a;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:dark}
+:root[data-p="violet"]{--bg:#130f26;--card:#1d1838;--text:#ece9ff;--muted:#a59fcb;--line:#2e2859;--accent:#8b7cff;--up:#4de3b0;--down:#ff7a86}
+:root[data-p="blue"]{--bg:#eef3fa;--card:#fff;--text:#0e2a47;--muted:#56677d;--line:#d3ddea;--accent:#1f5bff;--up:#0e8f5b;--down:#d6334a;--on:#fff;color-scheme:light}
+:root[data-p="cobalt"]{--bg:#071a52;--card:#0d2670;--text:#eaf2ff;--muted:#9fb6ee;--line:#1c3a9a;--accent:#00d1ff;--up:#3dffa8;--down:#ff5c7a}
+:root[data-p="fuchsia"]{--bg:#1a0630;--card:#2a0d4a;--text:#fff0fa;--muted:#d6a8ea;--line:#4a1a78;--accent:#ff2e93;--up:#2affc8;--down:#ff8a5c;--on:#fff}
+:root[data-p="emerald"]{--bg:#eafff3;--card:#fff;--text:#06352a;--muted:#3f6b5c;--line:#bde8d2;--accent:#00b86b;--up:#00a35c;--down:#e0243c;--on:#fff;color-scheme:light}
+:root[data-p="orange"]{--bg:#1f120a;--card:#2c1a0f;--text:#fff3e8;--muted:#d4b199;--line:#4a2c18;--accent:#ff7a1a;--up:#5be08a;--down:#ff5470}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.45}
+.wrap{max-width:860px;margin:0 auto;padding:16px}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px;flex-wrap:wrap}
+h1{font-size:1.3rem;margin:0}.sub{color:var(--muted);font-size:.8rem}
+.vid{width:100%;max-height:240px;object-fit:cover;border-radius:12px;margin-bottom:12px;background:#000}
+.ckr,.tick,.tabs{display:flex;gap:8px;overflow-x:auto;margin-bottom:10px;padding-bottom:4px}
+.ck,.t{flex:0 0 auto;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 12px;min-width:104px;animation:rise .4s ease both}
+.ck b,.t b{display:block;font-size:.75rem;color:var(--muted);font-weight:600}
+.ck span{font-weight:700;margin-right:6px}.ck i{font-style:normal;font-size:.72rem}
+.t{cursor:pointer}.t:hover{border-color:var(--accent)}.t span{font-weight:700}
+.up{color:var(--up)}.down{color:var(--down)}
+input{width:100%;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:.95rem;margin-bottom:10px}
+.tab{flex:0 0 auto;border:1px solid var(--line);background:var(--card);color:var(--text);padding:7px 14px;border-radius:999px;font-size:.85rem;cursor:pointer;font-family:inherit}
+.tab.on{background:var(--accent);border-color:var(--accent);color:var(--on);font-weight:600}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:10px;animation:rise .35s ease both}
+.meta{display:flex;justify-content:space-between;align-items:center;font-size:.75rem;color:var(--muted);margin-bottom:6px}
+.badge{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:1px 8px}
+.card h2{font-size:1rem;margin:0 0 4px}.card p{margin:0;color:var(--muted);font-size:.88rem}
+.star{background:none;border:0;font-size:1.1rem;cursor:pointer;color:var(--muted)}.star.on{color:#e8a30c}
+.note{font-size:.75rem;color:var(--muted);text-align:center;margin-top:16px}
+.empty{text-align:center;color:var(--muted);padding:30px 0}
+.mh{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:16px 0 8px}
+.pr{font-size:1.6rem;font-weight:700;color:var(--accent)}
+.pl{margin:8px 0 0;padding-left:18px;color:var(--muted);font-size:.88rem}.pl li{margin:5px 0}
+.soon{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:0 6px;font-size:.7rem;color:var(--muted);margin-left:6px;white-space:nowrap}
+.ov{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;padding:16px;z-index:50}.ov.on{display:flex}
+.tour{background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:16px;max-width:420px;width:100%;padding:20px;text-align:center}
+.tour h2{font-size:1.1rem;margin:0 0 6px}
+.demo{height:100px;display:flex;align-items:center;justify-content:center;font-size:3rem}.demo span{display:inline-block;animation:pop .6s ease both}
+.dots{display:flex;gap:6px;justify-content:center;margin:12px 0 8px}.dots i{width:8px;height:8px;border-radius:50%;background:var(--line)}.dots i.on{background:var(--accent)}
+.bar{height:3px;background:var(--line);border-radius:3px;overflow:hidden}.bar b{display:block;height:100%;background:var(--accent);width:0;animation:fill 3.5s linear forwards}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes pop{0%{transform:scale(.4);opacity:0}70%{transform:scale(1.15)}100%{transform:scale(1);opacity:1}}
+@keyframes fill{to{width:100%}}@keyframes draw{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.bar b{width:100%}.tour path{stroke-dashoffset:0!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div><h1>WallBlock News</h1><div class="sub">Wall Street · Asia · Crypto · Macro · Commodities</div></div>
+  <div style="display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end"><button class="tab" id="how">▶ How to use</button><select class="tab" id="plan" aria-label="Plan preview"><option value="0">Free plan</option><option value="1">Pro plan</option><option value="2">Premium plan</option></select><select class="tab" id="theme" aria-label="Colors"></select></div>
+</header>
+<video class="vid" src="/_blob/8803cf2c5b5d961aa0a8494e131813c5" autoplay muted loop playsinline controls preload="metadata"></video>
+<div class="ckr" id="clock"></div>
+<div class="tick" id="tick"></div>
+<input id="q" type="search" placeholder="Search news…">
+<div class="tabs" id="tabs"></div>
+<div id="list"></div>
+<p class="note">Summary for Wednesday, November 4, 2026, morning (Spain time). US figures are Tuesday’s closes; Asian figures are Wednesday’s session (partly intraday); bitcoin, oil and gold are this morning’s prices. Sources on each story. Not financial advice. World-clock hours ignore holidays and lunch breaks.</p>
+</div>
+<div class="ov" id="ov"><div class="tour" id="tour"></div></div>
+<script>
+var CATS=["All","Wall Street","Asia","Crypto","Macro","Commodities","Companies","Calendar","Pro Chat","WallBlock AI","Plans","Favorites"];
+var INDEX=[["S&P 500","7,569",0.36],["Nasdaq","25,372",0.83],["Dow Jones","51,787",-0.38],["Nikkei 225","62,189",-1.42],["Hang Seng","23,827",1.28],["Kospi","5,684",0.62],["Shanghai","3,660",1.44],["Bitcoin","$77,700",1.5],["Gold","$3,940",-0.3],["WTI Oil","$96.1",-0.4]];
+var NEWS=[
+["Wall Street","S&P 500 and Nasdaq snap a three-day skid as chips rebound","On Tuesday the S&P 500 rose 0.36% to 7,569 and the Nasdaq 0.83% to 25,372, while the Dow fell 0.38% to 51,787, weighed down by Apple, which lost about 2.6%.","Nov 3 · CNBC, Yahoo Finance"],
+["Wall Street","US futures slide overnight as Democrats win Congress","Nasdaq-100 futures fell nearly 2% at one point late Tuesday as early counts pointed to a Democratic win, then pared losses. Reuters reports Democrats won majorities in both the House and the Senate.","Nov 3-4 · Reuters, Benzinga, Investing.com"],
+["Asia","Asian tech stocks slide, then recover as Democrats lead the US count","Japan’s Nikkei fell as much as 4.8% to a five-month low near 60,030 and closed down roughly 1.4% to 1.8% (sources differ). South Korea’s Kospi swung widely and closed up 0.62% at 5,683.80.","Nov 4 · Trading Economics, AJP, investingLive"],
+["Asia","China and Hong Kong rise as Australia’s central bank lifts rates","The Hang Seng and the Shanghai Composite were up about 1.3% and 1.4% in the afternoon session. The Reserve Bank of Australia raised rates on Tuesday and the ASX 200 was down about 0.8% on Wednesday.","Nov 4 · AJP, Saxo, Euronews"],
+["Crypto","Bitcoin dips to a seven-week low near $75,600, then rebounds toward $78,000","It was up about 1.6% to around $77,700 after Democrats won both chambers of Congress. Long liquidations neared $290 million, and Reuters called the result a potential setback for the industry’s push for lighter rules.","Nov 4 · Reuters, Investing.com, Finwire"],
+["Crypto","Crypto stays cautious after the Binance hack","Reuters says the market has lost about $300 billion in a month, and the roughly $6 billion Binance hack was the largest heist in history. US bitcoin ETFs saw about $399 million of outflows on Monday.","Nov 4 · Reuters, Finwire"],
+["Macro","Democrats win control of Congress","Reuters and Investing.com report that Democrats won majorities in both the Senate and the House. Analysts expect policy gridlock and possible new regulatory hurdles for crypto.","Nov 4 · Reuters, Investing.com"],
+["Macro","Fed hike odds stay high; ADP and ISM services are due today","Markets see roughly a 72%-79% chance of a December hike, depending on the source. ADP is forecast at 68,000 and ISM services at 54.8. The jobs report comes out on Friday.","Nov 2-4 · TheStreet, Investing.com"],
+["Commodities","Oil edges up after Brent’s lowest close since October 7","Brent settled at $103.60 and WTI at $96.09 on Tuesday. Early Wednesday Brent traded near $104 and WTI near $96.4 as the US-Iran standoff over Hormuz continued.","Nov 3-4 · Yahoo Finance, Reuters"],
+["Commodities","Iran says Hormuz stays shut until its demands are met","The Revolutionary Guards claimed mine strikes on four tankers, which is unconfirmed, and a US deal looks far off. The weekly EIA inventory report is due today.","Nov 4 · investingLive"],
+["Commodities","Gold holds near $3,940 as the dollar weakens","Spot gold hovered between about $3,930 and $3,950 on Wednesday, after rebounding from a one-year low on October 30. The World Gold Council says central-bank buying rose 42% in the third quarter.","Nov 4 · Business Recorder, investingLive"],
+["Companies","AMD and Super Micro jump after earnings","AMD gained about 5.5% and Super Micro about 8% in after-hours trading on strong guidance.","Nov 3-4 · Saxo"],
+["Companies","Apple falls about 2.6% and weighs on the Dow","The stock slid on Tuesday, a day after it guided to a lower margin because of memory costs.","Nov 3 · CNBC via Stock Titan"]
+];
+var CAL=[
+["Wed Nov 4","8:15 ET","ADP private payrolls (October)","Forecast 68,000; previous 90,000."],
+["Wed Nov 4","10:00 ET","ISM services PMI (October)","Forecast 54.8; previous 54.9."],
+["Wed Nov 4","10:30 ET","EIA weekly crude inventories","Weekly report on US oil stocks."],
+["Wed Nov 4","All day","US Treasury quarterly refunding","Quarterly announcement on government borrowing."],
+["Wed Nov 4","TBC","Earnings: Uber, Qualcomm, Circle, Novo Nordisk, Arm","Circle, issuer of the USDC stablecoin, is the crypto-linked name."],
+["Thu Nov 5","8:30 ET","Initial jobless claims","Forecast 197,000; previous 194,000."],
+["Fri Nov 6","8:30 ET","US jobs report (October)","Payrolls: forecast 63,000, previous 29,000. Unemployment: 4.2%. Key data of the week."],
+["Tue Nov 10","8:30 ET","US CPI inflation (October)","Last CPI before the Fed’s December meeting."],
+["Tue Nov 17","After close","NVIDIA earnings","Date confirmed per several sources; forecast about $2.47-$2.49 EPS and roughly $109 billion revenue."],
+["Tue Nov 17","TBC","Home Depot earnings","Reports in the week of Nov 16-20."],
+["Thu Nov 19","Before open","Walmart earnings","One of the big consumer reports of the season."],
+["Wed Nov 25","8:30 ET","Q3 GDP (second estimate) and October PCE","PCE is the inflation gauge the Fed targets."],
+["Tue Dec 1","10:00 ET","JOLTS job openings (October)","Monthly labor-market report."],
+["Fri Dec 4","8:30 ET","US jobs report (November)","Released four days before the Fed meeting."],
+["Wed Dec 9","2:00 pm ET","Fed rate decision","Ends the Dec 8-9 meeting, the last of the year."],
+["Thu Dec 10","8:30 ET","US CPI inflation (November)","Released a day after the Fed decision."],
+["Wed Dec 23","8:30 ET","Q3 GDP (third estimate) and November PCE","Last growth and inflation data of the year."],
+["Fri Jan 8","8:30 ET","US jobs report (December)","First jobs report of 2027."],
+["Wed Jan 13","8:30 ET","US CPI inflation (December)","First CPI of 2027."],
+["Wed Jan 27","2:00 pm ET","Fed rate decision","Jan 26-27 meeting. Provisional until confirmed by the Fed."],
+["Fri Feb 5","8:30 ET","US jobs report (January)",""],
+["Thu Feb 11","8:30 ET","US CPI inflation (January)",""],
+["Fri Mar 5","8:30 ET","US jobs report (February)",""],
+["Wed Mar 10","8:30 ET","US CPI inflation (February)",""],
+["Wed Mar 17","2:00 pm ET","Fed rate decision","Mar 16-17 meeting, with new projections. Provisional."],
+["Fri Apr 2","8:30 ET","US jobs report (March)",""],
+["Tue Apr 13","8:30 ET","US CPI inflation (March)",""],
+["Wed Apr 28","2:00 pm ET","Fed rate decision","Apr 27-28 meeting. Provisional."],
+["Fri May 7","8:30 ET","US jobs report (April)",""],
+["Wed May 12","8:30 ET","US CPI inflation (April)",""]
+];
+var MN={Nov:"November 2026",Dec:"December 2026",Jan:"January 2027",Feb:"February 2027",Mar:"March 2027",Apr:"April 2027",May:"May 2027"};
+var SERIES={
+"S&P 500":{pre:"",pts:[["27 Oct",7722.6],["28 Oct",7743.98],["29 Oct",7720.39],["30 Oct",7580.07],["2 Nov",7541.4],["3 Nov",7568.92]],src:"Portfolio Terminal, CNBC",link:"https://www.tradingview.com/symbols/SPX/"},
+"Nasdaq":{pre:"",pts:[["27 Oct",26477.81],["28 Oct",26549.85],["29 Oct",26184.72],["30 Oct",25437],["2 Nov",25164.36],["3 Nov",25372.01]],src:"Portfolio Terminal, CNBC",link:"https://www.tradingview.com/symbols/NASDAQ-IXIC/"},
+"Dow Jones":{pre:"",pts:[["27 Oct",52377.57],["28 Oct",52475.1],["29 Oct",52342.56],["30 Oct",51770.31],["2 Nov",51983.98],["3 Nov",51786.72]],src:"Portfolio Terminal, CNBC",link:"https://www.tradingview.com/symbols/DJ-DJI/"},
+"Gold":{pts:[["29 Oct",4056],["30 Oct",3874],["2 Nov",3946],["4 Nov",3940]],src:"Kitco, Business Recorder (spot, approximate)",link:"https://www.tradingview.com/symbols/XAUUSD/"},
+"WTI Oil":{pts:[["27 Oct",99.9],["28 Oct",102.78],["29 Oct",102],["30 Oct",104.12],["2 Nov",96.46],["3 Nov",96.09]],src:"Investing.com, Kitco, Yahoo Finance",link:"https://www.tradingview.com/symbols/USOIL/"},
+"Bitcoin":{pts:[["28 Oct",81225],["29 Oct",77939],["30 Oct",77191],["31 Oct",77404],["1 Nov",78111],["3 Nov",76800],["4 Nov",77700]],src:"Coinbase (FRED), Investing.com",link:"https://www.tradingview.com/symbols/BTCUSD/"}};
+var LINK={"Nikkei 225":"https://www.tradingview.com/symbols/TVC-NI225/","Hang Seng":"https://www.tradingview.com/symbols/TVC-HSI/","Kospi":"https://www.tradingview.com/symbols/KRX-KOSPI/","Shanghai":"https://www.tradingview.com/symbols/SSE-000001/"};
+var CL=[["New York","America/New_York",570,960],["London","Europe/London",480,990],["Tokyo","Asia/Tokyo",540,930],["Hong Kong","Asia/Hong_Kong",570,960],["Sydney","Australia/Sydney",600,960]];
+var cat="All",fav={},plan=0,PRE="$",si=0,tm=null,ov=document.getElementById("ov");
+try{fav=JSON.parse(localStorage.getItem("fav")||"{}")}catch(e){fav={}}
+function esc(s){return s.replace(/[&<>]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;"}[c]})}
+function clock(){var h="";CL.forEach(function(c){var g={};new Intl.DateTimeFormat("en-GB",{timeZone:c[1],hour:"2-digit",minute:"2-digit",weekday:"short",hourCycle:"h23"}).formatToParts(new Date()).forEach(function(p){g[p.type]=p.value});var m=+g.hour*60+ +g.minute,o=g.weekday!=="Sat"&&g.weekday!=="Sun"&&m>=c[2]&&m<c[3];h+='<div class="ck"><b>'+c[0]+'</b><span>'+g.hour+":"+g.minute+'</span><i class="'+(o?"up":"down")+'">'+(o?"Open":"Closed")+'</i></div>'});document.getElementById("clock").innerHTML=h}
+function tick(){var h="";INDEX.forEach(function(i,k){var c=i[2]>=0?"up":"down",s=i[2]>=0?"+":"";h+='<div class="t" data-i="'+k+'" role="button"><b>'+i[0]+'</b><span>'+i[1]+'</span> <span class="'+c+'" style="font-size:.78rem">'+s+i[2].toFixed(2)+'%</span></div>'});var el=document.getElementById("tick");el.innerHTML=h;el.querySelectorAll(".t").forEach(function(e){e.onclick=function(){openChart(+e.dataset.i)}})}
+function tabs(){var h="";CATS.forEach(function(c){h+='<button class="tab'+(c===cat?" on":"")+'" data-c="'+c+'">'+c+'</button>'});var el=document.getElementById("tabs");el.innerHTML=h;el.querySelectorAll("button").forEach(function(b){b.onclick=function(){cat=b.dataset.c;tabs();list()}})}
+function fmt(n){return PRE+Math.round(n).toLocaleString("en-US")}
+function chartSVG(p){var W=320,H=140,pd=26,v=p.map(function(x){return x[1]}),mn=Math.min.apply(null,v),mx=Math.max.apply(null,v),r=mx-mn||1,q=p.map(function(x,i){return [pd+i*(W-2*pd)/(p.length-1),H-pd-(x[1]-mn)/r*(H-2*pd)]}),d="",o="";q.forEach(function(a,i){d+=(i?"L":"M")+a[0].toFixed(1)+" "+a[1].toFixed(1)+" ";o+='<circle cx="'+a[0].toFixed(1)+'" cy="'+a[1].toFixed(1)+'" r="3.5" fill="var(--accent)"/><text x="'+a[0].toFixed(1)+'" y="'+(H-8)+'" font-size="9" text-anchor="middle" fill="var(--muted)">'+p[i][0]+'</text>'});return '<svg viewBox="0 0 '+W+' '+H+'" width="100%" role="img" aria-label="Daily closes chart"><path d="'+d+'" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" style="animation:draw 1.2s ease forwards"/>'+o+'<text x="'+pd+'" y="12" font-size="10" fill="var(--muted)">high '+fmt(mx)+'</text><text x="'+(W-pd)+'" y="12" font-size="10" text-anchor="end" fill="var(--muted)">low '+fmt(mn)+'</text></svg>'}
+function openChart(k){var x=INDEX[k],s=SERIES[x[0]],c=x[2]>=0?"up":"down",sg=x[2]>=0?"+":"",h='<h2>'+x[0]+'</h2><p style="margin:0 0 8px"><b style="font-size:1.4rem">'+x[1]+'</b> <span class="'+c+'">'+sg+x[2].toFixed(2)+'%</span></p>',lk=s?s.link:LINK[x[0]];if(s){PRE=s.pre!==undefined?s.pre:"$";h+=chartSVG(s.pts)+'<p style="color:var(--muted);font-size:.75rem;margin:6px 0 0">Daily closes over recent days. Source: '+s.src+'. Not real time.</p>'}else{h+='<div class="demo" style="height:70px"><span>📊</span></div><p style="color:var(--muted);font-size:.9rem;margin:0">The chart for this market is coming soon.</p>'}if(lk)h+='<a class="tab" style="display:inline-block;margin-top:10px;text-decoration:none" href="'+lk+'" target="_blank" rel="noopener">See live chart ↗</a>';h+='<div><button class="tab" id="skip" style="margin-top:12px">Close</button></div>';document.getElementById("tour").innerHTML=h;document.getElementById("skip").onclick=closeTour;clearInterval(tm);ov.classList.add("on")}
+function lock(n,t){document.getElementById("list").innerHTML='<div class="card" style="text-align:center"><div style="font-size:2rem">🔒</div><h2>'+n+' is on the '+t+' plan</h2><p>Switch to “'+t+' plan” at the top to preview it.</p></div>'}
+function answer(q){if(/oil|crude|wti|brent|hormuz/.test(q))return "Brent settled at $103.60 and WTI at $96.09 on Tuesday. This morning they trade near $104 and $96.4 while the US-Iran standoff over Hormuz continues.";if(/bitcoin|btc|crypto/.test(q))return "Bitcoin dipped to about $75,600 overnight, a seven-week low, then recovered to around $77,700 after Democrats won Congress.";if(/fed|rate|inflation|cpi/.test(q))return "Markets see roughly a 72%-79% chance of a December hike. The next CPI is on November 10 and the Fed decision on December 9.";if(/asia|nikkei|kospi|hang|china|japan/.test(q))return "Asian tech stocks sold off at the open, with the Nikkei down as much as 4.8%, then recovered. The Kospi closed up 0.62% and China and Hong Kong rose.";if(/elect|congress|democrat/.test(q))return "Reuters reports Democrats won majorities in the House and the Senate. Analysts expect gridlock and possible new regulatory hurdles for crypto.";if(/calendar|data|jobs/.test(q))return "Today: ADP and ISM services. Friday, November 6 at 8:30 ET: the US jobs report. See the Calendar tab for the next 6 months.";return "The full version would answer with today’s news. Try oil, bitcoin, the Fed, Asia or the calendar."}
+function chat(){document.getElementById("list").innerHTML='<div class="card"><div class="meta"><span class="badge">Pro · Example</span></div><div id="msgs"><p>Hi, I’m the WallBlock chat. Ask me about oil, bitcoin, the Fed, Asia or the calendar.</p></div><input id="cq" placeholder="Type your question and press Enter…" style="margin:10px 0 0"></div><p class="note">Sample answers to show how it would work. They inform only and are not investment advice.</p>';var cq=document.getElementById("cq");cq.onkeydown=function(e){if(e.key==="Enter"&&cq.value.trim()){var t=cq.value.trim();document.getElementById("msgs").insertAdjacentHTML("beforeend",'<p><b>You:</b> '+esc(t)+'</p><p><b>WallBlock:</b> '+answer(t.toLowerCase())+'</p>');cq.value=""}}}
+function ai(){document.getElementById("list").innerHTML='<div class="card"><div class="meta"><span class="badge">Premium · Example</span></div><h2>WallBlock AI · Daily briefing</h2><p>1. Politics and markets: Democrats win Congress; US futures dipped overnight and then pared losses, and Asian tech stocks sold off before recovering.<br>2. Wall Street: chips rebounded on Tuesday and the S&amp;P 500 rose 0.36%.<br>3. Crypto: bitcoin touched about $75,600 and bounced to around $77,700.<br>4. Commodities: Brent near $104 and gold near $3,940.<br><br><b>Watch:</b> ADP and ISM services today, the jobs report on Friday and CPI on November 10.</p></div><p class="note">Sample text. In Premium it would be generated automatically every morning. It informs only and is not financial advice.</p>'}
+function plans(){var P=[["Free","$0","Get started",["News on US, Asian and crypto markets, updated daily","Price bar and daily-close charts","Economic calendar 6 months ahead","World clock with market hours","Search and favorites","No annoying ads"]],["Pro","$29.99","Everything in Free, plus:",["News the moment it breaks|1","Chat to ask about the day’s news","WhatsApp or email alerts|1","Personal watchlist of stocks and coins|1","Archive of past news|1"]],["Premium","$49.99","Everything in Pro, plus:",["Daily WallBlock AI briefing every morning","Live charts|1","Deeper analysis and context on each story|1","Priority alerts for major news|1"]]],h="";P.forEach(function(p){h+='<div class="card"><h2>'+p[0]+'</h2><div class="pr">'+p[1]+'<small style="font-size:.8rem;color:var(--muted)"> /month</small></div><p style="margin-top:6px">'+p[2]+'</p><ul class="pl">';p[3].forEach(function(f){var a=f.split("|");h+='<li>'+a[0]+(a[1]?'<span class="soon">Coming soon</span>':'')+'</li>'});h+='</ul></div>'});document.getElementById("list").innerHTML=h+'<p class="note">Prices per month. Payment options (card in USD or EUR, and PayPal) are planned. Features marked “Coming soon” are in preparation. WallBlock News informs only and gives no investment advice.</p>'}
+function list(){var q=document.getElementById("q").value.toLowerCase(),h="",n=0;
+if(cat==="Calendar"){var lm="";CAL.forEach(function(c){if(q&&(c[2]+c[3]).toLowerCase().indexOf(q)<0)return;n++;var m=c[0].split(" ")[1];if(!q&&m!==lm){lm=m;h+='<h3 class="mh">'+(MN[m]||m)+'</h3>'}h+='<div class="card"><div class="meta"><span><span class="badge">'+c[0]+'</span> · '+c[1]+'</span></div><h2>'+c[2]+'</h2>'+(c[3]?'<p>'+c[3]+'</p>':'')+'</div>'});document.getElementById("list").innerHTML=(n?h:'<div class="empty">No events to show.</div>')+'<p class="note">Times in US Eastern (ET); subtract 6 hours for Spain. Dates from BLS, BEA, the Fed and the companies; 2027 dates are provisional. Forecasts from Investing.com. Asian calendar coming soon.</p>';return}
+if(cat==="Plans"){plans();return}
+if(cat==="Pro Chat"){if(plan<1)lock("The chat","Pro");else chat();return}
+if(cat==="WallBlock AI"){if(plan<2)lock("WallBlock AI","Premium");else ai();return}
+NEWS.forEach(function(x,i){var ok=cat==="All"||x[0]===cat||(cat==="Favorites"&&fav[i]);if(!ok)return;if(q&&(x[1]+x[2]).toLowerCase().indexOf(q)<0)return;n++;h+='<div class="card"><div class="meta"><span><span class="badge">'+x[0]+'</span> · '+x[3]+'</span><button class="star'+(fav[i]?" on":"")+'" data-i="'+i+'" aria-label="Favorite">★</button></div><h2>'+x[1]+'</h2><p>'+x[2]+'</p></div>'});
+var el=document.getElementById("list");el.innerHTML=n?h:'<div class="empty">No news to show.</div>';
+el.querySelectorAll(".star").forEach(function(b){b.onclick=function(){var i=b.dataset.i;if(fav[i])delete fav[i];else fav[i]=1;try{localStorage.setItem("fav",JSON.stringify(fav))}catch(e){}list()}})}
+var STEPS=[["📈","See the markets at a glance","The price bar shows US and Asian indices, bitcoin, gold and oil. Tap any one to open its chart."],["🕐","Check the world clock","The clocks show the time in New York, London, Tokyo, Hong Kong and Sydney, and whether each market is open."],["🗂️","Pick a category","Tap Wall Street, Asia, Crypto, Macro, Commodities or Companies to see only those stories."],["🔎","Search what matters","Type a word like bitcoin or oil to see only the stories that mention it."],["⭐","Save your favorites","Tap the star on a story and find it later in the Favorites tab."],["📅","Plan ahead","The Calendar tab lists the data and earnings for the next 6 months."]];
+function closeTour(){clearInterval(tm);ov.classList.remove("on")}
+function showStep(){var s=STEPS[si],h='<div class="demo"><span>'+s[0]+'</span></div><h2>'+s[1]+'</h2><p style="color:var(--muted);font-size:.9rem;margin:0">'+s[2]+'</p><div class="dots">';STEPS.forEach(function(x,i){h+='<i class="'+(i===si?"on":"")+'"></i>'});h+='</div><div class="bar"><b></b></div><button class="tab" id="skip" style="margin-top:14px">Close</button>';document.getElementById("tour").innerHTML=h;document.getElementById("skip").onclick=closeTour}
+function playTour(){clearInterval(tm);si=0;ov.classList.add("on");showStep();tm=setInterval(function(){si++;if(si>=STEPS.length){closeTour();return}showStep()},3500)}
+var PAL=["gold","violet","blue","cobalt","fuchsia","emerald","orange"],LB={gold:"Slate & gold",violet:"Violet",blue:"Blue",cobalt:"Vivid cobalt",fuchsia:"Neon fuchsia",emerald:"Emerald",orange:"Fire orange"},pi=0,th=document.getElementById("theme");
+try{pi=Math.max(0,PAL.indexOf(localStorage.getItem("pal")||"gold"))}catch(e){}
+function setPal(){document.documentElement.setAttribute("data-p",PAL[pi]);th.value=PAL[pi];try{localStorage.setItem("pal",PAL[pi])}catch(e){}}
+PAL.forEach(function(p){th.add(new Option("🎨 "+LB[p],p))});
+th.onchange=function(){pi=PAL.indexOf(th.value);setPal()};
+document.getElementById("plan").onchange=function(){plan=+this.value;list()};
+document.getElementById("how").onclick=playTour;
+ov.onclick=function(e){if(e.target===ov)closeTour()};
+document.getElementById("q").oninput=list;
+setPal();clock();setInterval(clock,30000);tick();tabs();list();
+</script>
+</body>
+</html>
