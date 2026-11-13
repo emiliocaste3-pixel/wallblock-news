@@ -185,6 +185,24 @@
  ],
  "news": [
   {
+   "cat": "Companies",
+   "title": "AENT: 10% revenue growth and stronger margins led by movies, music, and collectibles",
+   "title_es": "AENT: ingresos +10 % y mejores márgenes gracias a películas, música y coleccionables",
+   "title_fr": "AENT : chiffre d’affaires +10 % et marges en hausse grâce aux films, à la musique et aux objets de collection",
+   "title_it": "AENT: ricavi +10 % e margini più solidi grazie a film, musica e articoli da collezione",
+   "title_pt": "AENT: receitas crescem 10 % e margens mais fortes, com filmes, música e colecionáveis",
+   "title_zh": "AENT：电影、音乐和收藏品带动营收增长10%，利润率走强",
+   "title_ko": "AENT: 영화·음악·수집품 덕분에 매출 10% 증가, 마진 개선",
+   "text": "Alliance Entertainment (AENT) revenue grew 10% and gross margin expanded 50 basis points, while adjusted EBITDA was nearly flat as operating costs rose. Collectibles, physical music and authentication initiatives are growth priorities; AI and automation are expected to support growth and savings in fiscal 2028. The stock was up 13.29% when the summary was published.",
+   "text_es": "Los ingresos de Alliance Entertainment (AENT) crecieron un 10 % y el margen bruto subió 50 puntos básicos, mientras que el EBITDA ajustado se mantuvo casi plano por el aumento de los costes operativos. Los coleccionables, la música en formato físico y las iniciativas de autenticación son prioridades de crecimiento; se espera que la IA y la automatización apoyen el crecimiento y el ahorro en el ejercicio fiscal 2028. Las acciones subían un 13,29 % cuando se publicó el resumen.",
+   "text_fr": "Le chiffre d’affaires d’Alliance Entertainment (AENT) a progressé de 10 % et la marge brute a gagné 50 points de base, tandis que l’EBITDA ajusté est resté quasi stable, les coûts d’exploitation ayant augmenté. Les objets de collection, la musique physique et les initiatives d’authentification sont des priorités de croissance ; l’IA et l’automatisation devraient soutenir la croissance et les économies de l’exercice 2028. L’action gagnait 13,29 % à la publication du résumé.",
+   "text_it": "I ricavi di Alliance Entertainment (AENT) sono cresciuti del 10 % e il margine lordo è salito di 50 punti base, mentre l’EBITDA rettificato è rimasto quasi invariato per l’aumento dei costi operativi. Articoli da collezione, musica in formato fisico e iniziative di autenticazione sono le priorità di crescita; IA e automazione dovrebbero sostenere crescita e risparmi nell’esercizio 2028. Il titolo saliva del 13,29 % alla pubblicazione del riepilogo.",
+   "text_pt": "A receita da Alliance Entertainment (AENT) cresceu 10 % e a margem bruta aumentou 50 pontos base, enquanto o EBITDA ajustado ficou praticamente estável devido ao aumento dos custos operacionais. Os colecionáveis, a música em formato físico e as iniciativas de autenticação são prioridades de crescimento; espera-se que a IA e a automatização apoiem o crescimento e as poupanças no exercício de 2028. As ações subiam 13,29 % quando o resumo foi publicado.",
+   "text_zh": "Alliance Entertainment（AENT）营收增长10%，毛利率提高50个基点，但由于运营成本上升，调整后EBITDA基本持平。收藏品、实体音乐和鉴定认证业务是增长重点；预计人工智能和自动化将支持2028财年的增长和成本节约。摘要发布时，该股上涨13.29%。",
+   "text_ko": "얼라이언스 엔터테인먼트(AENT)의 매출은 10% 늘었고 매출총이익률은 50bp 개선됐지만, 운영 비용이 늘면서 조정 EBITDA는 거의 제자리였습니다. 수집품, 실물 음반, 인증 사업이 성장 우선순위이며, AI와 자동화는 2028 회계연도의 성장과 비용 절감을 뒷받침할 것으로 기대됩니다. 요약이 게시될 때 주가는 13.29% 상승했습니다.",
+   "meta": "Nov 12 · Alliance Entertainment Q1 FY2027 earnings call (AI-generated summary)"
+  },
+  {
    "cat": "Wall Street",
    "title": "Nasdaq jumps 1.8% as the AI trade returns",
    "title_es": "El Nasdaq sube un 1,8 % con el regreso de la IA",
