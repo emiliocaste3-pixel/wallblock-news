@@ -1,0 +1,255 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:"Poppins";font-weight:700;src:url(file:///home/user/wallblock-news/fonts/poppins-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"Poppins";font-weight:800;src:url(file:///home/user/wallblock-news/fonts/poppins-latin-800-normal.woff2) format("woff2")}
+@font-face{font-family:"Poppins";font-weight:900;src:url(file:///home/user/wallblock-news/fonts/poppins-latin-900-normal.woff2) format("woff2")}
+@font-face{font-family:"Inter";font-weight:100 900;src:url(file:///home/user/wallblock-news/fonts/inter-latin-wght-normal.woff2) format("woff2")}
+:root{--bg:#0a1014;--gold:#e3b341;--up:#3ddc84;--down:#ff5a5f;--text:#f4f1ea;--mut:#9fb0bb;--card:#131c23}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--bg);font-family:"Inter","DejaVu Sans",sans-serif;color:var(--text)}
+#bg{position:absolute;inset:0}
+#grid{position:absolute;inset:0;opacity:.07;background-image:linear-gradient(#fff 1px,transparent 1px),linear-gradient(90deg,#fff 1px,transparent 1px);background-size:90px 90px}
+#vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,transparent 45%,rgba(0,0,0,.55) 100%)}
+#prog{position:absolute;left:0;top:0;width:1080px;height:10px;background:rgba(255,255,255,.08);z-index:20}
+#prog i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),#fff3c4)}
+#hdr{position:absolute;left:56px;right:56px;top:44px;height:90px;display:flex;align-items:center;justify-content:space-between;z-index:15}
+.brand{font:900 44px "Poppins";letter-spacing:.12em;white-space:nowrap}.brand b{color:var(--gold)}
+.date{font:800 22px "Poppins";letter-spacing:.05em;color:#d6dde2;background:rgba(255,255,255,.09);padding:11px 18px;border-radius:999px;white-space:nowrap}
+.sc{position:absolute;left:0;top:150px;width:1080px;height:1040px;opacity:0;display:none}
+.pill{position:absolute;left:56px;top:20px;display:flex;align-items:center;gap:14px;font:800 34px "Poppins";letter-spacing:.1em;padding:14px 28px;border-radius:999px}
+.pill.red{background:var(--down);color:#fff}.pill .dot{width:20px;height:20px;border-radius:50%;background:#fff}
+.chip{position:absolute;font:800 40px "Poppins";padding:16px 30px;border-radius:22px;background:rgba(255,255,255,.1);border:2px solid rgba(255,255,255,.18)}
+img{position:absolute;display:block;filter:drop-shadow(0 30px 40px rgba(0,0,0,.55));z-index:1}
+#h-btc,#h-dn,#h-price,.chip,#h-q,#h-pill{z-index:3}
+.card{position:absolute;background:var(--card);border:2px solid rgba(255,255,255,.1);border-radius:34px;box-shadow:0 24px 60px rgba(0,0,0,.45)}
+.lbl{font:800 30px "Poppins";letter-spacing:.09em;color:var(--mut)}
+.big{font:900 150px/1 "Poppins"}
+#teaser{position:absolute;left:56px;right:56px;top:1205px;height:92px;display:none;align-items:center;gap:20px;font:800 32px "Poppins";letter-spacing:.04em;padding:0 30px;border-radius:26px;background:linear-gradient(90deg,rgba(227,179,65,.22),rgba(227,179,65,.08));border:2px solid rgba(227,179,65,.6);z-index:12}
+#teaser em{font-style:normal;color:var(--gold);font-size:46px;font-weight:900;margin-left:auto;filter:blur(5px)}
+#cap{position:absolute;left:70px;right:70px;top:1330px;min-height:150px;display:block;text-align:center;font:800 60px/1.22 "Inter";z-index:14}
+#cap span{display:inline-block;margin:0 9px;text-shadow:0 4px 18px rgba(0,0,0,.85)}
+#cap .w{color:#f4f1ea;opacity:.38}#cap .w.on{opacity:1;color:#fff}#cap .w.cur{opacity:1;color:var(--gold)}
+#foot{position:absolute;left:56px;right:56px;top:1660px;font:600 25px/1.4 "Inter";color:#a6b4bd;text-align:center;z-index:12}
+#flash{position:absolute;inset:0;background:#fff;opacity:0;z-index:30;pointer-events:none}
+</style></head>
+<body><div id="stage">
+ <div id="bg"></div><div id="grid"></div><div id="vig"></div>
+ <div id="prog"><i></i></div>
+ <div id="hdr"><div class="brand">WALLBLOCK <b>NEWS</b></div><div class="date" id="date"></div></div>
+
+ <!-- HOOK -->
+ <div class="sc" id="sc-hook">
+  <div class="pill red" id="h-pill"><span class="dot" id="h-dot"></span><span id="h-pilltx"></span></div>
+  <div id="h-btc" style="position:absolute;left:56px;top:110px;font:900 200px/1 Poppins;letter-spacing:.02em"></div>
+  <div id="h-dn" style="position:absolute;left:56px;top:300px;font:900 118px/1 Poppins;color:var(--down)"></div>
+  <div id="h-price" style="position:absolute;left:56px;top:440px;font:900 138px/1 Poppins;display:flex;align-items:center;gap:20px"><span id="h-arrow" style="color:var(--down);font-size:100px">&#9660;</span><span id="h-pricetx"></span></div>
+  <div class="chip" id="h-c1" style="left:56px;top:640px;color:#ffd7d8;border-color:rgba(255,90,95,.55)"></div>
+  <div class="chip" id="h-c2" style="left:56px;top:740px;color:#ffd7d8;border-color:rgba(255,90,95,.55)"><b id="h-liq" style="color:#fff"></b> <span id="h-liqtx"></span></div>
+  <div id="h-q" style="position:absolute;left:56px;top:660px;width:560px;font:900 84px/1.08 Poppins"></div>
+  <div id="h-candles" style="position:absolute;left:30px;top:830px;width:560px;height:250px"></div>
+  <img id="h-bear" src="bearish.png" style="height:500px;right:24px;top:545px">
+ </div>
+
+ <!-- INTRO -->
+ <div class="sc" id="sc-intro">
+  <img id="i-wallie" src="wallie.png" style="width:760px;left:160px;top:210px">
+  <div id="i-title" style="position:absolute;left:0;right:0;top:30px;text-align:center;font:900 76px/1.05 Poppins"></div>
+  <div id="i-sub" style="position:absolute;left:0;right:0;top:870px;text-align:center;font:800 46px Poppins;color:var(--gold)"></div>
+ </div>
+
+ <!-- CRYPTO -->
+ <div class="sc" id="sc-crypto">
+  <div class="lbl" id="c-title" style="position:absolute;left:56px;top:20px;font-size:40px;color:#ffb3b5"></div>
+  <div class="card" style="left:56px;top:100px;width:968px;height:380px"></div>
+  <div class="lbl" id="c-liqt" style="position:absolute;left:96px;top:128px"></div>
+  <div id="c-bar" style="position:absolute;left:96px;top:200px;width:888px;height:96px;border-radius:24px;background:#1e2a32;overflow:hidden"><div id="c-long" style="height:100%;width:0;background:linear-gradient(90deg,#c9323a,var(--down));display:flex;align-items:center;padding-left:26px;font:900 46px Poppins;color:#fff;white-space:nowrap"></div></div>
+  <div id="c-lt" style="position:absolute;left:96px;top:322px;font:800 36px Poppins;color:var(--down)"></div>
+  <div id="c-st" style="position:absolute;right:96px;top:322px;font:800 36px Poppins;color:var(--up);text-align:right"></div>
+  <div class="card" style="left:56px;top:520px;width:968px;height:300px"></div>
+  <div class="lbl" id="c-etft" style="position:absolute;left:96px;top:548px"></div>
+  <div id="c-etf" style="position:absolute;left:96px;top:610px;display:flex;gap:18px"></div>
+  <div id="c-etfx" style="position:absolute;left:96px;top:725px;font:800 40px Poppins"></div>
+ </div>
+
+ <!-- WALL STREET -->
+ <div class="sc" id="sc-ws">
+  <div class="lbl" id="w-title" style="position:absolute;left:56px;top:20px;font-size:40px;color:#bfe9d1"></div>
+  <div id="w-cards"></div>
+  <div class="card" id="w-ppi" style="left:56px;top:720px;width:640px;height:230px"></div>
+  <div class="lbl" id="w-ppit" style="position:absolute;left:90px;top:744px;font-size:27px"></div>
+  <div id="w-ppiv" style="position:absolute;left:90px;top:800px;font:900 64px/1 Poppins;color:var(--up)"></div>
+  <div id="w-ppis" style="position:absolute;left:90px;top:884px;font:700 30px Inter;color:#cfe3d8"></div>
+  <div id="w-note" style="position:absolute;left:56px;top:975px;font:600 25px Inter;color:#8fa1ab"></div>
+  <img id="w-bull" src="bullish.png" style="height:780px;right:-10px;top:200px">
+ </div>
+
+ <!-- ASIA -->
+ <div class="sc" id="sc-asia">
+  <div class="lbl" id="a-title" style="position:absolute;left:56px;top:20px;font-size:40px;color:var(--gold)"></div>
+  <div id="a-rows"></div>
+  <img id="a-wallie" src="wallie.png" style="width:430px;right:20px;top:720px">
+ </div>
+
+ <!-- OIL -->
+ <div class="sc" id="sc-oil">
+  <div class="lbl" id="o-title" style="position:absolute;left:56px;top:20px;font-size:40px;color:#ffcf99"></div>
+  <div class="card" style="left:56px;top:110px;width:968px;height:560px;background:linear-gradient(160deg,#1c1710,#131c23)"></div>
+  <div id="o-name" style="position:absolute;left:100px;top:150px;font:900 70px Poppins;color:#ffcf99"></div>
+  <div id="o-val" class="big" style="position:absolute;left:100px;top:260px;font-size:230px;color:#fff"></div>
+  <div id="o-chg" style="position:absolute;left:100px;top:520px;font:900 66px Poppins;color:var(--up)"></div>
+  <div class="chip" id="o-chip" style="right:80px;top:160px;font-size:40px"></div>
+  <img id="o-wallie" src="wallie.png" style="width:440px;right:30px;top:700px">
+ </div>
+
+ <!-- FED -->
+ <div class="sc" id="sc-fed">
+  <div class="lbl" id="f-title" style="position:absolute;left:56px;top:20px;font-size:42px;color:var(--gold)"></div>
+  <div id="f-sub" style="position:absolute;left:56px;top:84px;font:800 38px Poppins;color:#d6dde2"></div>
+  <div id="f-main" class="big" style="position:absolute;left:0;right:0;top:170px;text-align:center;font-size:330px;color:var(--gold)"></div>
+  <div id="f-l1" style="position:absolute;left:0;right:0;top:520px;text-align:center;font:900 62px Poppins"></div>
+  <div class="card" style="left:56px;top:640px;width:968px;height:150px"></div>
+  <div id="f-b87" style="position:absolute;left:76px;top:660px;height:110px;width:0;border-radius:20px;background:linear-gradient(90deg,#b98a1c,var(--gold))"></div>
+  <div id="f-b13" style="position:absolute;top:660px;height:110px;border-radius:20px;background:linear-gradient(90deg,#7a8a96,#c4d0d8)"></div>
+  <div id="f-t87" style="position:absolute;left:96px;top:690px;font:900 46px Poppins;color:#241b00;opacity:0"></div>
+  <div id="f-t13" style="position:absolute;right:96px;top:690px;font:900 46px Poppins;color:#14202a;opacity:0"></div>
+  <div id="f-l2" style="position:absolute;left:56px;top:812px;width:968px;font:700 30px/1.25 Inter;color:#cfd9df;text-align:center"></div>
+  <img id="f-bull" src="bullish.png" style="height:290px;left:60px;top:880px">
+  <img id="f-wal" src="wallie.png" style="width:330px;left:375px;top:905px">
+  <img id="f-bear" src="bearish.png" style="height:290px;right:50px;top:880px">
+ </div>
+
+ <!-- OUTRO -->
+ <div class="sc" id="sc-out">
+  <img id="u-bear" src="bearish.png" style="height:640px;left:20px;top:260px">
+  <img id="u-bull" src="bullish.png" style="height:640px;right:20px;top:260px">
+  <img id="u-wal" src="wallie.png" style="width:560px;left:260px;top:300px">
+  <div id="u-t1" style="position:absolute;left:0;right:0;top:20px;text-align:center;font:900 82px/1.05 Poppins"></div>
+ </div>
+
+ <div id="teaser"><span id="tz-tx"></span><em id="tz-q">?? %</em></div>
+ <div id="cap"></div>
+ <div id="foot"></div>
+ <div id="flash"></div>
+</div>
+<script>
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const eo=x=>1-Math.pow(1-cl(x),3);
+const eob=x=>{x=cl(x);const c=1.70158;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const $=id=>document.getElementById(id);
+let CFG=null;
+function setBG(c1,c2){ $('bg').style.background=`radial-gradient(ellipse at 50% 28%,${c1} 0%,${c2} 70%)` }
+const BG={hook:['#4a0f14','#0a1014'],intro:['#12304a','#0a1014'],crypto:['#3d1115','#0a1014'],ws:['#0f3a2a','#0a1014'],asia:['#2e2a12','#0a1014'],oil:['#3b2a12','#0a1014'],fed:['#3a2f0e','#0a1014'],out:['#12304a','#0a1014']};
+function init(cfg){
+  CFG=cfg; const T=cfg.T;
+  $('date').textContent=T.date; $('h-pilltx').textContent=T.pill; $('h-btc').textContent=T.btc1; $('h-dn').textContent=T.btc2; $('h-pricetx').textContent=T.price;
+  $('h-c1').textContent=T.chip1; $('h-liqtx').textContent=T.chip2; $('h-q').textContent=T.q;
+  if(cfg.lang==='en'){ // the English question wrapped to 3 lines and hit the candles: slightly smaller, wider box = 2 lines
+    $('h-q').style.fontSize='66px'; $('h-q').style.width='620px'; }
+  $('i-title').innerHTML=T.introTitle; $('i-sub').textContent=T.introSub;
+  $('c-title').textContent=T.cTitle; $('c-liqt').textContent=T.cLiq; $('c-lt').textContent=T.cLong; $('c-st').textContent=T.cShort; $('c-etft').textContent=T.cEtf; $('c-etfx').textContent=T.cEtfx;
+  const etf=$('c-etf'); for(let i=0;i<5;i++){const d=document.createElement('div');d.style.cssText='width:150px;height:76px;border-radius:18px;background:var(--down);display:flex;align-items:center;justify-content:center;font:900 44px Poppins;color:#fff;opacity:0';d.textContent='▼';etf.appendChild(d)}
+  $('w-title').textContent=T.wTitle; $('w-ppit').textContent=T.ppiT; $('w-ppiv').textContent=T.ppiV; $('w-ppis').textContent=T.ppiS; $('w-note').textContent=T.wNote;
+  const wc=$('w-cards'); T.idx.forEach((r,i)=>{const d=document.createElement('div');d.className='card';d.style.cssText=`left:56px;top:${100+i*205}px;width:640px;height:185px;opacity:0`;
+    d.innerHTML=`<div style="position:absolute;left:34px;top:28px;font:800 34px Poppins;color:var(--mut)">${r.n}</div><div style="position:absolute;left:34px;top:80px;font:900 78px/1 Poppins;color:${r.up?'var(--up)':'var(--down)'}">${r.up?'▲':'▼'} ${r.v}</div>`;wc.appendChild(d)});
+  $('a-title').textContent=T.aTitle;
+  const ar=$('a-rows'); T.asia.forEach((r,i)=>{const d=document.createElement('div');d.style.cssText=`position:absolute;left:56px;top:${110+i*215}px;width:968px;height:190px;opacity:0`;
+    d.innerHTML=`<div style="font:800 34px Poppins;color:var(--mut);letter-spacing:.06em">${r.n}</div><div style="position:relative;margin-top:14px;height:88px;border-radius:22px;background:#17222a"><div class="bar" data-v="${r.p}" style="position:absolute;top:0;height:100%;border-radius:22px;width:0;background:${r.up?'linear-gradient(90deg,#1fa65e,var(--up))':'linear-gradient(90deg,#c9323a,var(--down))'}"></div><div class="num" style="position:absolute;right:26px;top:14px;font:900 56px Poppins;color:#fff">${r.v}</div></div>`;ar.appendChild(d)});
+  $('o-title').textContent=T.oTitle; $('o-name').textContent=T.oName; $('o-val').textContent=T.oVal; $('o-chg').textContent=T.oChg; $('o-chip').textContent=T.oChip;
+  $('f-title').textContent=T.fTitle; $('f-sub').textContent=T.fSub; $('f-l1').textContent=T.fL1; $('f-l2').textContent=T.fL2;
+  $('u-t1').innerHTML=T.outT1; $('foot').textContent=T.foot; $('tz-tx').textContent=T.teaser;
+  // falling candles
+  const cd=$('h-candles'); let y=18; for(let i=0;i<13;i++){const h=34+((i*37)%40), w=32; const c=document.createElement('div');
+    const dy=(i*17)%24; y=8+i*13+dy*0.25; c.style.cssText=`position:absolute;left:${i*42}px;top:${y}px;width:${w}px;height:${h}px;border-radius:6px;background:linear-gradient(#ff7a7e,#c9323a);opacity:0`;
+    const wick=document.createElement('div');wick.style.cssText=`position:absolute;left:${w/2-2}px;top:-16px;width:4px;height:${h+32}px;background:#ff9a9d;opacity:.8;z-index:-1`;c.appendChild(wick);cd.appendChild(c)}
+}
+function fade(t,t0,t1,fi=.35,fo=.3){return cl((t-t0)/fi)*cl((t1+fo-t)/fo)}
+function render(t){
+  const C=CFG, S=C.scenes, T=C.T;
+  $('prog').firstElementChild.style.width=(100*cl(t/C.total))+'%';
+  for(const id of Object.keys(S)){
+    const el=$('sc-'+id), [t0,t1]=S[id]; const vis=t>=t0-0.01&&t<=t1+0.3;
+    el.style.display=vis?'block':'none'; if(!vis)continue;
+    const lt=t-t0, a=(id==='hook'&&t<0.25)?1:fade(t,t0,t1,id==='hook'?0.01:0.35,0.3); el.style.opacity=a;
+    if(t<t1+0.01){ setBG(BG[id][0],BG[id][1]) }
+    U[id](lt,t1-t0,t);
+  }
+  // captions: word-by-word highlight
+  let cap=null; for(const s of C.segs){ if(t>=s.t0-0.05&&t<=s.t1+0.12){cap=s;break} }
+  const capEl=$('cap');
+  if(!cap){ if(capEl.dataset.k!=='-'){capEl.innerHTML='';capEl.dataset.k='-'} }
+  else{
+    if(capEl.dataset.k!==cap.name){ capEl.dataset.k=cap.name; const parts=cap.cap.split(' '); capEl.innerHTML=parts.map(w=>`<span class="w">${w}</span>`).join('');
+      const wts=parts.map(w=>w.length+2), tw=wts.reduce((a,b)=>a+b,0); let acc=0; capEl._cum=wts.map(w=>(acc+=w)/tw) }
+    // highlight follows the real speech length (not the padded scene slot), weighted by word length
+    const ws=capEl.children, p=cl((t-cap.t0)/(cap.sp||(cap.t1-cap.t0))), n=ws.length; let cur=n-1; for(let i=0;i<n;i++){ if(p<capEl._cum[i]){cur=i;break} }
+    for(let i=0;i<n;i++){ws[i].className='w'+(i<cur?' on':(i===cur?' cur':''))}
+  }
+  // teaser (until the Fed reveal)
+  const tz=$('teaser'); const on=t>=C.teaser[0]&&t<C.teaser[1]; tz.style.display=on?'flex':'none';
+  if(on){ tz.style.opacity=cl((t-C.teaser[0])/.4)*cl((C.teaser[1]-t)/.3); const q=$('tz-q'); q.style.filter=`blur(${5+1.5*Math.sin(t*6)}px)`;
+    tz.style.transform=`scale(${1+0.015*Math.sin(t*5)})` }
+  $('foot').style.opacity=(t>=S.out[0]-0.2)?cl((t-S.out[0]+0.2)/.5):0;
+  // flash on crash hit
+  $('flash').style.opacity=t<0.35?0.55*(1-t/0.35):0;
+}
+const U={
+ hook(lt,dur,t){
+  const e=eob(lt/.5);
+  $('h-pill').style.opacity=cl(lt/.25); $('h-dot').style.opacity=.55+.45*Math.sin(lt*9);
+  $('h-btc').style.opacity=cl((lt-.15)/.2); $('h-btc').style.transform=`translateX(${(1-eo((lt-.15)/.4))*-120}px)`;
+  const dn=eob((lt-.45)/.45); $('h-dn').style.opacity=cl((lt-.45)/.15); $('h-dn').style.transform=`scale(${0.6+0.4*dn}) translateX(${Math.sin(lt*40)*Math.max(0,1-(lt-.5)*2)*8}px)`; $('h-dn').style.transformOrigin='left center';
+  $('h-price').style.opacity=cl((lt-.9)/.3); $('h-price').style.transform=`translateY(${(1-eo((lt-.9)/.4))*40}px)`;
+  const bear=eo((lt-.2)/.7); $('h-bear').style.opacity=bear; $('h-bear').style.transform=`translateX(${(1-bear)*260}px) translateY(${Math.sin(lt*2.2)*10}px) rotate(${Math.sin(lt*3)*0.8}deg)`;
+  const hookSplit=C_hook2start();
+  const phase2=t>=hookSplit;
+  $('h-c1').style.display=phase2?'none':'block'; $('h-c2').style.display=phase2?'none':'block'; $('h-q').style.display=phase2?'block':'none';
+  $('h-c1').style.opacity=cl((lt-1.5)/.3); $('h-c1').style.transform=`translateX(${(1-eo((lt-1.5)/.4))*-80}px)`;
+  const c2=cl((lt-2.1)/.3); $('h-c2').style.opacity=c2; $('h-c2').style.transform=`translateX(${(1-eo((lt-2.1)/.4))*-80}px)`;
+  const liq=1400*eo((lt-2.1)/1.6); $('h-liq').textContent=CFG.lang==='es'?(Math.round(liq).toLocaleString('de-DE')+' M$'):('$'+(liq/1000).toFixed(1)+'B');
+  if(phase2){const q=cl((t-hookSplit)/.35); $('h-q').style.opacity=q; $('h-q').style.transform=`translateY(${(1-eo(q))*30}px) scale(${1+0.02*Math.sin(t*7)})`}
+  document.querySelectorAll('#h-candles > div').forEach((c,i)=>{const a=cl((lt-.6-i*.11)/.25); c.style.opacity=a; c.style.transform=`translateY(${(1-a)*-30}px)`});
+ },
+ intro(lt,dur){const e=eob(lt/.6); $('i-wallie').style.transform=`translateY(${(1-e)*140+Math.sin(lt*2.4)*14}px) scale(${.85+.15*e})`; $('i-wallie').style.opacity=cl(lt/.3);
+  $('i-title').style.opacity=cl((lt-.2)/.4); $('i-sub').style.opacity=cl((lt-.7)/.4);},
+ crypto(lt,dur){
+  const p=eo((lt-.2)/1.2); const w=89*p; $('c-long').style.width=w+'%'; $('c-long').textContent=(CFG.lang==='es'?'89 %':'89%'); $('c-long').style.opacity=cl(p*3);
+  $('c-lt').style.opacity=cl((lt-.6)/.3); $('c-st').style.opacity=cl((lt-.6)/.3);
+  const kids=$('c-etf').children; for(let i=0;i<5;i++){const a=cl((lt-1.7-i*.25)/.2); kids[i].style.opacity=a; kids[i].style.transform=`scale(${.6+.4*eob((lt-1.7-i*.25)/.3)})`}
+  $('c-etfx').style.opacity=cl((lt-3.2)/.4);
+ },
+ ws(lt,dur){
+  const cs=$('w-cards').children; for(let i=0;i<cs.length;i++){const a=cl((lt-.2-i*.35)/.3);cs[i].style.opacity=a;cs[i].style.transform=`translateX(${(1-eo((lt-.2-i*.35)/.4))*-140}px)`}
+  const pp=cl((lt-3.4)/.4); $('w-ppi').style.opacity=pp; ['w-ppit','w-ppiv','w-ppis'].forEach(id=>$(id).style.opacity=pp); $('w-ppi').style.transform=`translateY(${(1-eo(pp))*40}px)`;
+  $('w-note').style.opacity=cl((lt-5)/.5);
+  const b=eo(lt/.6); $('w-bull').style.opacity=b; $('w-bull').style.transform=`translateX(${(1-b)*240}px) translateY(${Math.sin(lt*2)*8}px)`;
+ },
+ asia(lt,dur){
+  const rows=$('a-rows').children; for(let i=0;i<rows.length;i++){const a=cl((lt-.15-i*.45)/.3);rows[i].style.opacity=a;
+   const bar=rows[i].querySelector('.bar'), v=+bar.dataset.v, g=eo((lt-.3-i*.45)/.9); const wpct=Math.min(100,Math.abs(v)/1.6*100)*g;
+   bar.style.width=wpct+'%'; }
+  const w=eob(lt/.6); $('a-wallie').style.opacity=cl(lt/.4); $('a-wallie').style.transform=`translateY(${Math.sin(lt*2.4)*12}px) scale(${.8+.2*w})`;
+ },
+ oil(lt,dur){
+  $('o-name').style.opacity=cl(lt/.3); $('o-val').style.opacity=cl((lt-.3)/.3); $('o-val').style.transform=`scale(${.85+.15*eob((lt-.3)/.5)})`; $('o-val').style.transformOrigin='left center';
+  $('o-chg').style.opacity=cl((lt-1.1)/.3); $('o-chip').style.opacity=cl((lt-1.7)/.3);
+  $('o-wallie').style.opacity=cl(lt/.4); $('o-wallie').style.transform=`translateY(${Math.sin(lt*2.4)*12}px)`;
+ },
+ fed(lt,dur){
+  $('f-sub').style.opacity=cl(lt/.3); $('f-title').style.opacity=cl(lt/.2);
+  const r=cl((lt-.5)/.6); $('f-main').textContent=(CFG.lang==='es'?'87 %':'87%'); $('f-main').style.opacity=r; $('f-main').style.transform=`scale(${.55+.45*eob((lt-.5)/.7)})`;
+  $('f-l1').style.opacity=cl((lt-1.4)/.4);
+  const w=eo((lt-1.2)/1.2); const tot=968-40; $('f-b87').style.width=(tot*.87*w)+'px'; $('f-b13').style.left=(76+tot*.87*w)+'px'; $('f-b13').style.width=(tot*.13*w-6)+'px';
+  $('f-t87').style.opacity=cl((lt-2.2)/.3); $('f-t87').textContent=CFG.T.f87; $('f-t13').style.opacity=cl((lt-3)/.3); $('f-t13').textContent=CFG.T.f13;
+  $('f-l2').style.opacity=cl((lt-3.6)/.4); $('f-l2').textContent=CFG.T.fL2;
+  const a=cl((lt-1)/.5); ['f-bull','f-wal','f-bear'].forEach((id,i)=>{$(id).style.opacity=a;$(id).style.transform=`translateY(${(1-eo((lt-1-i*.15)/.5))*80+Math.sin(lt*2+i)*6}px)`});
+ },
+ out(lt,dur){
+  const a=eo(lt/.6); ['u-bear','u-bull'].forEach((id,i)=>{$(id).style.opacity=a;$(id).style.transform=`translateY(${(1-a)*160}px) translateX(${(i?1:-1)*(1-a)*90}px)`});
+  $('u-wal').style.opacity=a; $('u-wal').style.transform=`translateY(${(1-a)*160+Math.sin(lt*2.4)*12}px)`;
+  $('u-t1').style.opacity=cl((lt-.2)/.4);
+ }
+};
+function C_hook2start(){return CFG.hook2start}
+</script></body></html>
