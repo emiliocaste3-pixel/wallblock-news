@@ -1,0 +1,145 @@
+/* ===== WallBlock v3 · modern layer (loads after the v2 layer in index.html) =====
+   Glass surfaces, soft glows, tighter type, floating tab bar and bottom sheets on phones.
+   Everything is built from the existing palette variables, so all 7 themes keep working. */
+
+:root{
+  --r:18px;
+  --glass-line:color-mix(in srgb,var(--text) 9%,transparent);
+  --ease:cubic-bezier(.2,.7,.2,1);
+  --lift:0 22px 44px -28px rgba(0,0,0,.8);
+}
+:root[data-p="blue"],:root[data-p="emerald"]{
+  --glass-line:color-mix(in srgb,var(--text) 11%,transparent);
+  --lift:0 18px 38px -26px rgba(15,30,60,.4);
+}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Ambient background: two soft glows tied to the palette */
+body{
+  background:
+    radial-gradient(920px 520px at 90% -10%,color-mix(in srgb,var(--accent) 17%,transparent),transparent 64%),
+    radial-gradient(760px 460px at -10% 18%,color-mix(in srgb,var(--up) 9%,transparent),transparent 62%),
+    var(--bg);
+  background-attachment:fixed;
+}
+
+/* Wordmark */
+h1#brand.wbl b{
+  background:linear-gradient(90deg,var(--text) 0%,var(--text) 55%,color-mix(in srgb,var(--accent) 85%,var(--text)) 100%);
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;
+}
+
+/* Surfaces */
+.card,.pc,.team,.sec2,.ck,.t,.cal,.cmpw,.faq details,.ev2 button{border-color:var(--glass-line)}
+.head,.team,.pc,.side{border-radius:var(--r)}
+.head,.team{box-shadow:var(--lift)}
+.card.news,.sec2,.pc{
+  background:linear-gradient(180deg,color-mix(in srgb,var(--card) 91%,var(--text) 4%) 0%,var(--card) 100%);
+  box-shadow:var(--lift);
+}
+.card.news{
+  border-radius:var(--r);
+  transition:transform .28s var(--ease),border-color .28s,box-shadow .28s;
+}
+.card.news:hover{
+  transform:translateY(-3px);
+  border-color:color-mix(in srgb,var(--cc,var(--accent)) 50%,var(--glass-line));
+}
+.card.news h2{font-size:1.14rem;line-height:1.28;letter-spacing:-.018em;text-wrap:balance}
+.card.news p{line-height:1.62}
+#list .card:nth-child(2){animation-delay:.04s}
+#list .card:nth-child(3){animation-delay:.08s}
+#list .card:nth-child(4){animation-delay:.12s}
+#list .card:nth-child(5){animation-delay:.16s}
+#list .card:nth-child(n+6){animation-delay:.2s}
+
+.sec2{transition:transform .22s var(--ease),box-shadow .22s,border-color .22s}
+.sec2:hover,.sec2:focus-visible{box-shadow:0 0 0 1px var(--accent) inset,0 18px 36px -22px var(--accent)}
+.pc{transition:transform .22s var(--ease),border-color .22s}
+.heat2 a{border-radius:12px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);transition:transform .18s var(--ease),filter .18s}
+.heat2 a:hover{transform:scale(1.025);filter:brightness(1.08)}
+.fvc{border-radius:var(--r);overflow:hidden}
+
+/* Chips and tabs */
+.tab{transition:transform .15s var(--ease),background .2s,box-shadow .2s,border-color .2s}
+.tabs .tab{border-color:var(--glass-line)}
+.tab.on,.tab.pri{box-shadow:0 8px 22px -10px var(--accent)}
+.tab:active,.sec2:active,.t:active,.bnav button:active,.wb3-share:active{transform:scale(.96)}
+
+/* Share button on stories */
+.wb3-acts{display:inline-flex;align-items:center;gap:2px;flex:0 0 auto}
+.wb3-share{
+  background:none;border:0;color:var(--muted);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;
+  min-width:36px;min-height:36px;border-radius:10px;transition:color .15s,background .15s,transform .15s var(--ease);
+}
+.wb3-share:hover,.wb3-share:focus-visible{color:var(--accent);background:color-mix(in srgb,var(--accent) 12%,transparent)}
+.wb3-toast{
+  position:fixed;left:50%;bottom:calc(100px + env(safe-area-inset-bottom,0px));transform:translate(-50%,8px);z-index:90;
+  background:var(--card);color:var(--text);border:1px solid var(--glass-line);border-radius:999px;padding:10px 18px;
+  font-size:.88rem;box-shadow:var(--lift);opacity:0;pointer-events:none;transition:opacity .2s,transform .2s var(--ease);
+  max-width:calc(100% - 32px);text-align:center;
+}
+.wb3-toast.on{opacity:1;transform:translate(-50%,0)}
+#wb3-install{white-space:nowrap}
+
+/* ---------- Phones and tablets: app-style navigation ---------- */
+@media (max-width:1023px){
+  .bnav{
+    left:12px;right:12px;margin:0 auto;max-width:560px;
+    bottom:calc(10px + env(safe-area-inset-bottom,0px));
+    padding:6px;border-radius:26px;border:1px solid var(--glass-line);
+    background:color-mix(in srgb,var(--card) 90%,transparent);
+    -webkit-backdrop-filter:blur(22px) saturate(1.7);backdrop-filter:blur(22px) saturate(1.7);
+    box-shadow:0 20px 44px -18px rgba(0,0,0,.7);
+  }
+  .bnav button{border-radius:20px;padding:6px 2px 5px;transition:background .2s,color .2s,transform .15s var(--ease)}
+  .bnav button.on{background:color-mix(in srgb,var(--accent) 15%,transparent)}
+  .bnav button i{height:30px;display:flex;align-items:center;justify-content:center;font-size:1.35rem;line-height:1}
+  .bnav button i.g2{background:none;border-color:transparent;width:34px;height:30px}
+  .bnav button.on i.g2{background:none;border-color:transparent}
+  .bnav button i.wf2{width:32px;height:32px;flex:0 0 auto}
+  .bnav button i.em2{height:30px;font-size:1.4rem}
+  header.top{background:color-mix(in srgb,var(--bg) 90%,transparent)}
+  /* the nav already has a Wallie button, so the floating one would double up */
+  .wal{display:none}
+  .toast{bottom:calc(100px + env(safe-area-inset-bottom,0px))}
+}
+
+/* Phones: modal windows become bottom sheets */
+@media (max-width:699px){
+  .ov{align-items:flex-end;padding:0;background:rgba(4,7,12,.62);-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px)}
+  .ov .tour{
+    max-width:none;width:100%;max-height:88vh;overflow:auto;overscroll-behavior:contain;
+    border-radius:24px 24px 0 0;border-bottom:0;
+    padding:22px 18px calc(20px + env(safe-area-inset-bottom,0px));
+    animation:wb3sheet .34s var(--ease) both;
+  }
+  .ov .tour::before{content:"";display:block;width:44px;height:4px;border-radius:4px;background:var(--line);margin:-10px auto 16px}
+}
+@keyframes wb3sheet{from{transform:translateY(48px);opacity:0}to{transform:none;opacity:1}}
+
+/* Desktop refinements */
+@media (min-width:1024px){
+  .card.news h2{font-size:1.2rem}
+  .side{box-shadow:var(--lift)}
+}
+@media (prefers-reduced-motion:reduce){
+  .card.news,.sec2,.pc,.tab,.heat2 a,.bnav button,.ov .tour{transition:none;animation:none}
+  .card.news:hover,.heat2 a:hover{transform:none}
+}
+
+/* Story deep-link highlight and pull-to-refresh indicator */
+#list .card{scroll-margin-top:170px}
+.wb3-flash{animation:wb3flash 2.4s var(--ease) 1}
+@keyframes wb3flash{0%,100%{box-shadow:var(--lift)}18%,60%{box-shadow:0 0 0 2px var(--accent),0 0 34px -6px var(--accent)}}
+.wb3-ptr{
+  position:fixed;left:50%;top:calc(env(safe-area-inset-top,0px) + 6px);z-index:95;width:38px;height:38px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transform:translate(-50%,0);
+  background:var(--card);border:1px solid var(--glass-line);box-shadow:var(--lift);transition:opacity .15s;
+}
+.wb3-ptr span{width:16px;height:16px;border-radius:50%;border:2px solid var(--muted);border-top-color:var(--accent);transition:transform .2s}
+.wb3-ptr.ready span{transform:rotate(180deg);border-color:var(--accent)}
+.wb3-ptr.spin span{animation:wb3spin .7s linear infinite;border-color:var(--muted);border-top-color:var(--accent)}
+@keyframes wb3spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.wb3-flash,.wb3-ptr.spin span{animation:none}}
