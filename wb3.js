@@ -154,4 +154,80 @@ if(standalone){
 if("serviceWorker" in navigator&&(location.protocol==="https:"||location.hostname==="localhost"||location.hostname==="127.0.0.1")){
   window.addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){})});
 }
+
+/* ---- v4 · news-terminal front page: main menu and a "Latest" list where every headline shows date • category ---- */
+var V4={
+  news:{en:"News",es:"Noticias",fr:"Actualités",it:"Notizie",pt:"Notícias",zh:"新闻",ko:"뉴스"},
+  markets:{en:"Markets",es:"Mercados",fr:"Marchés",it:"Mercati",pt:"Mercados",zh:"市场",ko:"시장"},
+  calendar:{en:"Calendar",es:"Calendario",fr:"Calendrier",it:"Calendario",pt:"Calendário",zh:"日历",ko:"캘린더"},
+  videos:{en:"Videos",es:"Vídeos",fr:"Vidéos",it:"Video",pt:"Vídeos",zh:"视频",ko:"동영상"},
+  wallie:{en:"Ask Wallie",es:"Pregunta a Wallie",fr:"Demander à Wallie",it:"Chiedi a Wallie",pt:"Pergunta à Wallie",zh:"问 Wallie",ko:"Wallie에게 질문"},
+  latest:{en:"Latest news",es:"Últimas noticias",fr:"Dernières actualités",it:"Ultime notizie",pt:"Últimas notícias",zh:"最新消息",ko:"최신 뉴스"},
+  all:{en:"See all",es:"Ver todas",fr:"Tout voir",it:"Vedi tutte",pt:"Ver tudo",zh:"查看全部",ko:"전체 보기"},
+  week:{en:"Coming up",es:"Próximos eventos",fr:"À venir",it:"In arrivo",pt:"Próximos eventos",zh:"近期事件",ko:"예정 일정"},
+  main:{en:"Main menu",es:"Menú principal",fr:"Menu principal",it:"Menu principale",pt:"Menu principal",zh:"主菜单",ko:"메인 메뉴"}
+};
+function V(k){var o=V4[k];return o[lang()]||o.en}
+function escH(s){return String(s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+function goTo(g){var b=document.querySelector('#bnav button[data-go="'+g+'"]');if(b)b.click()}
+var NAV=[["All","news"],["markets","markets"],["Calendar","calendar"],["Videos","videos"]];
+var NEWSCATS=["All","Wall Street","US Politics","Asia","Crypto","ETFs","Macro","Commodities","Companies","Favorites"];
+function buildV4(){
+  var top=document.querySelector("header.top"),ctl=top&&top.querySelector(".ctl");
+  if(top&&ctl&&!top.querySelector(".wb4-nav")){
+    var n=document.createElement("nav");n.className="wb4-nav";
+    n.addEventListener("click",function(e){var b=e.target.closest&&e.target.closest("button");if(b)goTo(b.dataset.go)});
+    top.insertBefore(n,ctl);
+  }
+  var hv=document.getElementById("herov");
+  if(hv&&!document.getElementById("wb4week")){
+    var w=document.createElement("section");w.id="wb4week";w.className="wb4-week";w.hidden=true;hv.insertAdjacentElement("afterend",w);
+  }
+  var head=document.getElementById("head");
+  if(head&&!document.getElementById("wb4latest")){
+    var s=document.createElement("section");s.id="wb4latest";s.className="wb4-latest";head.insertAdjacentElement("afterend",s);
+  }
+}
+function renderNav(){
+  var n=document.querySelector(".wb4-nav");if(!n)return;
+  var cur="All";try{cur=cat}catch(e){}
+  n.setAttribute("aria-label",V("main"));
+  n.innerHTML=NAV.map(function(p){
+    var on=p[0]===cur||(p[0]==="All"&&NEWSCATS.indexOf(cur)>=0);
+    return '<button type="button" data-go="'+p[0]+'"'+(on?' aria-current="true"':"")+'>'+escH(V(p[1]))+'</button>';
+  }).join("");
+}
+function renderLatest(){
+  var h=document.getElementById("wb4latest");
+  if(!h||typeof S==="undefined"||!S||!S.news||!S.news.length)return;
+  h.setAttribute("aria-label",V("latest"));
+  var rows=S.news.slice(0,6).map(function(x,i){
+    var d=String(x.meta||"").split(" · ")[0],t=typeof LG==="function"?LG(x,"title"):x.title;
+    return '<li data-cat="'+escH(x.cat)+'"><a href="#n-'+slugOf(i)+'"><span class="wb4-t">'+escH(t)+'</span><span class="wb4-m">'+escH(d)+' • <b>'+escH(x.cat)+'</b></span></a></li>';
+  }).join("");
+  h.innerHTML='<div class="wb4-h"><h2>'+escH(V("latest"))+'</h2><button type="button" class="wb4-all">'+escH(V("all"))+' →</button></div><ol>'+rows+'</ol>';
+  h.querySelector(".wb4-all").onclick=function(){goTo("All");var f=document.getElementById("feed");if(f)f.scrollIntoView({behavior:"smooth",block:"start"})};
+}
+function isoToday(){var d=new Date(),m=d.getMonth()+1,k=d.getDate();return d.getFullYear()+"-"+(m<10?"0":"")+m+"-"+(k<10?"0":"")+k}
+function renderWeek(){
+  var w=document.getElementById("wb4week");if(!w)return;
+  var cal=(typeof S!=="undefined"&&S&&S.cal)||[],t=isoToday();
+  var up=cal.filter(function(e){return e&&e.date>=t}).sort(function(a,b){return a.date<b.date?-1:a.date>b.date?1:0}).slice(0,5);
+  if(!up.length){w.hidden=true;w.innerHTML="";return}
+  var loc=({zh:"zh-CN",ko:"ko-KR"})[lang()]||lang();
+  var rows=up.map(function(e){
+    var d;try{d=new Date(e.date+"T12:00:00").toLocaleDateString(loc,{weekday:"short",day:"numeric",month:"short"})}catch(x){d=e.date}
+    var title=typeof LG==="function"?LG(e,"title"):e.title,imp=e.imp==="high"||e.imp==="medium"?e.imp:"low";
+    return '<li><a href="#" data-go="Calendar"><span class="wb4-t">'+escH(title)+'</span><span class="wb4-m"><i class="'+imp+'" aria-hidden="true"></i>'+escH(d)+(e.time?" • "+escH(e.time):"")+'</span></a></li>';
+  }).join("");
+  w.hidden=false;w.setAttribute("aria-label",V("week"));
+  w.innerHTML='<div class="wb4-h"><h2>'+escH(V("week"))+'</h2><button type="button" class="wb4-all" data-go="Calendar">'+escH(V("all"))+' →</button></div><ol>'+rows+'</ol>';
+  w.onclick=function(e){var a=e.target.closest&&e.target.closest("[data-go]");if(a){e.preventDefault();goTo(a.dataset.go)}};
+}
+function paintV4(){buildV4();renderNav();renderLatest();renderWeek()}
+try{
+  if(typeof renderAll==="function"){var _ra=renderAll;renderAll=function(){var r=_ra.apply(this,arguments);paintV4();return r}}
+  if(typeof navOn==="function"){var _no=navOn;navOn=function(){var r=_no.apply(this,arguments);renderNav();return r}}
+}catch(e){}
+paintV4();
 })();

@@ -6,7 +6,7 @@ y no por opinión. Cada ronda anota qué se midió, qué se encontró, qué se c
 ## Estado actual
 
 **✅ Cumple las puertas medibles. Lista para subir**, con los puntos que dependen de ti anotados al final.
-Última medición: 13 nov 2026, sobre el contenido exacto del zip, servido con compresión y caché como en Hostinger.
+Última medición: 13 nov 2026 (ronda 7), sobre el contenido exacto del zip, servido con compresión y caché como en Hostinger.
 
 ## Puertas de calidad y resultado
 
@@ -78,6 +78,27 @@ fuera de su alcance dejaba la página sin ninguna noticia. Se corrigió y se rep
 Resultado final: ver la tabla de arriba. Además: 9 pruebas de extremo a extremo (servicio PHP de Wallie, enlace por noticia, tirar para recargar),
 modo sin conexión, 87 archivos en el zip sin claves ni archivos privados.
 
+### Ronda 7 · Portada tipo «terminal de noticias» (referencia: The Block)
+Emilio pidió el estilo de theblock.co. El sitio bloquea a los visitantes automáticos (Cloudflare), así que no se pudo ver:
+se tomó **solo su estructura**, que Emilio pegó como texto (barra superior, menú simple, tira de precios en directo con
+variación en color, lista «Latest» con fecha • categoría, bloques de vídeo e investigación). Los colores y las tipografías
+siguen siendo los de WallBlock; no se copió nada visual de The Block.
+- **Menú principal** de texto en la cabecera (Noticias · Mercados · Calendario · Vídeos) con subrayado en la sección activa.
+  En escritorio de 1024–1279 px baja a una segunda fila; de 1280 px en adelante cabe en una. Comprobado en 7 idiomas × 5 anchos.
+- **«Últimas noticias»**: 6 titulares con fecha • categoría; cada uno abre su noticia (enlace profundo `#n-…`). «Ver todas» baja al feed.
+- **«Próximos eventos»** (bajo el vídeo, desde 700 px): los 5 siguientes del calendario desde hoy, con punto de importancia. Se oculta si no hay.
+- **Tira de precios** con punto de «en directo» y la máscara de desvanecido solo a la derecha.
+- **Noticias** como filas editoriales planas (sin tarjeta flotante, sin barra de color), etiqueta de categoría en mayúsculas;
+  radios más cuadrados; widgets laterales con cabecera.
+- Se **quitó en escritorio** el banner grande «Breaking News» (ya está oculto en móvil y repite la franja roja de encima).
+- Las etiquetas de categoría en temas claros se oscurecieron (el medidor las encontró en 4,1–4,5:1).
+- **Mejora del medidor** (`qa/pixelcontrast.js`): ya no mide texto recortado por un contenedor con scroll (falso positivo en el panel lateral fijo).
+- Versiones de caché subidas: `wb3.css?v=23`, `wb3.js?v=10`.
+- **Medido sobre el zip, servido como Hostinger:** funcional 379 comprobaciones / 0 problemas (7 anchos × 7 idiomas, menú, lista,
+  eventos, 18 secciones, 0 errores de consola, 0 peticiones externas); axe 0 violaciones; contraste por píxeles **0 fallos** en 7 temas
+  (5.516 comprobaciones); CLS 0,0031 escritorio / 0,0000 móvil; Lighthouse móvil **96** (90/96/96), LCP 2,48 s, CLS 0,005, TBT 150 ms;
+  escritorio **100**; accesibilidad, buenas prácticas y SEO **100**.
+
 ## Lo que no se pudo comprobar y lo que depende de ti
 
 1. **Servicio de Wallie con IA contra la API real de Anthropic:** solo se probó contra un servidor que imita su formato. Hazle una pregunta
@@ -86,6 +107,6 @@ modo sin conexión, 87 archivos en el zip sin claves ni archivos privados.
    ni el modo sin conexión con HTTPS real.
 3. **Textos legales:** revisa la privacidad (ronda 5) y añade un contacto en `site.contact`.
 4. **Contenido de noticias:** los datos son del 11–12 de noviembre. Los actualizas editando `content.json`.
-5. **Dribbble:** no se pudo abrir (protección anti-bots). El estilo sigue las líneas habituales del diseño fintech moderno, no un shot concreto.
+5. **Dribbble y The Block:** no se pudieron abrir (protección anti-bots). El estilo sigue las líneas habituales del diseño fintech moderno, no un shot concreto.
 6. **LCP móvil 2,48 s en laboratorio:** cumple el umbral por muy poco. En un móvil real con Hostinger (HTTP/2, Brotli) debería ser mejor, pero no se ha medido.
 7. **GitHub:** los commits están en la rama `claude/hostinger-redesign` del contenedor; la subida a GitHub sigue bloqueada por permisos de la app de Claude.
