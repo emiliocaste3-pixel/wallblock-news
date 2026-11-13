@@ -7,8 +7,7 @@
 function lang(){try{return typeof LANG!=="undefined"?LANG:"en"}catch(e){return"en"}}
 var TX={
   share:{en:"Share",es:"Compartir",fr:"Partager",it:"Condividi",pt:"Partilhar",zh:"分享",ko:"공유"},
-  copied:{en:"Link copied",es:"Enlace copiado",fr:"Lien copié",it:"Link copiato",pt:"Ligação copiada",zh:"链接已复制",ko:"링크가 복사되었습니다"},
-  install:{en:"Install app",es:"Instalar app",fr:"Installer l’app",it:"Installa l’app",pt:"Instalar app",zh:"安装应用",ko:"앱 설치"}
+  copied:{en:"Link copied",es:"Enlace copiado",fr:"Lien copié",it:"Link copiato",pt:"Ligação copiada",zh:"链接已复制",ko:"링크가 복사되었습니다"}
 };
 function T(k){var o=TX[k];return o[lang()]||o.en}
 
@@ -73,19 +72,6 @@ var listEl=document.getElementById("list");
 if(listEl){new MutationObserver(decorate).observe(listEl,{childList:true})}
 decorate();
 
-/* ---- "Install app" button (Android / desktop Chrome and Edge) ---- */
-var deferred=null;
-function showInstall(){
-  var ctl=document.querySelector("header.top .ctl");
-  if(!ctl||document.getElementById("wb3-install"))return;
-  var b=document.createElement("button");
-  b.id="wb3-install";b.type="button";b.className="tab pri";b.textContent="⬇ "+T("install");
-  b.onclick=function(){if(!deferred)return;deferred.prompt();var p=deferred.userChoice;deferred=null;if(p&&p.finally)p.finally(function(){b.remove()})};
-  ctl.insertBefore(b,ctl.firstChild);
-}
-window.addEventListener("beforeinstallprompt",function(e){e.preventDefault();deferred=e;showInstall()});
-window.addEventListener("appinstalled",function(){var b=document.getElementById("wb3-install");if(b)b.remove()});
-
 /* ---- status-bar colour follows the selected theme ---- */
 function syncThemeColor(){
   var m=document.querySelector('meta[name="theme-color"]');if(!m)return;
@@ -95,6 +81,44 @@ function syncThemeColor(){
 syncThemeColor();
 var th=document.getElementById("theme");
 if(th)th.addEventListener("change",function(){setTimeout(syncThemeColor,40)});
+
+/* ---- hero video: loads only when it is on screen, after the page finished loading;
+        never with data-saver or reduced motion (the poster stays and the controls still work) ---- */
+(function(){
+  var v=document.getElementById("herov");
+  if(!v||!("IntersectionObserver" in window))return;
+  var calm=(window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches)||(navigator.connection&&navigator.connection.saveData);
+  var visible=false,loaded=document.readyState==="complete";
+  function tryPlay(){
+    if(calm||!visible||!loaded||!v.getAttribute("src"))return;
+    var p=v.play();if(p&&p.catch)p.catch(function(){});
+  }
+  new IntersectionObserver(function(es){visible=es[0].isIntersecting;if(visible)tryPlay();else v.pause()},{threshold:.25}).observe(v);
+  if(!loaded)window.addEventListener("load",function(){
+    loaded=true;
+    if(window.requestIdleCallback)requestIdleCallback(tryPlay,{timeout:800});else setTimeout(tryPlay,200);
+  });
+  function flag(){
+    var own=false;try{own=!!(typeof S!=="undefined"&&S&&S["heroVideo_"+lang()])}catch(e){}
+    document.documentElement.classList.toggle("wb3-hero-specific",own);
+  }
+  new MutationObserver(function(){flag();tryPlay()}).observe(v,{attributes:true,attributeFilter:["src"]});
+  flag();
+})();
+
+/* ---- the top bars slide away while you read down and return when you scroll up ---- */
+(function(){
+  var root=document.documentElement,last=window.scrollY,ticking=false;
+  function step(){
+    ticking=false;
+    var y=window.scrollY,d=y-last;
+    if(y<120)root.classList.remove("wb3-compact");
+    else if(d>8)root.classList.add("wb3-compact");
+    else if(d<-8)root.classList.remove("wb3-compact");
+    last=y;
+  }
+  addEventListener("scroll",function(){if(!ticking){ticking=true;requestAnimationFrame(step)}},{passive:true});
+})();
 
 /* ---- haptic tick on taps (Android) ---- */
 document.addEventListener("click",function(e){

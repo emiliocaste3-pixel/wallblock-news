@@ -65,14 +65,26 @@
    "value": "61,248.59 (Wed close)",
    "pct": 1.31,
    "link": "https://www.tradingview.com/symbols/TVC-NI225/",
-   "group": "Asia"
+   "group": "Asia",
+   "value_es": "61,248.59 (cierre del mié.)",
+   "value_fr": "61,248.59 (clôture mer.)",
+   "value_it": "61,248.59 (chiusura mer)",
+   "value_pt": "61,248.59 (fecho de quarta)",
+   "value_zh": "61,248.59 (周三收盘)",
+   "value_ko": "61,248.59 (수요일 종가)"
   },
   {
    "name": "Kospi",
    "value": "5,375.36 (Wed close)",
    "pct": 2.6,
    "link": "https://www.tradingview.com/symbols/KRX-KOSPI/",
-   "group": "Asia"
+   "group": "Asia",
+   "value_es": "5,375.36 (cierre del mié.)",
+   "value_fr": "5,375.36 (clôture mer.)",
+   "value_it": "5,375.36 (chiusura mer)",
+   "value_pt": "5,375.36 (fecho de quarta)",
+   "value_zh": "5,375.36 (周三收盘)",
+   "value_ko": "5,375.36 (수요일 종가)"
   },
   {
    "name": "Bitcoin",
@@ -114,21 +126,39 @@
    "value": "intraday, ~10:15 ET",
    "pct": 19.0,
    "link": "https://www.tradingview.com/symbols/NASDAQ-CRWV/",
-   "group": "Stocks"
+   "group": "Stocks",
+   "value_es": "intradía, ~10:15 ET",
+   "value_fr": "en séance, ~10:15 ET",
+   "value_it": "intraday, ~10:15 ET",
+   "value_pt": "intradiário, ~10:15 ET",
+   "value_zh": "盘中，约10:15 ET",
+   "value_ko": "장중, 약, ~10:15 ET"
   },
   {
    "name": "Nvidia",
    "value": "intraday, ~10:00 ET",
    "pct": 5.0,
    "link": "https://www.tradingview.com/symbols/NASDAQ-NVDA/",
-   "group": "Stocks"
+   "group": "Stocks",
+   "value_es": "intradía, ~10:00 ET",
+   "value_fr": "en séance, ~10:00 ET",
+   "value_it": "intraday, ~10:00 ET",
+   "value_pt": "intradiário, ~10:00 ET",
+   "value_zh": "盘中，约10:00 ET",
+   "value_ko": "장중, 약, ~10:00 ET"
   },
   {
    "name": "GoPro",
    "value": "premarket",
    "pct": -10.0,
    "link": "https://www.tradingview.com/symbols/NASDAQ-GPRO/",
-   "group": "Stocks"
+   "group": "Stocks",
+   "value_es": "premercado",
+   "value_fr": "avant-bourse",
+   "value_it": "premarket",
+   "value_pt": "pré-mercado",
+   "value_zh": "盘前",
+   "value_ko": "프리마켓"
   }
  ],
  "links": [
@@ -200,7 +230,7 @@
    "text_pt": "A receita da Alliance Entertainment (AENT) cresceu 10 % e a margem bruta aumentou 50 pontos base, enquanto o EBITDA ajustado ficou praticamente estável devido ao aumento dos custos operacionais. Os colecionáveis, a música em formato físico e as iniciativas de autenticação são prioridades de crescimento; espera-se que a IA e a automatização apoiem o crescimento e as poupanças no exercício de 2028. As ações subiam 13,29 % quando o resumo foi publicado.",
    "text_zh": "Alliance Entertainment（AENT）营收增长10%，毛利率提高50个基点，但由于运营成本上升，调整后EBITDA基本持平。收藏品、实体音乐和鉴定认证业务是增长重点；预计人工智能和自动化将支持2028财年的增长和成本节约。摘要发布时，该股上涨13.29%。",
    "text_ko": "얼라이언스 엔터테인먼트(AENT)의 매출은 10% 늘었고 매출총이익률은 50bp 개선됐지만, 운영 비용이 늘면서 조정 EBITDA는 거의 제자리였습니다. 수집품, 실물 음반, 인증 사업이 성장 우선순위이며, AI와 자동화는 2028 회계연도의 성장과 비용 절감을 뒷받침할 것으로 기대됩니다. 요약이 게시될 때 주가는 13.29% 상승했습니다.",
-   "meta": "Nov 12 · Alliance Entertainment Q1 FY2027 earnings call (AI-generated summary)"
+   "meta": "Nov 12 · Alliance Entertainment call (AI summary)"
   },
   {
    "cat": "Wall Street",
@@ -573,7 +603,17 @@
    "title": "WallBlock News intro · Wallie, Bullish & Bearish (Spanish)",
    "text": "Wallie, Bullish and Bearish introduce themselves. Spanish audio with Spanish subtitles.",
    "title_es": "Intro de WallBlock News · Wallie, Bullish y Bearish",
-   "text_es": "Wallie, Bullish y Bearish se presentan. Audio y subtítulos en español."
+   "text_es": "Wallie, Bullish y Bearish se presentan. Audio y subtítulos en español.",
+   "title_fr": "Intro de WallBlock News · Wallie, Bullish et Bearish (en espagnol)",
+   "text_fr": "Wallie, Bullish et Bearish se présentent. Audio et sous-titres en espagnol.",
+   "title_it": "Intro di WallBlock News · Wallie, Bullish e Bearish (in spagnolo)",
+   "text_it": "Wallie, Bullish e Bearish si presentano. Audio e sottotitoli in spagnolo.",
+   "title_pt": "Intro da WallBlock News · Wallie, Bullish e Bearish (em espanhol)",
+   "text_pt": "O Wallie, o Bullish e o Bearish apresentam-se. Áudio e legendas em espanhol.",
+   "title_zh": "WallBlock News 片头 · Wallie、Bullish 和 Bearish（西班牙语）",
+   "text_zh": "Wallie、Bullish 和 Bearish 自我介绍。西班牙语配音和西班牙语字幕。",
+   "title_ko": "WallBlock News 인트로 · Wallie, Bullish, Bearish (스페인어)",
+   "text_ko": "Wallie, Bullish, Bearish가 자신을 소개합니다. 스페인어 음성과 스페인어 자막."
   },
   {
    "title": "Wall Street open · Bell + upbeat music",
@@ -2519,7 +2559,7 @@
  "site": {
   "about": "WallBlock News is a digital market-news outlet covering Wall Street and global markets: US politics and the Fed, Asia, crypto, ETFs, commodities, company earnings, economic data and geopolitics. Breaking News brings the stories that move markets as they happen. Our AI agents explain both sides of the market: Wallie is our guide, Bullish shows the bullish view and the opportunities, and Bearish shows the bearish view and the risks. We follow leading international sources every day and use AI tools to gather and summarize the news, reviewing each story before it is published. Our mission is to make market news clear and accessible to everyone. WallBlock News informs; it does not give investment advice.",
   "disclaimer": "WallBlock News is for information only. It is not investment, financial, tax or legal advice, and nothing on this site is a recommendation to buy or sell any asset.\n\nPrices and figures may be delayed or approximate. Always check the original sources, which are named on each story. Summaries are written with the help of AI from public news sources and may contain errors.\n\nInvesting involves risk, including the loss of the money you invest.",
-  "privacy": "You don’t need an account to read WallBlock News, and the site uses no advertising trackers.\n\nYour favorites, color theme and voice settings are saved only in your own browser.\n\nIf you chat with Wallie while signed in to Claude, your question is processed by Claude to write the answer.\n\nLinks to TradingView, Finviz, Cointelegraph and other sites open those sites, which have their own privacy policies.",
+  "privacy": "You don’t need an account to read WallBlock News, and the site uses no advertising trackers.\n\nYour favorites, color theme and voice settings are saved only in your own browser.\n\nWallie answers using only the news on this site. If AI answers are switched on, your question is sent to an AI provider (Anthropic) to write the reply; this site does not store your questions.\n\nLinks to TradingView, Finviz, Cointelegraph and other sites open those sites, which have their own privacy policies.",
   "terms": "You may read and share WallBlock News for personal use. Content can change at any time and may contain errors.\n\nPaid plans (Pro and Premium) are not available yet. Their features and prices may change before launch.",
   "contact": "",
   "socials": [
@@ -2530,27 +2570,27 @@
   ],
   "about_es": "WallBlock News es un medio digital de información financiera centrado en Wall Street y los mercados internacionales: política de EE. UU. y la Fed, Asia, cripto, ETF, materias primas, resultados de empresas, datos económicos y geopolítica. En Breaking News te contamos al momento lo que mueve los mercados. Nuestros agentes de IA explican las dos caras del mercado: Wallie es nuestro guía, Bullish muestra la visión alcista y las oportunidades, y Bearish la visión bajista y los riesgos. Seguimos a diario fuentes internacionales de referencia y usamos herramientas de IA para recopilar y resumir la información, revisando cada noticia antes de publicarla. Nuestra misión es que la información de los mercados sea clara y accesible para todos. WallBlock News informa; no ofrece asesoramiento de inversión.",
   "disclaimer_es": "WallBlock News es solo informativo. No es asesoramiento de inversión, financiero, fiscal ni legal, y nada en esta web es una recomendación de comprar o vender ningún activo.\n\nLos precios y cifras pueden tener retraso o ser aproximados. Comprueba siempre las fuentes originales, que se citan en cada noticia. Los resúmenes se redactan con ayuda de IA a partir de fuentes públicas y pueden contener errores.\n\nInvertir conlleva riesgos, incluida la pérdida del dinero invertido.",
-  "privacy_es": "No necesitas cuenta para leer WallBlock News y la web no usa rastreadores publicitarios.\n\nTus favoritos, el tema de colores y los ajustes de voz se guardan solo en tu navegador.\n\nSi hablas con Wallie con la sesión iniciada en Claude, tu pregunta la procesa Claude para escribir la respuesta.\n\nLos enlaces a TradingView, Finviz, Cointelegraph y otras webs abren esas webs, que tienen sus propias políticas de privacidad.",
+  "privacy_es": "No necesitas cuenta para leer WallBlock News y la web no usa rastreadores publicitarios.\n\nTus favoritos, el tema de colores y los ajustes de voz se guardan solo en tu navegador.\n\nWallie responde usando solo las noticias de este sitio. Si las respuestas con IA están activadas, tu pregunta se envía a un proveedor de IA (Anthropic) para redactar la respuesta; este sitio no guarda tus preguntas.\n\nLos enlaces a TradingView, Finviz, Cointelegraph y otras webs abren esas webs, que tienen sus propias políticas de privacidad.",
   "terms_es": "Puedes leer y compartir WallBlock News para uso personal. El contenido puede cambiar en cualquier momento y contener errores.\n\nLos planes de pago (Pro y Premium) aún no están disponibles. Sus funciones y precios pueden cambiar antes del lanzamiento.",
   "about_fr": "WallBlock News est un média numérique d’information financière consacré à Wall Street et aux marchés mondiaux : politique américaine et Fed, Asie, crypto, ETF, matières premières, résultats d’entreprises, données économiques et géopolitique. Breaking News relaie en direct ce qui fait bouger les marchés. Nos agents IA expliquent les deux faces du marché : Wallie est notre guide, Bullish présente la vision haussière et les opportunités, Bearish la vision baissière et les risques. Nous suivons chaque jour des sources internationales de référence et utilisons des outils d’IA pour rassembler et résumer l’information, en vérifiant chaque article avant publication. Notre mission : rendre l’information de marché claire et accessible à tous. WallBlock News informe ; il ne donne pas de conseil en investissement.",
   "disclaimer_fr": "WallBlock News est fourni à titre d’information uniquement. Ce n’est pas un conseil en investissement, financier, fiscal ou juridique, et rien sur ce site n’est une recommandation d’acheter ou de vendre un actif.\n\nLes prix et chiffres peuvent être différés ou approximatifs. Vérifiez toujours les sources originales, citées dans chaque article. Les résumés sont rédigés avec l’aide de l’IA à partir de sources d’information publiques et peuvent contenir des erreurs.\n\nInvestir comporte des risques, y compris la perte de l’argent investi.",
-  "privacy_fr": "Vous n’avez pas besoin de compte pour lire WallBlock News, et le site n’utilise aucun traceur publicitaire.\n\nVos favoris, votre thème de couleur et vos réglages de voix sont enregistrés uniquement dans votre navigateur.\n\nSi vous discutez avec Wallie en étant connecté à Claude, votre question est traitée par Claude pour rédiger la réponse.\n\nLes liens vers TradingView, Finviz, Cointelegraph et d’autres sites ouvrent ces sites, qui ont leurs propres politiques de confidentialité.",
+  "privacy_fr": "Vous n’avez pas besoin de compte pour lire WallBlock News, et le site n’utilise aucun traceur publicitaire.\n\nVos favoris, votre thème de couleur et vos réglages de voix sont enregistrés uniquement dans votre navigateur.\n\nWallie répond uniquement à partir des actualités de ce site. Si les réponses par IA sont activées, votre question est envoyée à un fournisseur d’IA (Anthropic) pour rédiger la réponse ; ce site ne conserve pas vos questions.\n\nLes liens vers TradingView, Finviz, Cointelegraph et d’autres sites ouvrent ces sites, qui ont leurs propres politiques de confidentialité.",
   "terms_fr": "Vous pouvez lire et partager WallBlock News pour un usage personnel. Le contenu peut changer à tout moment et contenir des erreurs.\n\nLes offres payantes (Pro et Premium) ne sont pas encore disponibles. Leurs fonctions et prix peuvent changer avant le lancement.",
   "about_it": "WallBlock News è una testata digitale di informazione finanziaria dedicata a Wall Street e ai mercati globali: politica USA e Fed, Asia, cripto, ETF, materie prime, utili aziendali, dati economici e geopolitica. Con Breaking News ti raccontiamo in tempo reale ciò che muove i mercati. I nostri agenti IA spiegano le due facce del mercato: Wallie è la nostra guida, Bullish mostra la visione rialzista e le opportunità, Bearish quella ribassista e i rischi. Seguiamo ogni giorno fonti internazionali di riferimento e usiamo strumenti di IA per raccogliere e riassumere le notizie, verificando ogni articolo prima della pubblicazione. La nostra missione è rendere l’informazione sui mercati chiara e accessibile a tutti. WallBlock News informa; non offre consulenza sugli investimenti.",
   "disclaimer_it": "WallBlock News ha solo scopo informativo. Non è una consulenza di investimento, finanziaria, fiscale o legale, e nulla su questo sito è una raccomandazione ad acquistare o vendere un’attività.\n\nPrezzi e dati possono essere in ritardo o approssimativi. Controlla sempre le fonti originali, indicate in ogni notizia. I riassunti sono scritti con l’aiuto dell’IA a partire da fonti di notizie pubbliche e possono contenere errori.\n\nInvestire comporta rischi, inclusa la perdita del denaro investito.",
-  "privacy_it": "Non serve un account per leggere WallBlock News e il sito non usa tracker pubblicitari.\n\nI tuoi preferiti, il tema colore e le impostazioni della voce sono salvati solo nel tuo browser.\n\nSe chatti con Wallie mentre sei connesso a Claude, la tua domanda viene elaborata da Claude per scrivere la risposta.\n\nI link a TradingView, Finviz, Cointelegraph e altri siti aprono quei siti, che hanno le proprie informative sulla privacy.",
+  "privacy_it": "Non serve un account per leggere WallBlock News e il sito non usa tracker pubblicitari.\n\nI tuoi preferiti, il tema colore e le impostazioni della voce sono salvati solo nel tuo browser.\n\nWallie risponde usando solo le notizie di questo sito. Se le risposte con IA sono attivate, la tua domanda viene inviata a un fornitore di IA (Anthropic) per scrivere la risposta; questo sito non conserva le tue domande.\n\nI link a TradingView, Finviz, Cointelegraph e altri siti aprono quei siti, che hanno le proprie informative sulla privacy.",
   "terms_it": "Puoi leggere e condividere WallBlock News per uso personale. I contenuti possono cambiare in qualsiasi momento e contenere errori.\n\nI piani a pagamento (Pro e Premium) non sono ancora disponibili. Funzioni e prezzi possono cambiare prima del lancio.",
   "about_pt": "A WallBlock News é um meio digital de informação financeira focado em Wall Street e nos mercados globais: política dos EUA e Fed, Ásia, cripto, ETF, matérias-primas, resultados de empresas, dados económicos e geopolítica. No Breaking News contamos no momento o que mexe com os mercados. Os nossos agentes de IA explicam os dois lados do mercado: Wallie é o nosso guia, Bullish mostra a visão de alta e as oportunidades, e Bearish a visão de baixa e os riscos. Acompanhamos diariamente fontes internacionais de referência e usamos ferramentas de IA para recolher e resumir a informação, revendo cada notícia antes de a publicar. A nossa missão é tornar a informação dos mercados clara e acessível a todos. A WallBlock News informa; não presta aconselhamento de investimento.",
   "disclaimer_pt": "A WallBlock News é apenas informativa. Não é aconselhamento de investimento, financeiro, fiscal ou jurídico, e nada neste site é uma recomendação para comprar ou vender qualquer ativo.\n\nOs preços e valores podem ter atraso ou ser aproximados. Confirme sempre as fontes originais, indicadas em cada notícia. Os resumos são escritos com a ajuda de IA a partir de fontes de notícias públicas e podem conter erros.\n\nInvestir envolve riscos, incluindo a perda do dinheiro investido.",
-  "privacy_pt": "Não precisa de conta para ler a WallBlock News, e o site não usa rastreadores publicitários.\n\nOs seus favoritos, tema de cores e definições de voz ficam guardados apenas no seu navegador.\n\nSe conversar com o Wallie com sessão iniciada no Claude, a sua pergunta é processada pelo Claude para escrever a resposta.\n\nOs links para TradingView, Finviz, Cointelegraph e outros sites abrem esses sites, que têm as suas próprias políticas de privacidade.",
+  "privacy_pt": "Não precisa de conta para ler a WallBlock News, e o site não usa rastreadores publicitários.\n\nOs seus favoritos, tema de cores e definições de voz ficam guardados apenas no seu navegador.\n\nA Wallie responde usando apenas as notícias deste site. Se as respostas com IA estiverem ativadas, a sua pergunta é enviada a um fornecedor de IA (Anthropic) para redigir a resposta; este site não guarda as suas perguntas.\n\nOs links para TradingView, Finviz, Cointelegraph e outros sites abrem esses sites, que têm as suas próprias políticas de privacidade.",
   "terms_pt": "Pode ler e partilhar a WallBlock News para uso pessoal. O conteúdo pode mudar a qualquer momento e conter erros.\n\nOs planos pagos (Pro e Premium) ainda não estão disponíveis. As funcionalidades e os preços podem mudar antes do lançamento.",
   "about_zh": "WallBlock News 是一家专注华尔街与全球市场的数字财经媒体，涵盖美国政治与美联储、亚洲、加密货币、ETF、大宗商品、企业财报、经济数据和地缘政治。“突发新闻”第一时间报道影响市场的消息。我们的AI智能体从两个角度解读市场：Wallie是我们的向导，Bullish展示看涨观点与机会，Bearish展示看跌观点与风险。我们每天跟踪权威国际信息源，借助AI工具收集和总结新闻，每篇内容发布前均经审核。我们的使命是让市场信息清晰易懂、人人可及。WallBlock News 只提供信息，不构成投资建议。",
   "disclaimer_zh": "WallBlock News 仅供参考。它不构成投资、财务、税务或法律建议，本网站上的任何内容都不是买卖任何资产的推荐。\n\n价格和数据可能存在延迟或为近似值。请务必查看每条新闻中注明的原始来源。摘要借助 AI 根据公开新闻来源撰写，可能存在错误。\n\n投资有风险，包括损失所投入的资金。",
-  "privacy_zh": "阅读 WallBlock News 无需注册账户，网站不使用广告追踪器。\n\n你的收藏、配色主题和语音设置只保存在你自己的浏览器中。\n\n如果你在登录 Claude 的状态下与 Wallie 聊天，你的问题将由 Claude 处理以生成回答。\n\nTradingView、Finviz、Cointelegraph 等网站的链接会打开这些网站，它们有各自的隐私政策。",
+  "privacy_zh": "阅读 WallBlock News 无需注册账户，网站不使用广告追踪器。\n\n你的收藏、配色主题和语音设置只保存在你自己的浏览器中。\n\nWallie 只根据本站的新闻作答。如果开启了 AI 回答，你的问题会发送给 AI 服务商（Anthropic）以生成回复；本站不会保存你的问题。\n\nTradingView、Finviz、Cointelegraph 等网站的链接会打开这些网站，它们有各自的隐私政策。",
   "terms_zh": "你可以出于个人用途阅读和分享 WallBlock News。内容可能随时变化，也可能存在错误。\n\n付费方案（Pro 和 Premium）尚未开放，其功能和价格在上线前可能变化。",
   "about_ko": "WallBlock News는 월가와 글로벌 시장을 다루는 디지털 금융 뉴스 매체입니다. 미국 정치와 연준, 아시아, 암호화폐, ETF, 원자재, 기업 실적, 경제 지표, 지정학을 다룹니다. 속보(Breaking News)에서는 시장을 움직이는 소식을 실시간으로 전합니다. AI 에이전트가 시장의 양면을 설명합니다. Wallie는 가이드, Bullish는 강세 관점과 기회, Bearish는 약세 관점과 위험을 보여줍니다. 매일 주요 국제 출처를 확인하고 AI 도구로 뉴스를 수집·요약하며, 모든 기사는 게시 전에 검토합니다. 시장 정보를 누구나 쉽고 명확하게 접할 수 있도록 하는 것이 우리의 사명입니다. WallBlock News는 정보를 제공할 뿐 투자 조언을 하지 않습니다.",
   "disclaimer_ko": "WallBlock News는 정보 제공만을 목적으로 합니다. 투자, 금융, 세무 또는 법률 조언이 아니며, 이 사이트의 어떤 내용도 자산의 매수나 매도를 권유하지 않습니다.\n\n가격과 수치는 지연되거나 근사치일 수 있습니다. 각 기사에 표시된 원래 출처를 꼭 확인하세요. 요약은 공개된 뉴스 출처를 바탕으로 AI의 도움을 받아 작성되며 오류가 있을 수 있습니다.\n\n투자에는 투자 원금 손실을 포함한 위험이 따릅니다.",
-  "privacy_ko": "WallBlock News를 읽는 데 계정이 필요 없으며, 사이트는 광고 추적기를 사용하지 않습니다.\n\n즐겨찾기, 색상 테마, 음성 설정은 사용자의 브라우저에만 저장됩니다.\n\nClaude에 로그인한 상태로 Wallie와 대화하면 답변 작성을 위해 질문이 Claude에서 처리됩니다.\n\nTradingView, Finviz, Cointelegraph 등의 링크를 누르면 해당 사이트가 열리며, 각 사이트에는 자체 개인정보 처리방침이 있습니다.",
+  "privacy_ko": "WallBlock News를 읽는 데 계정이 필요 없으며, 사이트는 광고 추적기를 사용하지 않습니다.\n\n즐겨찾기, 색상 테마, 음성 설정은 사용자의 브라우저에만 저장됩니다.\n\nWallie는 이 사이트의 뉴스만 사용해 답변합니다. AI 답변이 켜져 있으면 질문이 답변 작성을 위해 AI 제공업체(Anthropic)로 전송되며, 이 사이트는 질문을 저장하지 않습니다.\n\nTradingView, Finviz, Cointelegraph 등의 링크를 누르면 해당 사이트가 열리며, 각 사이트에는 자체 개인정보 처리방침이 있습니다.",
   "terms_ko": "WallBlock News는 개인적 용도로 읽고 공유할 수 있습니다. 콘텐츠는 언제든 바뀔 수 있으며 오류가 있을 수 있습니다.\n\n유료 요금제(Pro와 Premium)는 아직 제공되지 않습니다. 기능과 가격은 출시 전에 바뀔 수 있습니다."
  },
  "footer_es": "Actualización de mercado, miércoles 11 de noviembre de 2026. Índices, petróleo, oro y bitcoin hacia las 10:55 ET (16:55 hora europea); el resto de precios, de la actualización de la mañana. Fuentes en cada noticia. No es asesoramiento financiero.",
@@ -2570,7 +2610,17 @@
     "sub": "odds of a rate hike",
     "sub_es": "prob. de subida de tipos",
     "bar": 91,
-    "src": "CME FedWatch · 12 Nov"
+    "src": "CME FedWatch · 12 Nov",
+    "title_fr": "Fed · réunion de décembre",
+    "title_it": "Fed · riunione di dicembre",
+    "title_pt": "Fed · reunião de dezembro",
+    "title_zh": "美联储 · 12月会议",
+    "title_ko": "연준 · 12월 회의",
+    "sub_fr": "probabilité d’une hausse des taux",
+    "sub_it": "probabilità di un rialzo dei tassi",
+    "sub_pt": "probabilidade de subida das taxas",
+    "sub_zh": "加息概率",
+    "sub_ko": "금리 인상 확률"
    },
    {
     "title": "US 10-year yield",
@@ -2578,7 +2628,17 @@
     "value": "≈5 %",
     "sub": "Tuesday close",
     "sub_es": "cierre del martes",
-    "src": "Yahoo Finance · 10 Nov"
+    "src": "Yahoo Finance · 10 Nov",
+    "title_fr": "Rendement du Trésor US à 10 ans",
+    "title_it": "Rendimento Treasury USA a 10 anni",
+    "title_pt": "Rendimento das obrigações dos EUA a 10 anos",
+    "title_zh": "美国10年期国债收益率",
+    "title_ko": "미국 10년물 금리",
+    "sub_fr": "clôture de mardi",
+    "sub_it": "chiusura di martedì",
+    "sub_pt": "fecho de terça-feira",
+    "sub_zh": "周二收盘",
+    "sub_ko": "화요일 종가"
    },
    {
     "title": "Spot bitcoin ETFs",
@@ -2596,7 +2656,17 @@
       "tone": "down"
      }
     ],
-    "src": "CoinDesk (SoSoValue)"
+    "src": "CoinDesk (SoSoValue)",
+    "title_fr": "ETF bitcoin au comptant",
+    "title_it": "ETF bitcoin spot",
+    "title_pt": "ETF de bitcoin à vista",
+    "title_zh": "现货比特币ETF",
+    "title_ko": "현물 비트코인 ETF",
+    "sub_fr": "net, mar. 10 nov. · 4e jour de sorties",
+    "sub_it": "netto, mar 10 nov · 4º giorno di deflussi",
+    "sub_pt": "líquido, ter 10 nov · 4.º dia de saídas",
+    "sub_zh": "净额，11月10日周二 · 连续第4天净流出",
+    "sub_ko": "순유출, 11월 10일(화) · 4일 연속 순유출"
    },
    {
     "title": "Stablecoins",
@@ -2606,7 +2676,17 @@
     "tone": "down",
     "sub": "total supply, last 30 days · biggest drop since 2022",
     "sub_es": "oferta total, últimos 30 días · mayor caída desde 2022",
-    "src": "Glassnode via KuCoin · 12 Nov"
+    "src": "Glassnode via KuCoin · 12 Nov",
+    "title_fr": "Stablecoins",
+    "title_it": "Stablecoin",
+    "title_pt": "Stablecoins",
+    "title_zh": "稳定币",
+    "title_ko": "스테이블코인",
+    "sub_fr": "offre totale, 30 derniers jours · plus forte baisse depuis 2022",
+    "sub_it": "offerta totale, ultimi 30 giorni · calo maggiore dal 2022",
+    "sub_pt": "oferta total, últimos 30 dias · maior queda desde 2022",
+    "sub_zh": "总供应量，近30天 · 为2022年以来最大降幅",
+    "sub_ko": "총 공급량, 최근 30일 · 2022년 이후 최대 감소"
    },
    {
     "title": "Crypto fear & greed",
@@ -2615,7 +2695,12 @@
     "value": 28,
     "label": "Fear",
     "label_es": "Miedo",
-    "src": "KuCoin · 12 Nov 00:00 UTC"
+    "src": "KuCoin · 12 Nov 00:00 UTC",
+    "title_fr": "Peur et cupidité crypto",
+    "title_it": "Paura e avidità cripto",
+    "title_pt": "Medo e ganância cripto",
+    "title_zh": "加密货币恐惧与贪婪指数",
+    "title_ko": "암호화폐 공포·탐욕 지수"
    }
   ],
   "asof_fr": "Derniers chiffres · 10–12 nov.",

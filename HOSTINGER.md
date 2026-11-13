@@ -2,6 +2,25 @@
 
 La web es 100 % estática (HTML + JSON + imágenes + vídeos). No necesita PHP ni base de datos.
 
+## Subida rápida (la forma más fácil, 5 pasos)
+
+1. Entra en **hPanel** y abre **Archivos → Administrador de archivos → `public_html`**.
+2. Si hay un `default.php` o un `index.php` que puso Hostinger, bórralo.
+3. Pulsa **Subir**, elige `wallblock-hostinger.zip` y espera a que termine (unos 19 MB).
+4. Haz clic derecho sobre el zip → **Extraer** → extraer en `public_html` (no dentro de otra carpeta). Después borra el zip.
+   El archivo `.htaccess` es oculto: activa «mostrar archivos ocultos» si quieres verlo.
+5. En **hPanel → Seguridad → SSL**, activa **Forzar HTTPS**.
+
+**Comprueba que funciona** (abre tu dominio en el móvil y en el ordenador):
+- Se ven las noticias, el titular y la franja roja de última hora.
+- Cambia el idioma (botón de arriba): cambia el texto y, en español, el vídeo principal es la intro con voz.
+- Toca una noticia con el icono de compartir: copia un enlace que, al abrirlo, lleva a esa noticia.
+- Toca «Wall Street» o «Crypto»: se abre la ficha de mercado.
+- En Android (Chrome) aparece «Install app»; en iPhone, Compartir → Añadir a pantalla de inicio.
+- Si algo falla, abre la consola del navegador (F12) y mándame el mensaje de error.
+
+Si más adelante cambias algo, solo tienes que volver a subir el archivo que cambió (por ejemplo `content.json`).
+
 ## 1. Subir la web
 
 1. En el repositorio, ejecuta `./build-hostinger.sh` (o usa el `wallblock-hostinger.zip` ya generado).
@@ -15,7 +34,8 @@ La web es 100 % estática (HTML + JSON + imágenes + vídeos). No necesita PHP n
 
 ## 2. Actualizar noticias, precios y datos
 
-Todo el contenido está en `content.json` (noticias, calendario, paneles, mapa de calor, vídeos, planes, textos legales).
+Todo el contenido está **solo** en `content.json` (ya no hay una copia dentro de `index.html`). Si falta o está mal escrito,
+la web muestra un aviso con un botón «Retry». Todo el contenido está en `content.json` (noticias, calendario, paneles, mapa de calor, vídeos, planes, textos legales).
 Edítalo y vuelve a subir solo ese archivo. El navegador siempre pide la versión más reciente
 (el `.htaccess` desactiva su caché).
 
