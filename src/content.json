@@ -1,0 +1,4221 @@
+{
+ "version": 2,
+ "heroVideo": "/_blob/cb31f64aa73fdd2b6ee9c0d30e8e0a02",
+ "headline": {
+  "label": "📅 Friday close · Nov 20",
+  "label_es": "📅 Cierre del viernes · 20 nov",
+  "text": "Wall Street ended its worst week since April 2025 in a rout. On Friday the S&P 500 fell 3.7% to 6,910.39, its seventh straight loss (−8.6% on the week), and the Dow lost 1.93% to 48,147.33, both closing in correction territory. The Nasdaq Composite dropped 5.28% to 22,617.73 and has erased its 2026 gain. Nvidia lost about 14%, and markets price a December Fed hike as near-certain. U.S. markets are closed Thursday for Thanksgiving.",
+  "text_es": "Wall Street cerró su peor semana desde abril de 2025 con un desplome. El viernes el S&P 500 cayó un 3,7 % hasta 6.910,39, su séptima pérdida seguida (−8,6 % en la semana), y el Dow cedió un 1,93 % hasta 48.147,33, ambos en territorio de corrección. El Nasdaq Composite bajó un 5,28 % hasta 22.617,73 y borró lo ganado en 2026. Nvidia perdió cerca de un 14 % y los mercados dan por casi seguro un alza de la Fed en diciembre. Los mercados de EE. UU. cierran el jueves por Acción de Gracias."
+ },
+ "index": [
+  {
+   "name": "S&P 500",
+   "value": "6,910.39 (close)",
+   "pct": -3.7,
+   "group": "Indices",
+   "link": "https://www.tradingview.com/symbols/SPX/"
+  },
+  {
+   "name": "Nasdaq",
+   "value": "22,617.73 (close)",
+   "pct": -5.28,
+   "group": "Indices",
+   "link": "https://www.tradingview.com/symbols/NASDAQ-IXIC/"
+  },
+  {
+   "name": "Dow Jones",
+   "value": "48,147.33 (close)",
+   "pct": -1.93,
+   "group": "Indices",
+   "link": "https://www.tradingview.com/symbols/DJ-DJI/"
+  },
+  {
+   "name": "Russell 2000",
+   "value": "2,581.79 (close)",
+   "pct": -2.8,
+   "group": "Indices",
+   "link": "https://www.tradingview.com/symbols/TVC-RUT/"
+  },
+  {
+   "name": "Nikkei 225",
+   "value": "56,436.65 (Fri close)",
+   "pct": -5.06,
+   "group": "Asia",
+   "link": "https://www.tradingview.com/symbols/TVC-NI225/"
+  },
+  {
+   "name": "Hang Seng",
+   "value": "22,410.80 (Fri close)",
+   "pct": -1.89,
+   "group": "Asia",
+   "link": "https://www.tradingview.com/symbols/TVC-HSI/"
+  },
+  {
+   "name": "Kospi",
+   "value": "4,869.96 (Fri close)",
+   "pct": -5.21,
+   "group": "Asia",
+   "link": "https://www.tradingview.com/symbols/KRX-KOSPI/"
+  },
+  {
+   "name": "Gold",
+   "value": "$3,537.90 (spot, 5 pm ET)",
+   "pct": -2.38,
+   "group": "Commodities",
+   "link": "https://www.tradingview.com/symbols/XAUUSD/"
+  },
+  {
+   "name": "WTI Oil",
+   "value": "$83.98 (Dec settle)",
+   "pct": 0.93,
+   "group": "Commodities",
+   "link": "https://www.tradingview.com/symbols/USOIL/"
+  },
+  {
+   "name": "Brent Oil",
+   "value": "$92.57 (Jan settle)",
+   "pct": 0.64,
+   "group": "Commodities",
+   "link": "https://www.tradingview.com/symbols/UKOIL/"
+  },
+  {
+   "name": "Bitcoin",
+   "value": "$59,817 (Sat 10:40 am ET)",
+   "pct": -0.2,
+   "group": "Crypto",
+   "link": "https://www.tradingview.com/symbols/BTCUSD/"
+  },
+  {
+   "name": "Nvidia",
+   "value": "$125.53 (close)",
+   "pct": -14.0,
+   "group": "Stocks",
+   "link": "https://www.tradingview.com/symbols/NASDAQ-NVDA/"
+  },
+  {
+   "name": "AMD",
+   "value": "",
+   "pct": -13.2,
+   "group": "Stocks",
+   "link": "https://www.tradingview.com/symbols/NASDAQ-AMD/"
+  },
+  {
+   "name": "Anthropic (ANT)",
+   "value": "just above $83 (IPO price, Fri)",
+   "pct": -9.0,
+   "group": "Stocks",
+   "link": "https://www.google.com/finance/quote/ANT:NASDAQ"
+  },
+  {
+   "name": "Walmart",
+   "value": "$128.73 (close)",
+   "pct": 2.13,
+   "group": "Stocks",
+   "link": "https://www.tradingview.com/symbols/NYSE-WMT/"
+  }
+ ],
+ "links": [
+  {
+   "label": "Finviz heat map",
+   "url": "https://finviz.com/map.ashx",
+   "label_es": "Mapa de calor Finviz",
+   "label_fr": "Carte thermique Finviz",
+   "label_it": "Mappa di calore Finviz",
+   "label_pt": "Mapa de calor Finviz",
+   "label_zh": "Finviz 热力图",
+   "label_ko": "Finviz 히트맵"
+  },
+  {
+   "label": "TradingView heat map",
+   "url": "https://www.tradingview.com/heatmap/stock/",
+   "label_es": "Mapa de calor TradingView",
+   "label_fr": "Carte thermique TradingView",
+   "label_it": "Mappa di calore TradingView",
+   "label_pt": "Mapa de calor TradingView",
+   "label_zh": "TradingView 热力图",
+   "label_ko": "TradingView 히트맵"
+  },
+  {
+   "label": "Cointelegraph news",
+   "url": "https://cointelegraph.com/",
+   "label_es": "Noticias Cointelegraph",
+   "label_fr": "Actualités Cointelegraph",
+   "label_it": "Notizie Cointelegraph",
+   "label_pt": "Notícias Cointelegraph",
+   "label_zh": "Cointelegraph 新闻",
+   "label_ko": "Cointelegraph 뉴스"
+  },
+  {
+   "label": "Crypto prices",
+   "url": "https://www.tradingview.com/markets/cryptocurrencies/prices-all/",
+   "label_es": "Precios cripto",
+   "label_fr": "Prix des cryptos",
+   "label_it": "Prezzi cripto",
+   "label_pt": "Preços cripto",
+   "label_zh": "加密货币价格",
+   "label_ko": "암호화폐 시세"
+  },
+  {
+   "label": "Finviz calendar",
+   "url": "https://finviz.com/calendar.ashx",
+   "label_es": "Calendario Finviz",
+   "label_fr": "Calendrier Finviz",
+   "label_it": "Calendario Finviz",
+   "label_pt": "Calendário Finviz",
+   "label_zh": "Finviz 日历",
+   "label_ko": "Finviz 캘린더"
+  }
+ ],
+ "news": [
+  {
+   "cat": "Wall Street",
+   "meta": "Nov 20, 2026 · CNBC, AP, StockInvest",
+   "title": "S&P 500 and Dow close in correction; Nasdaq erases its 2026 gain",
+   "title_es": "El S&P 500 y el Dow cierran en corrección; el Nasdaq borra lo ganado en 2026",
+   "text": "The S&P 500 fell 3.7% on Friday to 6,910.39, its seventh straight loss and an 8.6% drop on the week, its worst since April 2025. The Dow lost 1.93% to 48,147.33, about 10% below its record, and the Nasdaq Composite fell 5.28% to 22,617.73, now below its 2025 close. The Nasdaq-100 briefly entered bear-market territory during the session. Decliners beat advancers 376 to 123 in the S&P 500.",
+   "text_es": "El S&P 500 cayó un 3,7 % el viernes hasta 6.910,39, su séptima pérdida seguida y un 8,6 % en la semana, la peor desde abril de 2025. El Dow cedió un 1,93 % hasta 48.147,33, cerca de un 10 % bajo su récord, y el Nasdaq Composite bajó un 5,28 % hasta 22.617,73, ya por debajo de su cierre de 2025. El Nasdaq-100 llegó a entrar brevemente en mercado bajista durante la sesión. Los valores a la baja superaron a los alcistas por 376 a 123 en el S&P 500."
+  },
+  {
+   "cat": "Wall Street",
+   "meta": "Nov 20, 2026 · Kitco, Motley Fool, Investrade",
+   "title": "Volatility jumps and money rushes into bonds",
+   "title_es": "La volatilidad se dispara y el dinero corre a los bonos",
+   "text": "The VIX volatility index surged, with reports putting it between about 34 and 37 (sources differ on the close). Treasury yields fell as investors sought safety: the 10-year ended near 4.94%, about 10 basis points lower. Analysts pointed to doubts about AI spending, hawkish Fed comments and a report of an SEC review of Nvidia's accounting.",
+   "text_es": "El índice de volatilidad VIX se disparó: según las fuentes quedó entre unos 34 y 37 puntos (no coinciden en el cierre). Los rendimientos del Tesoro bajaron por la búsqueda de refugio: el bono a 10 años terminó cerca del 4,94 %, unos 10 puntos básicos menos. Los analistas apuntaron a las dudas sobre el gasto en IA, los comentarios duros de la Fed y un informe sobre una revisión de la SEC a la contabilidad de Nvidia."
+  },
+  {
+   "cat": "US Politics",
+   "meta": "Nov 20, 2026 · Reuters via TradingView, The Hill",
+   "title": "Trump says rates are too high because the Fed is “political”",
+   "title_es": "Trump dice que los tipos son demasiado altos porque la Fed es «política»",
+   "text": "At a Friday news conference Trump said interest rates are too high because the Fed is “political”, though he said he does not blame Kevin Warsh, his pick to succeed Powell. He argued a one-point cut would save about $650 billion in debt costs. Markets are betting on the opposite: a quarter-point hike in December.",
+   "text_es": "En una rueda de prensa el viernes, Trump dijo que los tipos de interés son demasiado altos porque la Fed es «política», aunque afirmó que no culpa a Kevin Warsh, su elegido para suceder a Powell. Argumentó que bajar un punto ahorraría unos 650.000 millones de dólares en costes de deuda. Los mercados apuestan por lo contrario: una subida de un cuarto de punto en diciembre."
+  },
+  {
+   "cat": "US Politics",
+   "meta": "Nov 20, 2026 · Al Jazeera, investingLive",
+   "title": "After the Shenzhen summit, Trump weighs another strike on Iran, reports say",
+   "title_es": "Tras la cumbre de Shenzhen, Trump estudia otro ataque a Irán, según informes",
+   "text": "The Nov. 19 Trump-Xi-Putin meeting in Shenzhen ended with a “peace declaration” that barely mentioned the Iran war, per Al Jazeera. Back in Washington, Trump is weighing another strike on Iran as shipping risks grow in the Strait of Hormuz, according to reports based on unnamed sources that are not yet confirmed. Envoy Jared Kushner said Trump believes peace in Ukraine is achievable.",
+   "text_es": "La reunión Trump-Xi-Putin del 19 de noviembre en Shenzhen terminó con una «declaración de paz» que apenas mencionó la guerra de Irán, según Al Jazeera. De vuelta en Washington, Trump estudia otro ataque a Irán mientras crecen los riesgos para el transporte marítimo en el estrecho de Ormuz, según informes basados en fuentes anónimas que aún no están confirmados. El enviado Jared Kushner dijo que Trump cree que la paz en Ucrania es posible."
+  },
+  {
+   "cat": "Asia",
+   "meta": "Nov 20, 2026 · CNBC, Yahoo Finance, Upstox",
+   "title": "Asian stocks plunge as the AI sell-off spreads",
+   "title_es": "Asia se desploma mientras la venta de IA se extiende",
+   "text": "Japan's Nikkei 225 fell 5.06% to 56,436.65 and South Korea's Kospi dropped 5.21% to 4,869.96 on Friday as doubts about the AI trade hit technology shares. Asian equities were on track for their worst week since 2020.",
+   "text_es": "El Nikkei 225 de Japón cayó un 5,06 % hasta 56.436,65 y el Kospi de Corea del Sur un 5,21 % hasta 4.869,96 el viernes, mientras las dudas sobre la IA golpeaban a los valores tecnológicos. Las bolsas asiáticas iban camino de su peor semana desde 2020."
+  },
+  {
+   "cat": "Asia",
+   "meta": "Nov 20, 2026 · Upstox, Kotak Neo, Yahoo Finance",
+   "title": "Hang Seng closes at 22,410.80, near bear-market territory",
+   "title_es": "El Hang Seng cierra en 22.410,80, cerca de un mercado bajista",
+   "text": "Hong Kong's Hang Seng closed at 22,410.80. Sources put the drop between roughly 1.9% and 3.8% because they list different prior closes, and one outlet said the index is nearing a bear market.",
+   "text_es": "El Hang Seng de Hong Kong cerró en 22.410,80. Las fuentes sitúan la caída entre un 1,9 % y un 3,8 % aproximadamente porque citan cierres previos distintos, y un medio señaló que el índice se acerca a un mercado bajista."
+  },
+  {
+   "cat": "Crypto",
+   "meta": "Nov 21, 2026 · crypto.news, CryptoBriefing, Around Prague",
+   "title": "Bitcoin slips below $60,000, then rebounds",
+   "title_es": "Bitcoin cae por debajo de 60.000 $ y luego rebota",
+   "text": "Bitcoin fell below $60,000 on Friday, with a 24-hour low reported near $55,100 (sources differ on the low), before rebounding toward $60,000 by Saturday morning in New York. One report put long liquidations at about $2 billion. Analysts cited record ETF outflows, the tech sell-off and talk of more Fed hikes.",
+   "text_es": "Bitcoin cayó por debajo de 60.000 dólares el viernes, con un mínimo de 24 horas cercano a 55.100 (las fuentes no coinciden en el mínimo), y rebotó hacia los 60.000 en la mañana del sábado en Nueva York. Un informe situó las liquidaciones de posiciones largas en unos 2.000 millones de dólares. Los analistas citaron las salidas récord de los ETF, la venta de tecnología y el temor a más subidas de la Fed."
+  },
+  {
+   "cat": "Crypto",
+   "meta": "Nov 21, 2026 · CryptoBriefing, crypto.news",
+   "title": "Bitcoin clears its largest liquidation cluster",
+   "title_es": "Bitcoin supera su mayor zona de liquidaciones",
+   "text": "During the drop bitcoin cleared its largest liquidation cluster, between $59,000 and $62,000, according to CryptoBriefing, meaning many leveraged positions were forced out. A crypto.news analysis asks what would make the recovery above $60,000 last.",
+   "text_es": "Durante la caída, bitcoin atravesó su mayor zona de liquidaciones, entre 59.000 y 62.000 dólares, según CryptoBriefing, lo que significa que muchas posiciones apalancadas fueron cerradas a la fuerza. Un análisis de crypto.news se pregunta qué haría que la recuperación por encima de 60.000 se sostenga."
+  },
+  {
+   "cat": "ETFs",
+   "meta": "Nov 19, 2026 · Around Prague (ETF flow data)",
+   "title": "Spot bitcoin ETFs lose $582 million as IBIT posts a record outflow",
+   "title_es": "Los ETF de bitcoin al contado pierden 582 millones; IBIT marca una salida récord",
+   "text": "U.S. spot bitcoin ETFs had net outflows of $582.3 million on Thursday, about $3.47 billion so far in November. BlackRock's IBIT lost $541.1 million on Nov. 19, its largest one-day outflow on record.",
+   "text_es": "Los ETF de bitcoin al contado de EE. UU. registraron salidas netas de 582,3 millones de dólares el jueves y unos 3.470 millones en lo que va de noviembre. IBIT, de BlackRock, perdió 541,1 millones el 19 de noviembre, su mayor salida diaria registrada."
+  },
+  {
+   "cat": "ETFs",
+   "meta": "Nov 20, 2026 · GuruFocus, StockAnalysis",
+   "title": "SPY sees an $11.6 billion outflow as investors pull from index funds",
+   "title_es": "El SPY sufre una salida de 11.600 millones mientras los inversores retiran dinero de fondos indexados",
+   "text": "The SPDR S&P 500 ETF (SPY) had an estimated $11.63 billion outflow on Nov. 18, with QQQ down $1.15 billion and XLE $727.9 million, per daily flow data. On Friday QQQ fell about 5.7% to close at 608.45.",
+   "text_es": "El SPDR S&P 500 ETF (SPY) registró una salida estimada de 11.630 millones de dólares el 18 de noviembre, con QQQ en −1.150 millones y XLE en −727,9 millones, según datos diarios de flujos. El viernes QQQ cayó cerca de un 5,7 % hasta cerrar en 608,45."
+  },
+  {
+   "cat": "Macro",
+   "meta": "Nov 20, 2026 · Kitco, 24/7 Wall St., Admiral Markets",
+   "title": "Markets price a December Fed hike at nearly 100%",
+   "title_es": "Los mercados dan por casi seguro un alza de la Fed en diciembre",
+   "text": "CME FedWatch put the odds of a quarter-point hike at the Dec. 8-9 meeting at roughly 97% to 99% depending on the source, and a half-point move is now seen as unlikely. Minutes of the October meeting showed nearly all officials expected more increases. The 10-year Treasury yield fell about 10 basis points to near 4.94%.",
+   "text_es": "Según CME FedWatch, la probabilidad de una subida de un cuarto de punto en la reunión del 8 y 9 de diciembre ronda el 97 %-99 % según la fuente, y un movimiento de medio punto se ve ya poco probable. Las actas de la reunión de octubre mostraron que casi todos los miembros esperaban más subidas. El rendimiento del bono a 10 años bajó unos 10 puntos básicos hasta cerca del 4,94 %."
+  },
+  {
+   "cat": "Macro",
+   "meta": "Nov 20, 2026 · Kitco",
+   "title": "Consumer sentiment rises and inflation expectations ease",
+   "title_es": "La confianza del consumidor sube y las expectativas de inflación se moderan",
+   "text": "The University of Michigan's final November sentiment index rose to 51.5 from 48.0, its highest since August. One-year inflation expectations fell to 3.7% from 4.7% in October, and longer-term expectations eased to 3.3% from 3.5%.",
+   "text_es": "El índice final de noviembre de la Universidad de Michigan subió a 51,5 desde 48,0, su nivel más alto desde agosto. Las expectativas de inflación a un año bajaron al 3,7 % desde el 4,7 % de octubre, y las de largo plazo al 3,3 % desde el 3,5 %."
+  },
+  {
+   "cat": "Commodities",
+   "meta": "Nov 20, 2026 · Kitco",
+   "title": "Gold nears $3,500, its lowest since September 2025",
+   "title_es": "El oro roza los 3.500 $, su nivel más bajo desde septiembre de 2025",
+   "text": "Spot gold traded near $3,537.90 at 5 p.m. ET, down 2.38%, after touching $3,502.93, while silver fell 3.83% to about $41.12. Metals did not benefit from lower Treasury yields as investors sold across assets.",
+   "text_es": "El oro al contado cotizaba cerca de 3.537,90 dólares a las 17:00 ET (23:00 hora europea), un 2,38 % menos, tras tocar 3.502,93, y la plata cayó un 3,83 % hasta unos 41,12. Los metales no se beneficiaron de la caída de los rendimientos del Tesoro porque los inversores vendieron en todos los activos."
+  },
+  {
+   "cat": "Commodities",
+   "meta": "Nov 20, 2026 · EnergyNow (Reuters data)",
+   "title": "Oil rebounds on Friday but posts a third weekly loss",
+   "title_es": "El petróleo rebota el viernes pero encadena su tercera semana a la baja",
+   "text": "WTI settled at $83.98 (+0.93%) and Brent at $92.57 (+0.64%). On the week WTI lost 5.17% and Brent 3.41%, their third straight weekly decline, as Hormuz exports recover and U.S. inventories rise. Houthi warnings and mine incidents in the strait supported Friday's bounce.",
+   "text_es": "El WTI cerró en 83,98 dólares (+0,93 %) y el Brent en 92,57 (+0,64 %). En la semana el WTI perdió un 5,17 % y el Brent un 3,41 %, su tercera caída semanal seguida, por la recuperación de las exportaciones por Ormuz y el aumento de los inventarios de EE. UU. Las advertencias de los hutíes y los incidentes con minas en el estrecho apoyaron el rebote del viernes."
+  },
+  {
+   "cat": "Companies",
+   "meta": "Nov 20, 2026 · Motley Fool, tastylive, Axios, Fox Business",
+   "title": "Nvidia plunges about 14% as Anthropic's IPO fails to calm the AI rout",
+   "title_es": "Nvidia se hunde cerca de un 14 % y la salida a bolsa de Anthropic no frena la venta de IA",
+   "text": "Nvidia fell about 14% to $125.53 after Reuters reported that the SEC is reviewing possible accounting issues, even though it had reported revenue of $115.8 billion, up 103%. The stock is roughly 43% to 47% below its October peak, depending on the source. Anthropic's newly listed shares fell about 9% in their second session, trading just above the $83 IPO price.",
+   "text_es": "Nvidia cayó cerca de un 14 % hasta 125,53 dólares después de que Reuters informara de que la SEC revisa posibles problemas contables, a pesar de haber presentado unos ingresos de 115.800 millones (+103 %). La acción está entre un 43 % y un 47 % por debajo de su máximo de octubre, según la fuente. Las acciones recién cotizadas de Anthropic cayeron cerca de un 9 % en su segunda sesión y cotizan justo por encima del precio de salida de 83 dólares."
+  },
+  {
+   "cat": "Companies",
+   "meta": "Nov 20, 2026 · CNBC, Investing.com, Longbridge",
+   "title": "Intuit sinks on a weaker outlook; Walmart gains after earnings",
+   "title_es": "Intuit se hunde por unas previsiones más débiles; Walmart sube tras resultados",
+   "text": "Intuit fell more than 10% after cutting its fiscal 2027 revenue outlook and agreeing to sell Mailchimp for $3.68 billion. Walmart rose 2.1% to $128.73 after a narrow earnings beat, Ross Stores slipped on soft guidance and AMD lost about 13% amid the chip sell-off.",
+   "text_es": "Intuit cayó más de un 10 % tras recortar su previsión de ingresos para el ejercicio 2027 y acordar la venta de Mailchimp por 3.680 millones de dólares. Walmart subió un 2,1 % hasta 128,73 tras superar por poco las previsiones, Ross Stores bajó por una guía floja y AMD perdió cerca de un 13 % en plena venta de chips."
+  }
+ ],
+ "videos": [
+  {
+   "title": "wallblock_cpi_2026-11-10_EN (1)",
+   "text": "",
+   "url": "/_blob/9d3e7ea5a34d48847fd84ae5339091e0"
+  },
+  {
+   "url": "/_blob/cb31f64aa73fdd2b6ee9c0d30e8e0a02",
+   "title": "Meet the team · Wallie, Bullish & Bearish",
+   "text": "Wallie is our AI agent and guide. Bullish shows the bullish view, Bearish the bearish view.",
+   "title_es": "Conoce al equipo · Wallie, Bullish y Bearish",
+   "text_es": "Wallie es nuestro agente IA y guía. Bullish muestra la visión alcista y Bearish la bajista.",
+   "title_fr": "L’équipe · Wallie, Bullish et Bearish",
+   "text_fr": "Wallie est notre agent IA et guide. Bullish montre la vision haussière, Bearish la vision baissière.",
+   "title_it": "Il team · Wallie, Bullish e Bearish",
+   "text_it": "Wallie è il nostro agente IA e guida. Bullish mostra la visione rialzista, Bearish quella ribassista.",
+   "title_pt": "A equipa · Wallie, Bullish e Bearish",
+   "text_pt": "Wallie é o nosso agente de IA e guia. Bullish mostra a visão de alta e Bearish a de baixa.",
+   "title_zh": "认识团队 · Wallie、Bullish 和 Bearish",
+   "text_zh": "Wallie 是我们的AI智能体和向导。Bullish 展示看涨观点，Bearish 展示看跌观点。",
+   "title_ko": "팀 소개 · Wallie, Bullish, Bearish",
+   "text_ko": "Wallie는 AI 에이전트이자 가이드입니다. Bullish는 강세 관점, Bearish는 약세 관점을 보여줍니다."
+  },
+  {
+   "url": "/_blob/e9a146e0e7fb29d63192df5d1072e3c0",
+   "title": "Market open · Wed Nov 11 (chart lesson)",
+   "text": "Learn to read 4 charts: CoreWeave, S&P 500, Brent and Bitcoin, with Wallie, Bullish and Bearish. Video in English.",
+   "title_es": "Apertura · mié 11 nov (lección de gráficos)",
+   "text_es": "Aprende a leer 4 gráficos: CoreWeave, S&P 500, Brent y Bitcoin, con Wallie, Bullish y Bearish. Vídeo en inglés.",
+   "title_fr": "Ouverture · mer. 11 nov. (leçon de graphiques)",
+   "text_fr": "Apprenez à lire 4 graphiques : CoreWeave, S&P 500, Brent et Bitcoin, avec Wallie, Bullish et Bearish. Vidéo en anglais.",
+   "title_it": "Apertura · mer 11 nov (lezione sui grafici)",
+   "text_it": "Impara a leggere 4 grafici: CoreWeave, S&P 500, Brent e Bitcoin, con Wallie, Bullish e Bearish. Video in inglese.",
+   "title_pt": "Abertura · qua 11 nov (lição de gráficos)",
+   "text_pt": "Aprenda a ler 4 gráficos: CoreWeave, S&P 500, Brent e Bitcoin, com Wallie, Bullish e Bearish. Vídeo em inglês.",
+   "title_zh": "开盘 · 11月11日 周三（图表课）",
+   "text_zh": "与 Wallie、Bullish 和 Bearish 一起学看4张图：CoreWeave、标普500、布伦特原油和比特币。英文视频。",
+   "title_ko": "개장 · 11월 11일 (수) 차트 강의",
+   "text_ko": "Wallie, Bullish, Bearish와 함께 CoreWeave, S&P 500, 브렌트유, 비트코인 차트 4개 읽는 법을 배워 보세요. 영어 영상."
+  },
+  {
+   "title": "WallBlock News intro · Breaking News",
+   "text": "Our original intro with a centered “Breaking News · WallBlock News” banner on the world map and the WallBlock logo on the phone.",
+   "url": "/_blob/fb00e42a2dad6f964a7d11fee82aab74",
+   "title_es": "Intro de WallBlock News · Breaking News",
+   "text_es": "Nuestra intro original con el rótulo «Breaking News · WallBlock News» sobre el mapa del mundo.",
+   "title_fr": "Intro WallBlock News · Breaking News",
+   "text_fr": "Notre intro originale avec la bannière centrée « Breaking News · WallBlock News » sur la carte du monde et le logo WallBlock sur le téléphone.",
+   "title_it": "Intro WallBlock News · Breaking News",
+   "text_it": "La nostra intro originale con il banner centrato «Breaking News · WallBlock News» sulla mappa del mondo e il logo WallBlock sul telefono.",
+   "title_pt": "Intro WallBlock News · Breaking News",
+   "text_pt": "A nossa intro original com a faixa centrada «Breaking News · WallBlock News» sobre o mapa-mundo e o logótipo WallBlock no telemóvel.",
+   "title_zh": "WallBlock News 片头 · 突发新闻",
+   "text_zh": "我们的原创片头：世界地图上居中的“Breaking News · WallBlock News”横幅，手机上显示 WallBlock 标志。",
+   "title_ko": "WallBlock News 인트로 · 속보",
+   "text_ko": "세계 지도 위 가운데에 'Breaking News · WallBlock News' 배너가 있고 휴대폰에 WallBlock 로고가 나오는 오리지널 인트로입니다."
+  },
+  {
+   "title": "Wall Street open · Bell + upbeat music",
+   "text": "Short opening-bell ring, trading-floor crowd and applause, then energetic music. Original WallBlock sound.",
+   "url": "/_blob/c995e8325a06dc5fa0e976ce61c9d714",
+   "title_es": "Apertura de Wall Street · Campana y música alegre",
+   "text_es": "Campana de apertura corta, ambiente de parqué y aplausos, y música con energía.",
+   "title_fr": "Ouverture de Wall Street · Cloche + musique entraînante",
+   "text_fr": "Courte sonnerie d’ouverture, foule de la salle des marchés et applaudissements, puis musique énergique. Son original WallBlock.",
+   "title_it": "Apertura di Wall Street · Campana + musica energica",
+   "text_it": "Breve suono della campana d’apertura, folla in sala contrattazioni e applausi, poi musica energica. Suono originale WallBlock.",
+   "title_pt": "Abertura de Wall Street · Sino + música animada",
+   "text_pt": "Toque curto do sino de abertura, multidão na sala de negociação e aplausos, depois música enérgica. Som original WallBlock.",
+   "title_zh": "华尔街开盘 · 钟声 + 欢快音乐",
+   "text_zh": "短促的开盘钟声、交易大厅人群和掌声，随后是充满活力的音乐。WallBlock 原创音效。",
+   "title_ko": "월가 개장 · 벨 + 경쾌한 음악",
+   "text_ko": "짧은 개장 벨, 객장의 군중과 박수, 이어지는 활기찬 음악. WallBlock 오리지널 사운드."
+  },
+  {
+   "title": "Wall Street open · Bell + breaking news",
+   "text": "Short opening-bell ring, busy trading floor and ticker, then tense news music. Original WallBlock sound.",
+   "url": "/_blob/7cb6366cbc31289be3366de5ffa042c4",
+   "title_es": "Apertura de Wall Street · Campana y última hora",
+   "text_es": "Campana de apertura corta, parqué y teletipo, y música de noticias.",
+   "title_fr": "Ouverture de Wall Street · Cloche + flash info",
+   "text_fr": "Courte sonnerie d’ouverture, salle des marchés animée et bandeau défilant, puis musique d’info tendue. Son original WallBlock.",
+   "title_it": "Apertura di Wall Street · Campana + ultime notizie",
+   "text_it": "Breve suono della campana d’apertura, sala contrattazioni affollata e ticker, poi musica da notiziario tesa. Suono originale WallBlock.",
+   "title_pt": "Abertura de Wall Street · Sino + última hora",
+   "text_pt": "Toque curto do sino de abertura, sala de negociação agitada e ticker, depois música noticiosa tensa. Som original WallBlock.",
+   "title_zh": "华尔街开盘 · 钟声 + 突发新闻",
+   "text_zh": "短促的开盘钟声、繁忙的交易大厅和行情滚动条，随后是紧张的新闻音乐。WallBlock 原创音效。",
+   "title_ko": "월가 개장 · 벨 + 속보",
+   "text_ko": "짧은 개장 벨, 분주한 객장과 시세 전광판, 이어지는 긴장감 있는 뉴스 음악. WallBlock 오리지널 사운드."
+  },
+  {
+   "title": "Wall Street open · Trading floor",
+   "text": "Short opening-bell ring, cheers and applause on the floor, and a short bell at the end. Original WallBlock sound.",
+   "url": "/_blob/c97e2c5c397f0f820404046441d32702",
+   "title_es": "Apertura de Wall Street · Parqué",
+   "text_es": "Campana corta, gritos y aplausos en el parqué.",
+   "title_fr": "Ouverture de Wall Street · Salle des marchés",
+   "text_fr": "Courte sonnerie d’ouverture, acclamations et applaudissements, et une courte cloche à la fin. Son original WallBlock.",
+   "title_it": "Apertura di Wall Street · Sala contrattazioni",
+   "text_it": "Breve suono della campana d’apertura, applausi in sala e una breve campana finale. Suono originale WallBlock.",
+   "title_pt": "Abertura de Wall Street · Sala de negociação",
+   "text_pt": "Toque curto do sino de abertura, aplausos na sala e um sino curto no final. Som original WallBlock.",
+   "title_zh": "华尔街开盘 · 交易大厅",
+   "text_zh": "短促的开盘钟声、大厅里的欢呼和掌声，结尾还有一声短钟。WallBlock 原创音效。",
+   "title_ko": "월가 개장 · 객장",
+   "text_ko": "짧은 개장 벨, 객장의 환호와 박수, 마지막의 짧은 벨. WallBlock 오리지널 사운드."
+  },
+  {
+   "title": "WallBlock News intro",
+   "text": "Our short presentation video.",
+   "url": "/_blob/8803cf2c5b5d961aa0a8494e131813c5",
+   "title_es": "Intro de WallBlock News",
+   "text_es": "Nuestro vídeo de presentación.",
+   "title_fr": "Intro WallBlock News",
+   "text_fr": "Notre courte vidéo de présentation.",
+   "title_it": "Intro WallBlock News",
+   "text_it": "Il nostro breve video di presentazione.",
+   "title_pt": "Intro WallBlock News",
+   "text_pt": "O nosso vídeo curto de apresentação.",
+   "title_zh": "WallBlock News 片头",
+   "text_zh": "我们的简短介绍视频。",
+   "title_ko": "WallBlock News 인트로",
+   "text_ko": "짧은 소개 영상입니다."
+  },
+  {
+   "title": "WallBlock intro · Opening Bell",
+   "text": "Upbeat, energetic music. Original WallBlock track.",
+   "url": "/_blob/e09815d3ce7f5c19edfa26c261621872",
+   "title_es": "Intro WallBlock · Opening Bell",
+   "text_es": "Música alegre y con energía.",
+   "title_fr": "Intro WallBlock · Opening Bell",
+   "text_fr": "Musique entraînante et énergique. Morceau original WallBlock.",
+   "title_it": "Intro WallBlock · Opening Bell",
+   "text_it": "Musica allegra ed energica. Brano originale WallBlock.",
+   "title_pt": "Intro WallBlock · Opening Bell",
+   "text_pt": "Música animada e enérgica. Faixa original WallBlock.",
+   "title_zh": "WallBlock 片头 · Opening Bell",
+   "text_zh": "欢快、充满活力的音乐。WallBlock 原创曲目。",
+   "title_ko": "WallBlock 인트로 · Opening Bell",
+   "text_ko": "경쾌하고 활기찬 음악. WallBlock 오리지널 트랙."
+  },
+  {
+   "title": "WallBlock intro · Market Pulse",
+   "text": "Tense breaking-news style music with a ticking clock. Original WallBlock track.",
+   "url": "/_blob/a8bd48cbd3f1b6e880412f4b6f9440de",
+   "title_es": "Intro WallBlock · Market Pulse",
+   "text_es": "Música tensa de última hora con reloj.",
+   "title_fr": "Intro WallBlock · Market Pulse",
+   "text_fr": "Musique tendue façon flash info avec tic-tac d’horloge. Morceau original WallBlock.",
+   "title_it": "Intro WallBlock · Market Pulse",
+   "text_it": "Musica tesa da ultime notizie con il ticchettio di un orologio. Brano originale WallBlock.",
+   "title_pt": "Intro WallBlock · Market Pulse",
+   "text_pt": "Música tensa de última hora com tiquetaque de relógio. Faixa original WallBlock.",
+   "title_zh": "WallBlock 片头 · Market Pulse",
+   "text_zh": "紧张的突发新闻风格音乐，伴有时钟滴答声。WallBlock 原创曲目。",
+   "title_ko": "WallBlock 인트로 · Market Pulse",
+   "text_ko": "시계 초침 소리가 들어간 긴장감 있는 속보 스타일 음악. WallBlock 오리지널 트랙."
+  },
+  {
+   "title": "WallBlock intro · Calm Ticker",
+   "text": "Relaxed lo-fi music. Original WallBlock track.",
+   "url": "/_blob/76b89f3acb59b375e4d3af7868a959b3",
+   "title_es": "Intro WallBlock · Calm Ticker",
+   "text_es": "Música tranquila lo-fi.",
+   "title_fr": "Intro WallBlock · Calm Ticker",
+   "text_fr": "Musique lo-fi détendue. Morceau original WallBlock.",
+   "title_it": "Intro WallBlock · Calm Ticker",
+   "text_it": "Musica lo-fi rilassata. Brano originale WallBlock.",
+   "title_pt": "Intro WallBlock · Calm Ticker",
+   "text_pt": "Música lo-fi relaxante. Faixa original WallBlock.",
+   "title_zh": "WallBlock 片头 · Calm Ticker",
+   "text_zh": "轻松的 lo-fi 音乐。WallBlock 原创曲目。",
+   "title_ko": "WallBlock 인트로 · Calm Ticker",
+   "text_ko": "편안한 로파이 음악. WallBlock 오리지널 트랙."
+  }
+ ],
+ "cal": [
+  {
+   "date": "2026-11-06",
+   "time": "8:30 ET",
+   "title": "US jobs report (October)",
+   "text": "Result: +165,000 jobs (forecast about 59,000-65,000), unemployment 4.1%, wages +0.4% m/m. Next report: Dec 4.",
+   "type": "Jobs",
+   "imp": "high",
+   "title_es": "Informe de empleo de EE. UU. (octubre)",
+   "text_es": "Resultado: +165.000 empleos (previsión 59.000-65.000), paro 4,1 %, salarios +0,4 % mensual. Próximo informe: 4 de diciembre.",
+   "title_fr": "Rapport sur l’emploi US (octobre)",
+   "text_fr": "Résultat : +165 000 emplois (prévision environ 59 000-65 000), chômage 4,1 %, salaires +0,4 % sur un mois. Prochain rapport : 4 déc.",
+   "title_it": "Rapporto sul lavoro USA (ottobre)",
+   "text_it": "Risultato: +165.000 posti (previsione circa 59.000-65.000), disoccupazione 4,1%, salari +0,4% m/m. Prossimo rapporto: 4 dic.",
+   "title_pt": "Relatório de emprego dos EUA (outubro)",
+   "text_pt": "Resultado: +165.000 empregos (previsão cerca de 59.000-65.000), desemprego 4,1%, salários +0,4% m/m. Próximo relatório: 4 dez.",
+   "title_zh": "美国就业报告（10 月）",
+   "text_zh": "结果：新增 16.5 万个就业岗位（预期约 5.9 万至 6.5 万），失业率 4.1%，工资环比 +0.4%。下次报告：12 月 4 日。",
+   "title_ko": "미국 고용 보고서 (10월)",
+   "text_ko": "결과: 일자리 +16만 5천 개(예상 약 5만 9천~6만 5천 개), 실업률 4.1%, 임금 전월 대비 +0.4%. 다음 발표: 12월 4일."
+  },
+  {
+   "date": "2026-11-06",
+   "time": "After close",
+   "title": "Hawaiian Electric earnings",
+   "text": "Quarterly results after the bell (Earnings Whispers).",
+   "type": "Earnings",
+   "imp": "low",
+   "title_es": "Resultados de Hawaiian Electric",
+   "text_es": "Resultados trimestrales tras el cierre (Earnings Whispers).",
+   "title_fr": "Résultats de Hawaiian Electric",
+   "text_fr": "Résultats trimestriels après la clôture (Earnings Whispers).",
+   "title_it": "Trimestrale di Hawaiian Electric",
+   "text_it": "Risultati trimestrali dopo la chiusura (Earnings Whispers).",
+   "title_pt": "Resultados da Hawaiian Electric",
+   "text_pt": "Resultados trimestrais após o fecho (Earnings Whispers).",
+   "title_zh": "Hawaiian Electric 财报",
+   "text_zh": "收盘后发布季度业绩（Earnings Whispers）。",
+   "title_ko": "하와이안 일렉트릭 실적",
+   "text_ko": "장 마감 후 분기 실적 발표(Earnings Whispers)."
+  },
+  {
+   "date": "2026-11-06",
+   "time": "After close",
+   "title": "Biglari Holdings earnings",
+   "text": "Quarterly results after the bell (Earnings Whispers).",
+   "type": "Earnings",
+   "imp": "low",
+   "title_es": "Resultados de Biglari Holdings",
+   "text_es": "Resultados trimestrales tras el cierre (Earnings Whispers).",
+   "title_fr": "Résultats de Biglari Holdings",
+   "text_fr": "Résultats trimestriels après la clôture (Earnings Whispers).",
+   "title_it": "Trimestrale di Biglari Holdings",
+   "text_it": "Risultati trimestrali dopo la chiusura (Earnings Whispers).",
+   "title_pt": "Resultados da Biglari Holdings",
+   "text_pt": "Resultados trimestrais após o fecho (Earnings Whispers).",
+   "title_zh": "Biglari Holdings 财报",
+   "text_zh": "收盘后发布季度业绩（Earnings Whispers）。",
+   "title_ko": "비글라리 홀딩스 실적",
+   "text_ko": "장 마감 후 분기 실적 발표(Earnings Whispers)."
+  },
+  {
+   "date": "2026-11-06",
+   "time": "After close",
+   "title": "Constellation Software earnings",
+   "text": "Expected, not yet confirmed (Earnings Whispers).",
+   "type": "Earnings",
+   "imp": "low",
+   "title_es": "Resultados de Constellation Software",
+   "text_es": "Previsto, aún sin confirmar (Earnings Whispers).",
+   "title_fr": "Résultats de Constellation Software",
+   "text_fr": "Attendu, pas encore confirmé (Earnings Whispers).",
+   "title_it": "Trimestrale di Constellation Software",
+   "text_it": "Prevista, non ancora confermata (Earnings Whispers).",
+   "title_pt": "Resultados da Constellation Software",
+   "text_pt": "Previsto, ainda não confirmado (Earnings Whispers).",
+   "title_zh": "Constellation Software 财报",
+   "text_zh": "预计发布，尚未确认（Earnings Whispers）。",
+   "title_ko": "컨스텔레이션 소프트웨어 실적",
+   "text_ko": "예정, 아직 확정되지 않음(Earnings Whispers)."
+  },
+  {
+   "date": "2026-11-06",
+   "time": "All day",
+   "title": "Moderna, Humana, Oklo earnings",
+   "text": "Reports scheduled for Friday (per TipRanks).",
+   "type": "Earnings",
+   "imp": "low",
+   "title_es": "Resultados de Moderna, Humana, Oklo",
+   "text_es": "Presentan el viernes (según TipRanks).",
+   "title_fr": "Résultats de Moderna, Humana, Oklo",
+   "text_fr": "Publications prévues vendredi (selon TipRanks).",
+   "title_it": "Trimestrali di Moderna, Humana, Oklo",
+   "text_it": "Pubblicazioni previste per venerdì (secondo TipRanks).",
+   "title_pt": "Resultados da Moderna, Humana, Oklo",
+   "text_pt": "Apresentações previstas para sexta-feira (segundo a TipRanks).",
+   "title_zh": "Moderna、Humana、Oklo 财报",
+   "text_zh": "定于周五发布（据 TipRanks）。",
+   "title_ko": "모더나, 휴마나, 오클로 실적",
+   "text_ko": "금요일 발표 예정(TipRanks 기준)."
+  },
+  {
+   "date": "2026-11-09",
+   "time": "After close",
+   "type": "Earnings",
+   "imp": "high",
+   "title": "Take-Two earnings",
+   "title_es": "Resultados de Take-Two",
+   "title_fr": "Résultats de Take-Two",
+   "title_it": "Trimestrale di Take-Two",
+   "title_pt": "Resultados da Take-Two",
+   "title_zh": "Take-Two财报",
+   "title_ko": "Take-Two 실적",
+   "text": "Call at 4:30 pm ET, ten days before GTA VI’s launch.",
+   "text_es": "Conferencia a las 4:30 pm ET, diez días antes del lanzamiento de GTA VI.",
+   "text_fr": "Conférence à 16:30 ET, dix jours avant la sortie de GTA VI.",
+   "text_it": "Call alle 16:30 ET, dieci giorni prima del lancio di GTA VI.",
+   "text_pt": "Conferência às 16:30 ET, dez dias antes do lançamento de GTA VI.",
+   "text_zh": "电话会议美东时间下午4:30，距《GTA VI》发售十天。",
+   "text_ko": "컨퍼런스콜 오후 4:30 ET, GTA VI 출시 열흘 전."
+  },
+  {
+   "date": "2026-11-09",
+   "time": "After close",
+   "type": "Earnings",
+   "imp": "medium",
+   "title": "Skydance earnings",
+   "title_es": "Resultados de Skydance",
+   "title_fr": "Résultats de Skydance",
+   "title_it": "Trimestrale di Skydance",
+   "title_pt": "Resultados da Skydance",
+   "title_zh": "Skydance财报",
+   "title_ko": "Skydance 실적",
+   "text": "Webcast at 5:00 pm ET; first report since buying Warner Bros. Discovery.",
+   "text_es": "Webcast a las 5:00 pm ET; primeras cuentas tras comprar Warner Bros. Discovery.",
+   "text_fr": "Webcast à 17:00 ET ; premiers résultats depuis le rachat de Warner Bros. Discovery.",
+   "text_it": "Webcast alle 17:00 ET; primi conti dopo l’acquisto di Warner Bros. Discovery.",
+   "text_pt": "Webcast às 17:00 ET; primeiros resultados após comprar a Warner Bros. Discovery.",
+   "text_zh": "美东时间下午5:00网络直播；收购华纳兄弟探索后的首份财报。",
+   "text_ko": "웹캐스트 오후 5:00 ET; 워너브러더스 디스커버리 인수 후 첫 실적."
+  },
+  {
+   "date": "2026-11-09",
+   "time": "After close",
+   "type": "Earnings",
+   "imp": "medium",
+   "title": "Trade Desk, Occidental, Rocket Lab, AST SpaceMobile earnings",
+   "title_es": "Resultados de Trade Desk, Occidental, Rocket Lab y AST SpaceMobile",
+   "title_fr": "Résultats de Trade Desk, Occidental, Rocket Lab, AST SpaceMobile",
+   "title_it": "Trimestrali di Trade Desk, Occidental, Rocket Lab, AST SpaceMobile",
+   "title_pt": "Resultados de Trade Desk, Occidental, Rocket Lab, AST SpaceMobile",
+   "title_zh": "Trade Desk、西方石油、Rocket Lab、AST SpaceMobile财报",
+   "title_ko": "Trade Desk·옥시덴탈·로켓랩·AST SpaceMobile 실적",
+   "text": "Third-quarter results after the US close.",
+   "text_es": "Resultados del tercer trimestre tras el cierre de EE. UU.",
+   "text_fr": "Résultats du troisième trimestre après la clôture américaine.",
+   "text_it": "Risultati del terzo trimestre dopo la chiusura USA.",
+   "text_pt": "Resultados do terceiro trimestre após o fecho dos EUA.",
+   "text_zh": "美股收盘后公布第三季度业绩。",
+   "text_ko": "미국 장 마감 후 3분기 실적."
+  },
+  {
+   "date": "2026-11-09",
+   "time": "Before open",
+   "type": "Earnings",
+   "imp": "low",
+   "title": "Constellation Energy earnings (Q3)",
+   "title_es": "Resultados de Constellation Energy (T3)",
+   "title_fr": "Résultats de Constellation Energy (T3)",
+   "title_it": "Risultati di Constellation Energy (T3)",
+   "title_pt": "Resultados da Constellation Energy (T3)",
+   "title_zh": "Constellation Energy 财报（第三季度）",
+   "title_ko": "컨스텔레이션 에너지 실적 (3분기)",
+   "text": "Before the US open. After the close: Occidental Petroleum, Lucid and AST SpaceMobile.",
+   "text_es": "Antes de la apertura de EE. UU. Tras el cierre: Occidental Petroleum, Lucid y AST SpaceMobile.",
+   "text_fr": "Avant l’ouverture américaine. Après la clôture : Occidental Petroleum, Lucid et AST SpaceMobile.",
+   "text_it": "Prima dell’apertura USA. Dopo la chiusura: Occidental Petroleum, Lucid e AST SpaceMobile.",
+   "text_pt": "Antes da abertura dos EUA. Após o fecho: Occidental Petroleum, Lucid e AST SpaceMobile.",
+   "text_zh": "美股开盘前公布。收盘后：西方石油、Lucid 和 AST SpaceMobile。",
+   "text_ko": "미국 개장 전 발표. 장 마감 후: 옥시덴탈 페트롤리엄, 루시드, AST 스페이스모바일."
+  },
+  {
+   "date": "2026-11-10",
+   "time": "1:00 pm ET",
+   "text": "",
+   "type": "Other",
+   "imp": "medium",
+   "title": "US 10-year Treasury auction ($42B)",
+   "title_es": "Subasta del bono a 10 años de EE. UU. (42.000 M$)",
+   "title_fr": "Adjudication du Trésor US à 10 ans (42 Md$)",
+   "title_it": "Asta del Treasury USA a 10 anni (42 mld $)",
+   "title_pt": "Leilão de Treasuries a 10 anos dos EUA (42 mil M$)",
+   "title_zh": "美国10年期国债拍卖（420亿美元）",
+   "title_ko": "미 국채 10년물 입찰 (420억달러)"
+  },
+  {
+   "date": "2026-11-10",
+   "time": "8:30 ET",
+   "title": "US CPI inflation (October)",
+   "text": "Last CPI before the Fed’s December meeting.",
+   "type": "Inflation",
+   "imp": "high",
+   "title_es": "Inflación IPC de EE. UU. (octubre)",
+   "text_es": "Último IPC antes de la reunión de la Fed de diciembre.",
+   "title_fr": "Inflation CPI US (octobre)",
+   "text_fr": "Dernier CPI avant la réunion de décembre de la Fed.",
+   "title_it": "Inflazione CPI USA (ottobre)",
+   "text_it": "Ultimo CPI prima della riunione di dicembre della Fed.",
+   "title_pt": "Inflação CPI dos EUA (outubro)",
+   "text_pt": "Último CPI antes da reunião de dezembro da Fed.",
+   "title_zh": "美国 CPI 通胀（10 月）",
+   "text_zh": "美联储 12 月会议前最后一份 CPI。",
+   "title_ko": "미국 CPI 물가 (10월)",
+   "text_ko": "연준 12월 회의 전 마지막 CPI."
+  },
+  {
+   "date": "2026-11-10",
+   "time": "After close",
+   "text": "CoreWeave Q3 consensus: loss of $1.57 per share on $3.52B revenue (Earnings Whispers). Rigetti, Netlist and Firefly Aerospace are also listed for today; check exact times.",
+   "type": "Earnings",
+   "imp": "high",
+   "title": "CoreWeave (4:10 pm ET), Rigetti, Netlist, Firefly earnings",
+   "title_es": "Resultados de CoreWeave (16:10 ET), Rigetti, Netlist y Firefly",
+   "title_fr": "Résultats de CoreWeave (16:10 ET), Rigetti, Netlist et Firefly",
+   "title_it": "Conti di CoreWeave (16:10 ET), Rigetti, Netlist e Firefly",
+   "title_pt": "Resultados da CoreWeave (16:10 ET), Rigetti, Netlist e Firefly",
+   "title_zh": "CoreWeave（美东下午4:10）、Rigetti、Netlist、Firefly财报",
+   "title_ko": "코어위브(미 동부 오후 4:10), 리게티, 넷리스트, 파이어플라이 실적",
+   "text_es": "Consenso del 3T de CoreWeave: pérdida de 1,57 $ por acción con ingresos de 3.520 M$ (Earnings Whispers). Rigetti, Netlist y Firefly Aerospace también figuran para hoy; confirma la hora exacta.",
+   "text_fr": "Consensus T3 de CoreWeave : perte de 1,57 $ par action pour 3,52 Md$ de chiffre d’affaires (Earnings Whispers). Rigetti, Netlist et Firefly Aerospace sont aussi attendus aujourd’hui ; vérifier les horaires.",
+   "text_it": "Consenso T3 di CoreWeave: perdita di 1,57 $ per azione su ricavi di 3,52 mld$ (Earnings Whispers). Anche Rigetti, Netlist e Firefly Aerospace sono in calendario oggi; verificare gli orari.",
+   "text_pt": "Consenso do 3T da CoreWeave: prejuízo de 1,57 $ por ação com receita de 3,52 bi$ (Earnings Whispers). Rigetti, Netlist e Firefly Aerospace também estão previstas para hoje; confira os horários.",
+   "text_zh": "CoreWeave第三季度市场预期：每股亏损1.57美元，营收35.2亿美元（Earnings Whispers）。Rigetti、Netlist和Firefly Aerospace也排在今日发布，具体时间请核实。",
+   "text_ko": "코어위브 3분기 컨센서스: 주당 1.57달러 손실, 매출 35억 2천만 달러(Earnings Whispers). 리게티, 넷리스트, 파이어플라이 에어로스페이스도 오늘 발표 예정이며 정확한 시간은 확인이 필요합니다."
+  },
+  {
+   "date": "2026-11-11",
+   "time": "After close",
+   "type": "Earnings",
+   "imp": "medium",
+   "title": "Cisco earnings",
+   "title_es": "Resultados de Cisco",
+   "title_fr": "Résultats de Cisco",
+   "title_it": "Risultati di Cisco",
+   "title_pt": "Resultados da Cisco",
+   "title_zh": "思科财报",
+   "title_ko": "시스코 실적 발표",
+   "text": "Cisco reports fiscal first-quarter results after the US close.",
+   "text_es": "Cisco presenta los resultados de su primer trimestre fiscal tras el cierre de EE. UU.",
+   "text_fr": "Cisco publie ses résultats du premier trimestre fiscal après la clôture américaine.",
+   "text_it": "Cisco pubblica i risultati del primo trimestre fiscale dopo la chiusura USA.",
+   "text_pt": "A Cisco divulga resultados do primeiro trimestre fiscal após o fechamento dos EUA.",
+   "text_zh": "思科在美股收盘后公布第一财季业绩。",
+   "text_ko": "시스코가 미국 장 마감 후 1회계분기 실적을 발표합니다."
+  },
+  {
+   "date": "2026-11-11",
+   "time": "After close",
+   "type": "Earnings",
+   "imp": "medium",
+   "title": "Earnings: Corteva, Franco-Nevada, CAE and more",
+   "title_es": "Resultados: Corteva, Franco-Nevada, CAE y más",
+   "title_fr": "Résultats : Corteva, Franco-Nevada, CAE et d’autres",
+   "title_it": "Risultati: Corteva, Franco-Nevada, CAE e altri",
+   "title_pt": "Resultados: Corteva, Franco-Nevada, CAE e mais",
+   "title_zh": "财报：Corteva、Franco-Nevada、CAE等",
+   "title_ko": "실적 발표: Corteva, Franco-Nevada, CAE 외",
+   "text": "After the close: Corteva (CTVA), Franco-Nevada (FNV), CAE, Digi International (DGII), EnerSys (ENS), OR Royalties (OR), Tetra Tech (TTEK). Third-party calendars.",
+   "text_es": "Tras el cierre: Corteva (CTVA), Franco-Nevada (FNV), CAE, Digi International (DGII), EnerSys (ENS), OR Royalties (OR), Tetra Tech (TTEK). Calendarios de terceros.",
+   "text_fr": "Après la clôture : Corteva (CTVA), Franco-Nevada (FNV), CAE, Digi International (DGII), EnerSys (ENS), OR Royalties (OR), Tetra Tech (TTEK). Calendriers tiers.",
+   "text_it": "Dopo la chiusura: Corteva (CTVA), Franco-Nevada (FNV), CAE, Digi International (DGII), EnerSys (ENS), OR Royalties (OR), Tetra Tech (TTEK). Calendari di terzi.",
+   "text_pt": "Após o fecho: Corteva (CTVA), Franco-Nevada (FNV), CAE, Digi International (DGII), EnerSys (ENS), OR Royalties (OR), Tetra Tech (TTEK). Calendários de terceiros.",
+   "text_zh": "收盘后：Corteva（CTVA）、Franco-Nevada（FNV）、CAE、Digi International（DGII）、EnerSys（ENS）、OR Royalties（OR）、Tetra Tech（TTEK）。第三方日历。",
+   "text_ko": "장 마감 후: Corteva(CTVA), Franco-Nevada(FNV), CAE, Digi International(DGII), EnerSys(ENS), OR Royalties(OR), Tetra Tech(TTEK). 외부 일정 기준."
+  },
+  {
+   "date": "2026-11-11",
+   "time": "All day",
+   "type": "Holiday",
+   "imp": "low",
+   "title": "Veterans Day: US bond market closed",
+   "title_es": "Día de los Veteranos: mercado de bonos de EE. UU. cerrado",
+   "title_fr": "Veterans Day : marché obligataire US fermé",
+   "title_it": "Veterans Day: mercato obbligazionario USA chiuso",
+   "title_pt": "Dia dos Veteranos: mercado obrigacionista dos EUA fechado",
+   "title_zh": "退伍军人节：美国债市休市",
+   "title_ko": "재향군인의 날: 미국 채권시장 휴장",
+   "text": "Stock markets (NYSE, Nasdaq) are open as usual; the bond market is closed under SIFMA’s recommended schedule.",
+   "text_es": "La bolsa (NYSE, Nasdaq) abre con normalidad; el mercado de bonos cierra según el calendario recomendado por SIFMA.",
+   "text_fr": "Les marchés actions (NYSE, Nasdaq) sont ouverts normalement ; le marché obligataire est fermé selon le calendrier recommandé par la SIFMA.",
+   "text_it": "Le borse (NYSE, Nasdaq) sono aperte normalmente; il mercato obbligazionario è chiuso secondo il calendario raccomandato dalla SIFMA.",
+   "text_pt": "As bolsas (NYSE, Nasdaq) abrem normalmente; o mercado obrigacionista fecha segundo o calendário recomendado pela SIFMA.",
+   "text_zh": "股市（纽交所、纳斯达克）照常交易；债市按 SIFMA 建议的日程休市。",
+   "text_ko": "주식시장(NYSE, 나스닥)은 정상 개장하며, 채권시장은 SIFMA 권고 일정에 따라 휴장합니다."
+  },
+  {
+   "date": "2026-11-12",
+   "time": "10:00 ET",
+   "type": "Growth",
+   "imp": "low",
+   "title": "US existing home sales (October)",
+   "title_es": "Venta de viviendas usadas en EE. UU. (octubre)",
+   "title_fr": "Ventes de logements anciens US (octobre)",
+   "title_it": "Vendite di case esistenti USA (ottobre)",
+   "title_pt": "Vendas de casas usadas nos EUA (outubro)",
+   "title_zh": "美国10月成屋销售",
+   "title_ko": "미국 기존주택판매 (10월)",
+   "text": "Annualized rate.",
+   "text_es": "Tasa anualizada.",
+   "text_fr": "Rythme annualisé.",
+   "text_it": "Tasso annualizzato.",
+   "text_pt": "Taxa anualizada.",
+   "text_zh": "年化数据。",
+   "text_ko": "연율 기준."
+  },
+  {
+   "date": "2026-11-12",
+   "time": "8:30 ET",
+   "type": "Jobs",
+   "imp": "medium",
+   "title": "US weekly jobless claims",
+   "title_es": "Peticiones semanales de paro en EE. UU.",
+   "title_fr": "Inscriptions hebdomadaires au chômage (US)",
+   "title_it": "Richieste settimanali di disoccupazione USA",
+   "title_pt": "Pedidos semanais de desemprego nos EUA",
+   "title_zh": "美国当周初请失业金人数",
+   "title_ko": "미국 주간 신규 실업수당 청구",
+   "text": "Week to Nov. 7; prior 189,000.",
+   "text_es": "Semana al 7 de noviembre; dato anterior 189.000.",
+   "text_fr": "Semaine au 7 novembre ; précédent 189 000.",
+   "text_it": "Settimana al 7 novembre; precedente 189.000.",
+   "text_pt": "Semana até 7 de novembro; anterior 189.000.",
+   "text_zh": "截至11月7日当周；前值189,000。",
+   "text_ko": "11월 7일 주간; 이전치 189,000건."
+  },
+  {
+   "date": "2026-11-12",
+   "time": "After close",
+   "type": "Earnings",
+   "imp": "high",
+   "title": "Earnings: Cisco, Applied Materials, Nu, Cerebras",
+   "title_es": "Resultados: Cisco, Applied Materials, Nu, Cerebras",
+   "title_fr": "Résultats : Cisco, Applied Materials, Nu, Cerebras",
+   "title_it": "Risultati: Cisco, Applied Materials, Nu, Cerebras",
+   "title_pt": "Resultados: Cisco, Applied Materials, Nu, Cerebras",
+   "title_zh": "财报：思科、应用材料、Nu、Cerebras",
+   "title_ko": "실적: 시스코, 어플라이드 머티어리얼즈, 누, 세레브라스",
+   "text": "Also Wise and DLocal. Source: Earnings Whispers.",
+   "text_es": "También Wise y DLocal. Fuente: Earnings Whispers.",
+   "text_fr": "Aussi Wise et DLocal. Source : Earnings Whispers.",
+   "text_it": "Anche Wise e DLocal. Fonte: Earnings Whispers.",
+   "text_pt": "Também Wise e DLocal. Fonte: Earnings Whispers.",
+   "text_zh": "另有Wise和DLocal。来源：Earnings Whispers。",
+   "text_ko": "와이즈, 디로컬도 발표. 출처: Earnings Whispers."
+  },
+  {
+   "date": "2026-11-12",
+   "time": "All day",
+   "type": "Fed",
+   "imp": "medium",
+   "title": "Fed speakers: Hammack, Goolsbee, Daly, Williams, Barr",
+   "title_es": "Hablan en la Fed: Hammack, Goolsbee, Daly, Williams, Barr",
+   "title_fr": "Orateurs Fed : Hammack, Goolsbee, Daly, Williams, Barr",
+   "title_it": "Parlano alla Fed: Hammack, Goolsbee, Daly, Williams, Barr",
+   "title_pt": "Falam na Fed: Hammack, Goolsbee, Daly, Williams, Barr",
+   "title_zh": "美联储官员讲话：哈玛克、古尔斯比、戴利、威廉姆斯、巴尔",
+   "title_ko": "연준 연설: 해맥, 굴스비, 데일리, 윌리엄스, 바",
+   "text": "Times vary; per Newsquawk.",
+   "text_es": "Horarios variables; según Newsquawk.",
+   "text_fr": "Horaires variables ; selon Newsquawk.",
+   "text_it": "Orari variabili; secondo Newsquawk.",
+   "text_pt": "Horários variáveis; segundo a Newsquawk.",
+   "text_zh": "时间不一；据Newsquawk。",
+   "text_ko": "시간 상이; Newsquawk 기준."
+  },
+  {
+   "date": "2026-11-13",
+   "time": "8:30 ET",
+   "title": "US PPI producer prices (October)",
+   "text": "Result: +0.3% m/m (forecast +0.4%), +6.5% y/y, the highest since Nov 2022; core +5.0% y/y. Last big inflation report before the Dec 8–9 Fed meeting.",
+   "type": "Inflation",
+   "imp": "medium",
+   "title_es": "Precios de producción PPI de EE. UU. (octubre)",
+   "text_es": "Resultado: +0,3 % mensual (previsto +0,4 %), +6,5 % interanual, el mayor desde nov. 2022; subyacente +5,0 % interanual. Último gran dato de inflación antes de la Fed del 8–9 dic.",
+   "title_fr": "Prix à la production PPI US (octobre)",
+   "text_fr": "Résultat : +0,3 % sur un mois (prévu +0,4 %), +6,5 % sur un an, un plus haut depuis nov. 2022 ; base +5,0 % sur un an. Dernier grand chiffre d’inflation avant la Fed des 8–9 déc.",
+   "title_it": "Prezzi alla produzione PPI USA (ottobre)",
+   "text_it": "Risultato: +0,3 % m/m (atteso +0,4 %), +6,5 % a/a, il più alto da nov. 2022; core +5,0 % a/a. Ultimo grande dato d’inflazione prima della Fed dell’8–9 dic.",
+   "title_pt": "Preços no produtor PPI dos EUA (outubro)",
+   "text_pt": "Resultado: +0,3 % m/m (previsto +0,4 %), +6,5 % a/a, o maior desde nov. 2022; subjacente +5,0 % a/a. Último grande dado de inflação antes da Fed de 8–9 dez.",
+   "title_zh": "美国 PPI 生产者价格（10 月）",
+   "text_zh": "结果：环比+0.3%（预期+0.4%），同比+6.5%，为2022年11月以来最高；核心同比+5.0%。12月8–9日美联储会议前最后一份重要通胀数据。",
+   "title_ko": "미국 PPI 생산자물가 (10월)",
+   "text_ko": "결과: 전월비 +0.3%(예상 +0.4%), 전년비 +6.5%로 2022년 11월 이후 최고; 근원 전년비 +5.0%. 12월 8–9일 연준 회의 전 마지막 주요 물가 지표."
+  },
+  {
+   "date": "2026-11-13",
+   "time": "After close",
+   "type": "Earnings",
+   "imp": "low",
+   "title": "Earnings: Beasley Broadcast (BBGI), Flexible Solutions (FSI)",
+   "title_es": "Resultados: Beasley Broadcast (BBGI), Flexible Solutions (FSI)",
+   "title_fr": "Résultats : Beasley Broadcast (BBGI), Flexible Solutions (FSI)",
+   "title_it": "Risultati: Beasley Broadcast (BBGI), Flexible Solutions (FSI)",
+   "title_pt": "Resultados: Beasley Broadcast (BBGI), Flexible Solutions (FSI)",
+   "title_zh": "财报：Beasley Broadcast（BBGI）、Flexible Solutions（FSI）",
+   "title_ko": "실적: 비즐리 브로드캐스트(BBGI), 플렉서블 솔루션스(FSI)",
+   "text": "Light Friday: only small caps report after the close; no major tech names. Source: Earnings Whispers.",
+   "text_es": "Viernes tranquilo: solo publican empresas pequeñas tras el cierre; ninguna gran tecnológica. Fuente: Earnings Whispers.",
+   "text_fr": "Vendredi calme : seules de petites capitalisations publient après la clôture ; aucune grande tech. Source : Earnings Whispers.",
+   "text_it": "Venerdì leggero: solo small cap dopo la chiusura; nessun grande nome tech. Fonte: Earnings Whispers.",
+   "text_pt": "Sexta tranquila: só pequenas empresas publicam após o fecho; nenhuma grande tecnológica. Fonte: Earnings Whispers.",
+   "text_zh": "周五财报清淡：收盘后仅有小盘股发布，无大型科技公司。来源：Earnings Whispers。",
+   "text_ko": "한산한 금요일: 장 마감 후 소형주만 발표, 대형 기술주 없음. 출처: Earnings Whispers."
+  },
+  {
+   "date": "2026-11-16",
+   "time": "After close",
+   "type": "Earnings",
+   "imp": "medium",
+   "title": "Earnings: AECOM, Powell, Red Cat, Infleqtion, Stem",
+   "title_es": "Resultados: AECOM, Powell, Red Cat, Infleqtion, Stem",
+   "title_fr": "Résultats : AECOM, Powell, Red Cat, Infleqtion, Stem",
+   "title_it": "Trimestrali: AECOM, Powell, Red Cat, Infleqtion, Stem",
+   "title_pt": "Resultados: AECOM, Powell, Red Cat, Infleqtion, Stem",
+   "title_zh": "财报：AECOM、Powell、Red Cat、Infleqtion、Stem",
+   "title_ko": "실적: AECOM, 파월, 레드캣, 인플렉션, 스템",
+   "text": "After today’s close, also SharonAI. Per Kiplinger and TokenPost calendars; exact times not confirmed.",
+   "text_es": "Tras el cierre de hoy, también SharonAI. Según los calendarios de Kiplinger y TokenPost; horas exactas no confirmadas.",
+   "text_fr": "Après la clôture, aussi SharonAI. Selon les calendriers de Kiplinger et TokenPost ; heures exactes non confirmées.",
+   "text_it": "Dopo la chiusura, anche SharonAI. Secondo i calendari di Kiplinger e TokenPost; orari esatti non confermati.",
+   "text_pt": "Após o fecho, também SharonAI. Segundo os calendários da Kiplinger e TokenPost; horas exatas não confirmadas.",
+   "text_zh": "今日收盘后还有 SharonAI。依据 Kiplinger 和 TokenPost 日历；具体时间未确认。",
+   "text_ko": "오늘 장 마감 후 SharonAI도 발표. Kiplinger·TokenPost 캘린더 기준; 정확한 시간 미확인."
+  },
+  {
+   "date": "2026-11-17",
+   "time": "10:00 ET",
+   "type": "Other",
+   "imp": "low",
+   "title": "NAHB housing market index (November)",
+   "title_es": "Índice NAHB del mercado inmobiliario (noviembre)",
+   "title_fr": "Indice NAHB du marché immobilier (novembre)",
+   "title_it": "Indice NAHB del mercato immobiliare (novembre)",
+   "title_pt": "Índice NAHB do mercado imobiliário (novembro)",
+   "title_zh": "NAHB 房屋市场指数（11 月）",
+   "title_ko": "NAHB 주택시장지수 (11월)",
+   "text": "Result: 25 (forecast 29, prior 29), lowest since April 2012 (Yahoo Finance).",
+   "text_es": "Resultado: 25 (previsión 29, anterior 29), mínimo desde abril de 2012 (Yahoo Finance).",
+   "text_fr": "Résultat : 25 (prévision 29, précédent 29), au plus bas depuis avril 2012 (Yahoo Finance).",
+   "text_it": "Risultato: 25 (previsione 29, precedente 29), minimo da aprile 2012 (Yahoo Finance).",
+   "text_pt": "Resultado: 25 (previsão 29, anterior 29), mínimo desde abril de 2012 (Yahoo Finance).",
+   "text_zh": "结果：25（预期29，前值29），为2012年4月以来最低（雅虎财经）。",
+   "text_ko": "결과: 25(예상 29, 이전 29), 2012년 4월 이후 최저 (야후 파이낸스)."
+  },
+  {
+   "date": "2026-11-17",
+   "time": "8:30 ET",
+   "title": "US retail sales (October)",
+   "text": "Result: +0.2% m/m (forecast +0.1%, prior +0.8%); ex-autos +0.6% (forecast +0.4%).",
+   "type": "Growth",
+   "imp": "medium",
+   "title_es": "Ventas minoristas de EE. UU. (octubre)",
+   "text_es": "Resultado: +0,2 % mensual (previsión +0,1 %, anterior +0,8 %); sin autos +0,6 % (previsión +0,4 %).",
+   "title_fr": "Ventes au détail US (octobre)",
+   "text_fr": "Résultat : +0,2 % sur un mois (prévision +0,1 %, précédent +0,8 %) ; hors auto +0,6 % (prévision +0,4 %).",
+   "title_it": "Vendite al dettaglio USA (ottobre)",
+   "text_it": "Risultato: +0,2 % m/m (previsione +0,1 %, precedente +0,8 %); escluse auto +0,6 % (previsione +0,4 %).",
+   "title_pt": "Vendas a retalho dos EUA (outubro)",
+   "text_pt": "Resultado: +0,2 % m/m (previsão +0,1 %, anterior +0,8 %); sem automóveis +0,6 % (previsão +0,4 %).",
+   "title_zh": "美国零售销售（10 月）",
+   "text_zh": "结果：环比+0.2%（预期+0.1%，前值+0.8%）；剔除汽车+0.6%（预期+0.4%）。",
+   "title_ko": "미국 소매판매 (10월)",
+   "text_ko": "결과: 전월비 +0.2%(예상 +0.1%, 이전 +0.8%); 자동차 제외 +0.6%(예상 +0.4%)."
+  },
+  {
+   "date": "2026-11-17",
+   "time": "8:30 ET",
+   "type": "Inflation",
+   "imp": "low",
+   "title": "US import and export prices (October)",
+   "title_es": "Precios de importación y exportación de EE. UU. (octubre)",
+   "title_fr": "Prix à l’import et à l’export US (octobre)",
+   "title_it": "Prezzi import-export USA (ottobre)",
+   "title_pt": "Preços de importação e exportação dos EUA (outubro)",
+   "title_zh": "美国进出口价格（10 月）",
+   "title_ko": "미국 수출입물가 (10월)",
+   "text": "Released with retail sales.",
+   "text_es": "Se publica junto a las ventas minoristas.",
+   "text_fr": "Publié avec les ventes au détail.",
+   "text_it": "Pubblicati insieme alle vendite al dettaglio.",
+   "text_pt": "Divulgado com as vendas a retalho.",
+   "text_zh": "与零售销售同时公布。",
+   "text_ko": "소매판매와 함께 발표."
+  },
+  {
+   "date": "2026-11-17",
+   "time": "9:15 ET",
+   "type": "Growth",
+   "imp": "medium",
+   "title": "US industrial production (October)",
+   "title_es": "Producción industrial de EE. UU. (octubre)",
+   "title_fr": "Production industrielle US (octobre)",
+   "title_it": "Produzione industriale USA (ottobre)",
+   "title_pt": "Produção industrial dos EUA (outubro)",
+   "title_zh": "美国工业产出（10 月）",
+   "title_ko": "미국 산업생산 (10월)",
+   "text": "Industrial production and capacity utilization, Federal Reserve.",
+   "text_es": "Producción industrial y uso de la capacidad, Reserva Federal.",
+   "text_fr": "Production industrielle et taux d’utilisation des capacités, Réserve fédérale.",
+   "text_it": "Produzione industriale e utilizzo della capacità, Federal Reserve.",
+   "text_pt": "Produção industrial e utilização da capacidade, Reserva Federal.",
+   "text_zh": "工业产出与产能利用率，美联储发布。",
+   "text_ko": "산업생산 및 설비가동률, 연준 발표."
+  },
+  {
+   "date": "2026-11-17",
+   "time": "After close",
+   "title": "NVIDIA earnings",
+   "text": "Q3 FY27 results, expected around 4:20 pm ET (22:20 CET). First report since Jensen Huang’s exit; call hosted by interim CEO Colette Kress.",
+   "type": "Earnings",
+   "imp": "high",
+   "title_es": "Resultados de NVIDIA",
+   "text_es": "Resultados del 3T del ejercicio 2027, previstos hacia las 4:20 pm ET (22:20 hora europea). Primer informe tras la salida de Jensen Huang; presenta la CEO interina Colette Kress.",
+   "title_fr": "Résultats de NVIDIA",
+   "text_fr": "Résultats du T3 de l’exercice 2027, attendus vers 4:20 pm ET (22:20 CET). Premier rapport depuis le départ de Jensen Huang ; conférence animée par la PDG par intérim Colette Kress.",
+   "title_it": "Trimestrale di NVIDIA",
+   "text_it": "Risultati del 3° trimestre dell’esercizio 2027, attesi verso le 4:20 pm ET (22:20 CET). Primo report dopo l’uscita di Jensen Huang; call con la CEO ad interim Colette Kress.",
+   "title_pt": "Resultados da NVIDIA",
+   "text_pt": "Resultados do 3.º trimestre do exercício 2027, previstos perto das 4:20 pm ET (22:20 CET). Primeiro relatório desde a saída de Jensen Huang; apresentação da CEO interina Colette Kress.",
+   "title_zh": "英伟达财报",
+   "text_zh": "2027 财年第三季度业绩，预计美东时间约 4:20 pm（欧洲时间 22:20）发布。黄仁勋离职后首份财报，由临时 CEO 科莱特·克雷斯主持电话会。",
+   "title_ko": "엔비디아 실적",
+   "text_ko": "2027 회계연도 3분기 실적, 미 동부 약 4:20 pm(유럽 시간 22:20) 발표 예정. 젠슨 황 퇴진 후 첫 실적으로 콜레트 크레스 임시 CEO가 진행."
+  },
+  {
+   "date": "2026-11-17",
+   "time": "After close",
+   "type": "Earnings",
+   "imp": "low",
+   "title": "ZTO Express earnings",
+   "text": "Scheduled after the close (Earnings Whispers / Stock Analysis calendars); exact time not confirmed.",
+   "title_es": "Resultados de ZTO Express",
+   "text_es": "Previsto tras el cierre (calendarios de Earnings Whispers / Stock Analysis); hora exacta sin confirmar.",
+   "title_fr": "Résultats de ZTO Express",
+   "text_fr": "Prévu après la clôture (calendriers Earnings Whispers / Stock Analysis) ; heure exacte non confirmée.",
+   "title_it": "Trimestrale di ZTO Express",
+   "text_it": "Previsto dopo la chiusura (calendari Earnings Whispers / Stock Analysis); orario esatto non confermato.",
+   "title_pt": "Resultados da ZTO Express",
+   "text_pt": "Previsto após o fecho (calendários Earnings Whispers / Stock Analysis); hora exata por confirmar.",
+   "title_zh": "ZTO Express 财报",
+   "text_zh": "预计收盘后公布（Earnings Whispers / Stock Analysis 日历）；具体时间未确认。",
+   "title_ko": "ZTO Express 실적",
+   "text_ko": "장 마감 후 발표 예정(Earnings Whispers / Stock Analysis 캘린더); 정확한 시간 미확인."
+  },
+  {
+   "date": "2026-11-17",
+   "time": "After close",
+   "type": "Earnings",
+   "imp": "low",
+   "title": "SQM (Sociedad Química y Minera) earnings",
+   "text": "Scheduled after the close (Earnings Whispers / Stock Analysis calendars); exact time not confirmed.",
+   "title_es": "Resultados de SQM (Sociedad Química y Minera)",
+   "text_es": "Previsto tras el cierre (calendarios de Earnings Whispers / Stock Analysis); hora exacta sin confirmar.",
+   "title_fr": "Résultats de SQM (Sociedad Química y Minera)",
+   "text_fr": "Prévu après la clôture (calendriers Earnings Whispers / Stock Analysis) ; heure exacte non confirmée.",
+   "title_it": "Trimestrale di SQM (Sociedad Química y Minera)",
+   "text_it": "Previsto dopo la chiusura (calendari Earnings Whispers / Stock Analysis); orario esatto non confermato.",
+   "title_pt": "Resultados da SQM (Sociedad Química y Minera)",
+   "text_pt": "Previsto após o fecho (calendários Earnings Whispers / Stock Analysis); hora exata por confirmar.",
+   "title_zh": "SQM (Sociedad Química y Minera) 财报",
+   "text_zh": "预计收盘后公布（Earnings Whispers / Stock Analysis 日历）；具体时间未确认。",
+   "title_ko": "SQM (Sociedad Química y Minera) 실적",
+   "text_ko": "장 마감 후 발표 예정(Earnings Whispers / Stock Analysis 캘린더); 정확한 시간 미확인."
+  },
+  {
+   "date": "2026-11-17",
+   "time": "After close",
+   "type": "Earnings",
+   "imp": "low",
+   "title": "Dolby Laboratories earnings",
+   "text": "Scheduled after the close (Earnings Whispers / Stock Analysis calendars); exact time not confirmed.",
+   "title_es": "Resultados de Dolby Laboratories",
+   "text_es": "Previsto tras el cierre (calendarios de Earnings Whispers / Stock Analysis); hora exacta sin confirmar.",
+   "title_fr": "Résultats de Dolby Laboratories",
+   "text_fr": "Prévu après la clôture (calendriers Earnings Whispers / Stock Analysis) ; heure exacte non confirmée.",
+   "title_it": "Trimestrale di Dolby Laboratories",
+   "text_it": "Previsto dopo la chiusura (calendari Earnings Whispers / Stock Analysis); orario esatto non confermato.",
+   "title_pt": "Resultados da Dolby Laboratories",
+   "text_pt": "Previsto após o fecho (calendários Earnings Whispers / Stock Analysis); hora exata por confirmar.",
+   "title_zh": "Dolby Laboratories 财报",
+   "text_zh": "预计收盘后公布（Earnings Whispers / Stock Analysis 日历）；具体时间未确认。",
+   "title_ko": "Dolby Laboratories 실적",
+   "text_ko": "장 마감 후 발표 예정(Earnings Whispers / Stock Analysis 캘린더); 정확한 시간 미확인."
+  },
+  {
+   "date": "2026-11-17",
+   "time": "After close",
+   "type": "Earnings",
+   "imp": "low",
+   "title": "Corporación América Airports earnings",
+   "text": "Scheduled after the close (Earnings Whispers / Stock Analysis calendars); exact time not confirmed.",
+   "title_es": "Resultados de Corporación América Airports",
+   "text_es": "Previsto tras el cierre (calendarios de Earnings Whispers / Stock Analysis); hora exacta sin confirmar.",
+   "title_fr": "Résultats de Corporación América Airports",
+   "text_fr": "Prévu après la clôture (calendriers Earnings Whispers / Stock Analysis) ; heure exacte non confirmée.",
+   "title_it": "Trimestrale di Corporación América Airports",
+   "text_it": "Previsto dopo la chiusura (calendari Earnings Whispers / Stock Analysis); orario esatto non confermato.",
+   "title_pt": "Resultados da Corporación América Airports",
+   "text_pt": "Previsto após o fecho (calendários Earnings Whispers / Stock Analysis); hora exata por confirmar.",
+   "title_zh": "Corporación América Airports 财报",
+   "text_zh": "预计收盘后公布（Earnings Whispers / Stock Analysis 日历）；具体时间未确认。",
+   "title_ko": "Corporación América Airports 실적",
+   "text_ko": "장 마감 후 발표 예정(Earnings Whispers / Stock Analysis 캘린더); 정확한 시간 미확인."
+  },
+  {
+   "date": "2026-11-17",
+   "time": "After close",
+   "type": "Earnings",
+   "imp": "low",
+   "title": "La-Z-Boy earnings",
+   "text": "Scheduled after the close (Earnings Whispers / Stock Analysis calendars); exact time not confirmed.",
+   "title_es": "Resultados de La-Z-Boy",
+   "text_es": "Previsto tras el cierre (calendarios de Earnings Whispers / Stock Analysis); hora exacta sin confirmar.",
+   "title_fr": "Résultats de La-Z-Boy",
+   "text_fr": "Prévu après la clôture (calendriers Earnings Whispers / Stock Analysis) ; heure exacte non confirmée.",
+   "title_it": "Trimestrale di La-Z-Boy",
+   "text_it": "Previsto dopo la chiusura (calendari Earnings Whispers / Stock Analysis); orario esatto non confermato.",
+   "title_pt": "Resultados da La-Z-Boy",
+   "text_pt": "Previsto após o fecho (calendários Earnings Whispers / Stock Analysis); hora exata por confirmar.",
+   "title_zh": "La-Z-Boy 财报",
+   "text_zh": "预计收盘后公布（Earnings Whispers / Stock Analysis 日历）；具体时间未确认。",
+   "title_ko": "La-Z-Boy 실적",
+   "text_ko": "장 마감 후 발표 예정(Earnings Whispers / Stock Analysis 캘린더); 정확한 시간 미확인."
+  },
+  {
+   "date": "2026-11-17",
+   "time": "Before open",
+   "title": "Home Depot earnings",
+   "text": "Q3 results before the open; call at 9:00 am ET (15:00 CET).",
+   "type": "Earnings",
+   "imp": "medium",
+   "title_es": "Resultados de Home Depot",
+   "text_es": "Resultados del 3T antes de la apertura; conferencia a las 9:00 am ET (15:00 hora europea).",
+   "title_fr": "Résultats de Home Depot",
+   "text_fr": "Résultats du T3 avant l’ouverture ; conférence à 9:00 am ET (15:00 CET).",
+   "title_it": "Trimestrale di Home Depot",
+   "text_it": "Risultati del 3° trimestre prima dell’apertura; call alle 9:00 am ET (15:00 CET).",
+   "title_pt": "Resultados da Home Depot",
+   "text_pt": "Resultados do 3.º trimestre antes da abertura; chamada às 9:00 am ET (15:00 CET).",
+   "title_zh": "家得宝财报",
+   "text_zh": "开盘前公布第三季度业绩；电话会美东时间 9:00 am（欧洲时间 15:00）。",
+   "title_ko": "홈디포 실적",
+   "text_ko": "개장 전 3분기 실적 발표, 컨퍼런스콜 미 동부 9:00 am(유럽 시간 15:00)."
+  },
+  {
+   "date": "2026-11-17",
+   "time": "Before open",
+   "type": "Earnings",
+   "imp": "medium",
+   "title": "Walt Disney earnings",
+   "title_es": "Resultados de Walt Disney",
+   "title_fr": "Résultats de Walt Disney",
+   "title_it": "Trimestrale di Walt Disney",
+   "title_pt": "Resultados da Walt Disney",
+   "title_zh": "华特迪士尼财报",
+   "title_ko": "월트디즈니 실적",
+   "text": "Results before the open; webcast at 8:30 am ET (14:30 CET).",
+   "text_es": "Resultados antes de la apertura; webcast a las 8:30 am ET (14:30 hora europea).",
+   "text_fr": "Résultats avant l’ouverture ; webcast à 8:30 am ET (14:30 CET).",
+   "text_it": "Risultati prima dell’apertura; webcast alle 8:30 am ET (14:30 CET).",
+   "text_pt": "Resultados antes da abertura; webcast às 8:30 am ET (14:30 CET).",
+   "text_zh": "开盘前公布业绩；网络直播美东时间 8:30 am（欧洲时间 14:30）。",
+   "text_ko": "개장 전 실적 발표, 웹캐스트 미 동부 8:30 am(유럽 시간 14:30)."
+  },
+  {
+   "date": "2026-11-18",
+   "time": "2:00 pm ET",
+   "title": "FOMC minutes (Oct 27-28 meeting)",
+   "text": "Details of the Fed’s last debate on rates.",
+   "type": "Fed",
+   "imp": "medium",
+   "title_es": "Actas de la Fed (reunión oct. 27-28)",
+   "text_es": "Detalles del último debate de la Fed sobre los tipos.",
+   "title_fr": "Compte rendu du FOMC (réunion des 27-28 oct.)",
+   "text_fr": "Détails du dernier débat de la Fed sur les taux.",
+   "title_it": "Verbali del FOMC (riunione del 27-28 ott)",
+   "text_it": "Dettagli dell’ultimo dibattito della Fed sui tassi.",
+   "title_pt": "Atas do FOMC (reunião de 27-28 out.)",
+   "text_pt": "Detalhes do último debate da Fed sobre os juros.",
+   "title_zh": "FOMC 会议纪要（10 月 27-28 日会议）",
+   "text_zh": "美联储上次利率讨论的细节。",
+   "title_ko": "FOMC 의사록 (10월 27~28일 회의)",
+   "text_ko": "연준의 지난 금리 논의 세부 내용."
+  },
+  {
+   "date": "2026-11-18",
+   "time": "8:30 ET",
+   "type": "Growth",
+   "imp": "medium",
+   "title": "US housing starts and building permits (October)",
+   "title_es": "Inicio de viviendas y permisos de construcción en EE. UU. (octubre)",
+   "title_fr": "Mises en chantier et permis de construire US (octobre)",
+   "title_it": "Avvii di cantieri e permessi edilizi USA (ottobre)",
+   "title_pt": "Construção de novas casas e licenças nos EUA (outubro)",
+   "title_zh": "美国新屋开工与营建许可（10月）",
+   "title_ko": "미국 주택착공·건축허가 (10월)",
+   "text": "Census Bureau housing data.",
+   "text_es": "Datos de vivienda de la Oficina del Censo.",
+   "text_fr": "Données logement du Census Bureau.",
+   "text_it": "Dati sulle abitazioni del Census Bureau.",
+   "text_pt": "Dados de habitação do Census Bureau.",
+   "text_zh": "美国人口普查局住房数据。",
+   "text_ko": "미 인구조사국 주택 지표."
+  },
+  {
+   "date": "2026-11-18",
+   "time": "After close",
+   "type": "Earnings",
+   "imp": "medium",
+   "title": "Palo Alto Networks earnings",
+   "title_es": "Resultados de Palo Alto Networks",
+   "title_fr": "Résultats de Palo Alto Networks",
+   "title_it": "Trimestrale di Palo Alto Networks",
+   "title_pt": "Resultados da Palo Alto Networks",
+   "title_zh": "派拓网络财报",
+   "title_ko": "팔로알토 네트웍스 실적",
+   "text": "Fiscal Q1 results at about 4:05 pm ET (22:05 CET); consensus EPS $0.97 on $3.31 billion revenue.",
+   "text_es": "Resultados del 1T fiscal hacia las 4:05 pm ET (22:05 hora europea); consenso: BPA de 0,97 $ e ingresos de 3.310 millones de $.",
+   "text_fr": "Résultats du T1 fiscal vers 4:05 pm ET (22:05 CET) ; consensus : BPA de 0,97 $ pour 3,31 milliards $ de chiffre d’affaires.",
+   "text_it": "Conti del 1° trimestre fiscale verso le 4:05 pm ET (22:05 CET); consenso: utile per azione 0,97 $ su ricavi di 3,31 miliardi $.",
+   "text_pt": "Resultados do 1.º trimestre fiscal por volta das 4:05 pm ET (22:05 CET); consenso: lucro por ação de 0,97 $ e receitas de 3,31 mil milhões $.",
+   "text_zh": "财年第一季度业绩约于美东 4:05 pm（欧洲时间 22:05）公布；市场预期每股收益0.97美元，营收33.1亿美元。",
+   "text_ko": "회계 1분기 실적 미 동부 4:05 pm(유럽 시간 22:05) 경 발표; 컨센서스 주당순이익 0.97달러, 매출 33억1천만 달러."
+  },
+  {
+   "date": "2026-11-18",
+   "time": "After close",
+   "type": "Earnings",
+   "imp": "low",
+   "title": "Everpure, Woodward and Kulicke & Soffa earnings",
+   "title_es": "Resultados de Everpure, Woodward y Kulicke & Soffa",
+   "title_fr": "Résultats d’Everpure, Woodward et Kulicke & Soffa",
+   "title_it": "Trimestrali di Everpure, Woodward e Kulicke & Soffa",
+   "title_pt": "Resultados da Everpure, Woodward e Kulicke & Soffa",
+   "title_zh": "Everpure、Woodward和Kulicke & Soffa财报",
+   "title_ko": "에버퓨어·우드워드·쿨리케앤소파 실적",
+   "text": "Also after the close (4:00 pm ET · 22:00 CET), alongside Palo Alto Networks; per Earnings Whispers and Kiplinger.",
+   "text_es": "También tras el cierre (22:00 hora europea · 4:00 pm ET), junto a Palo Alto Networks; según Earnings Whispers y Kiplinger.",
+   "text_fr": "Également après la clôture (4:00 pm ET · 22:00 CET), avec Palo Alto Networks ; selon Earnings Whispers et Kiplinger.",
+   "text_it": "Anche dopo la chiusura (4:00 pm ET · 22:00 CET), insieme a Palo Alto Networks; secondo Earnings Whispers e Kiplinger.",
+   "text_pt": "Também após o fecho (4:00 pm ET · 22:00 CET), com a Palo Alto Networks; segundo Earnings Whispers e Kiplinger.",
+   "text_zh": "同样在收盘后（美东4:00 pm · 欧洲时间22:00）发布，与Palo Alto Networks同日；来源：Earnings Whispers、Kiplinger。",
+   "text_ko": "팔로알토 네트웍스와 함께 장 마감 후(미 동부 4:00 pm · 유럽 시간 22:00) 발표; 출처: Earnings Whispers, Kiplinger."
+  },
+  {
+   "date": "2026-11-18",
+   "time": "All day",
+   "type": "Other",
+   "imp": "high",
+   "title": "APEC leaders in Shenzhen; Trump–Xi–Putin talks expected",
+   "text": "APEC leaders’ meeting hosted by China. A Trump–Xi–Putin trilateral and a Trump–Xi trade meeting are expected on the sidelines; exact timing not confirmed.",
+   "title_es": "Líderes de la APEC en Shenzhen; se esperan conversaciones Trump–Xi–Putin",
+   "text_es": "Reunión de líderes de la APEC organizada por China. Se esperan una reunión trilateral Trump–Xi–Putin y otra comercial Trump–Xi al margen; el calendario exacto no está confirmado.",
+   "title_fr": "Dirigeants de l’APEC à Shenzhen ; entretiens Trump–Xi–Poutine attendus",
+   "text_fr": "Réunion des dirigeants de l’APEC organisée par la Chine. Une rencontre trilatérale Trump–Xi–Poutine et une rencontre commerciale Trump–Xi sont attendues en marge ; le calendrier exact n’est pas confirmé.",
+   "title_it": "Leader APEC a Shenzhen; attesi colloqui Trump–Xi–Putin",
+   "text_it": "Vertice dei leader APEC ospitato dalla Cina. Sono attesi un trilaterale Trump–Xi–Putin e un incontro commerciale Trump–Xi a margine; i tempi esatti non sono confermati.",
+   "title_pt": "Líderes da APEC em Shenzhen; esperadas conversas Trump–Xi–Putin",
+   "text_pt": "Reunião de líderes da APEC organizada pela China. Esperam-se um trilateral Trump–Xi–Putin e uma reunião comercial Trump–Xi à margem; o calendário exato não está confirmado.",
+   "title_zh": "亚太经合组织领导人在深圳聚首；预计举行特朗普–习近平–普京会谈",
+   "text_zh": "由中国主办的亚太经合组织领导人会议。预计在会议间隙举行特朗普、习近平与普京三方会晤以及特朗普与习近平的贸易会谈；具体时间尚未确认。",
+   "title_ko": "APEC 정상회의 선전 개최, 트럼프–시진핑–푸틴 회담 예상",
+   "text_ko": "중국이 주최하는 APEC 정상회의. 회의 기간 중 트럼프–시진핑–푸틴 3자 회담과 트럼프–시진핑 무역 회담이 예상되며, 정확한 일정은 확인되지 않았습니다."
+  },
+  {
+   "date": "2026-11-18",
+   "time": "All day",
+   "type": "Other",
+   "imp": "medium",
+   "title": "Anthropic IPO pricing expected",
+   "title_es": "Se espera el precio de la OPV de Anthropic",
+   "title_fr": "Fixation du prix de l’IPO d’Anthropic attendue",
+   "title_it": "Atteso il prezzo dell’IPO di Anthropic",
+   "title_pt": "Fixação do preço do IPO da Anthropic esperada",
+   "title_zh": "预计 Anthropic IPO 定价",
+   "title_ko": "앤트로픽 IPO 공모가 확정 예정",
+   "text": "Bankers expected to set the price on Wednesday; orders about seven times the shares on offer, per Investing.com. Trading starts Thursday.",
+   "text_es": "Se espera que los bancos fijen el precio el miércoles; demanda de unas siete veces las acciones ofrecidas, según Investing.com. Cotiza desde el jueves.",
+   "text_fr": "Les banques devraient fixer le prix mercredi ; demande d’environ sept fois l’offre, selon Investing.com. Cotation jeudi.",
+   "text_it": "Le banche dovrebbero fissare il prezzo mercoledì; ordini pari a circa sette volte l’offerta, secondo Investing.com. Negoziazione da giovedì.",
+   "text_pt": "Os bancos devem fixar o preço na quarta-feira; procura de cerca de sete vezes a oferta, segundo a Investing.com. Negociação a partir de quinta.",
+   "text_zh": "据Investing.com，承销商预计周三定价；认购约为发行量的七倍。周四开始交易。",
+   "text_ko": "Investing.com에 따르면 주관사는 수요일 공모가를 정할 예정이며 주문은 공모 물량의 약 7배입니다. 목요일 거래 시작."
+  },
+  {
+   "date": "2026-11-18",
+   "time": "Before open",
+   "type": "Earnings",
+   "imp": "high",
+   "title": "Target, Lowe’s and TJX earnings",
+   "title_es": "Resultados de Target, Lowe’s y TJX",
+   "title_fr": "Résultats de Target, Lowe’s et TJX",
+   "title_it": "Trimestrali di Target, Lowe’s e TJX",
+   "title_pt": "Resultados da Target, Lowe’s e TJX",
+   "title_zh": "塔吉特、劳氏和TJX财报",
+   "title_ko": "타깃·로우스·TJX 실적",
+   "text": "Retail results before the open (9:30 am ET · 15:30 CET); a read on the US consumer after Home Depot’s beat.",
+   "text_es": "Resultados del comercio minorista antes de la apertura (9:30 am ET · 15:30 hora europea); termómetro del consumidor tras el buen dato de Home Depot.",
+   "text_fr": "Résultats de la distribution avant l’ouverture (9:30 am ET · 15:30 CET) ; baromètre du consommateur après Home Depot.",
+   "text_it": "Conti della distribuzione prima dell’apertura (9:30 am ET · 15:30 CET); termometro del consumatore dopo Home Depot.",
+   "text_pt": "Resultados do retalho antes da abertura (9:30 am ET · 15:30 CET); termómetro do consumidor após a Home Depot.",
+   "text_zh": "开盘（美东9:30 am · 欧洲时间15:30）前公布零售业绩；继家得宝之后观察美国消费者。",
+   "text_ko": "개장(미 동부 9:30 am · 유럽 시간 15:30) 전 소매 실적; 홈디포에 이어 미국 소비 가늠자."
+  },
+  {
+   "date": "2026-11-19",
+   "time": "7:00 ET",
+   "title": "Walmart earnings",
+   "text": "Q3 result: revenue $188.8 billion and adjusted EPS $0.65, both above forecasts; outlook raised (Yahoo Finance).",
+   "type": "Earnings",
+   "imp": "medium",
+   "title_es": "Resultados de Walmart",
+   "text_es": "Resultado del 3T: ingresos de 188.800 millones $ y BPA ajustado de 0,65 $, ambos por encima de lo previsto; guía elevada (Yahoo Finance).",
+   "title_fr": "Résultats de Walmart",
+   "text_fr": "Résultat du T3 : chiffre d’affaires de 188,8 milliards $ et BPA ajusté de 0,65 $, au-dessus des attentes ; perspectives relevées (Yahoo Finance).",
+   "title_it": "Trimestrale di Walmart",
+   "text_it": "Risultato del 3° trimestre: ricavi 188,8 miliardi $ e utile per azione rettificato 0,65 $, sopra le attese; previsioni alzate (Yahoo Finance).",
+   "title_pt": "Resultados da Walmart",
+   "text_pt": "Resultado do 3.º trimestre: receitas de 188,8 mil milhões $ e lucro por ação ajustado de 0,65 $, acima do previsto; previsões revistas em alta (Yahoo Finance).",
+   "title_zh": "沃尔玛财报",
+   "text_zh": "第三季度业绩：营收1,888亿美元，调整后每股收益0.65美元，均超预期；上调展望（Yahoo Finance）。",
+   "title_ko": "월마트 실적",
+   "text_ko": "3분기 결과: 매출 1,888억 달러, 조정 주당순이익 0.65달러로 예상 상회; 전망 상향(Yahoo Finance)."
+  },
+  {
+   "date": "2026-11-19",
+   "time": "8:30 ET",
+   "type": "Jobs",
+   "imp": "high",
+   "title": "US jobless claims and Philadelphia Fed survey",
+   "title_es": "Peticiones de subsidio por desempleo en EE. UU. y encuesta de la Fed de Filadelfia",
+   "title_fr": "Inscriptions au chômage US et enquête de la Fed de Philadelphie",
+   "title_it": "Richieste di sussidio USA e indagine della Fed di Filadelfia",
+   "title_pt": "Pedidos de subsídio de desemprego nos EUA e inquérito da Fed de Filadélfia",
+   "title_zh": "美国初请失业金人数与费城联储制造业调查",
+   "title_ko": "미국 신규 실업수당 청구·필라델피아 연준 제조업지수",
+   "text": "Initial claims came in at 203,000 (forecast 197,000, prior 202,000, per Trading Economics). Philly Fed manufacturing index released at the same time (forecast 23.2).",
+   "text_es": "Peticiones iniciales: 203.000 (previsión 197.000, anterior 202.000, según Trading Economics). El índice manufacturero de la Fed de Filadelfia se publica a la misma hora (previsión 23,2).",
+   "text_fr": "Inscriptions initiales : 203 000 (prévision 197 000, précédent 202 000, selon Trading Economics). Indice manufacturier de la Fed de Philadelphie publié à la même heure (prévision 23,2).",
+   "text_it": "Richieste iniziali: 203.000 (previsione 197.000, precedente 202.000, secondo Trading Economics). Indice manifatturiero della Fed di Filadelfia alla stessa ora (previsione 23,2).",
+   "text_pt": "Pedidos iniciais: 203.000 (previsão 197.000, anterior 202.000, segundo a Trading Economics). Índice industrial da Fed de Filadélfia à mesma hora (previsão 23,2).",
+   "text_zh": "初请失业金人数为20.3万（预期19.7万，前值20.2万，据Trading Economics）。费城联储制造业指数同时公布（预期23.2）。",
+   "text_ko": "신규 청구 20만3천 건(예상 19만7천 건, 이전 20만2천 건, Trading Economics). 필라델피아 연준 제조업지수 같은 시각 발표(예상 23.2)."
+  },
+  {
+   "date": "2026-11-19",
+   "time": "After close",
+   "type": "Earnings",
+   "imp": "medium",
+   "title": "Intuit, Ross Stores, Gap and Keysight earnings",
+   "title_es": "Resultados de Intuit, Ross Stores, Gap y Keysight",
+   "title_fr": "Résultats d’Intuit, Ross Stores, Gap et Keysight",
+   "title_it": "Trimestrali di Intuit, Ross Stores, Gap e Keysight",
+   "title_pt": "Resultados da Intuit, Ross Stores, Gap e Keysight",
+   "title_zh": "Intuit、Ross Stores、Gap 和 Keysight 财报",
+   "title_ko": "인튜이트·로스스토어스·갭·키사이트 실적",
+   "text": "Results after the close (from 4:00 pm ET · 22:00 CET). Gorilla Technology also reports.",
+   "text_es": "Resultados tras el cierre (desde las 4:00 pm ET · 22:00 hora europea). También publica Gorilla Technology.",
+   "text_fr": "Résultats après la clôture (à partir de 4:00 pm ET · 22:00 CET). Gorilla Technology publie aussi.",
+   "text_it": "Conti dopo la chiusura (dalle 4:00 pm ET · 22:00 CET). Pubblica anche Gorilla Technology.",
+   "text_pt": "Resultados após o fecho (a partir das 4:00 pm ET · 22:00 CET). A Gorilla Technology também divulga.",
+   "text_zh": "盘后公布（美东 4:00 pm 起 · 欧洲时间 22:00）。Gorilla Technology 也将发布财报。",
+   "text_ko": "장 마감 후 발표(미 동부 4:00 pm부터 · 유럽 시간 22:00). 고릴라 테크놀로지도 발표합니다."
+  },
+  {
+   "date": "2026-11-19",
+   "time": "All day",
+   "type": "Other",
+   "imp": "high",
+   "title": "Anthropic IPO: first day of trading",
+   "title_es": "Salida a bolsa de Anthropic: primer día de cotización",
+   "title_fr": "IPO d’Anthropic : premier jour de cotation",
+   "title_it": "IPO di Anthropic: primo giorno di negoziazione",
+   "title_pt": "IPO da Anthropic: primeiro dia de negociação",
+   "title_zh": "Anthropic IPO：首个交易日",
+   "title_ko": "앤트로픽 IPO: 거래 첫날",
+   "text": "Priced at $83 a share (above the $70–78 range), raising more than $81 billion. Trading on Nasdaq (ANT) starts after the 9:30 ET open, no fixed time.",
+   "text_es": "Precio fijado en 83 $ por acción (por encima del rango de 70–78 $), con más de 81.000 millones $ captados. Cotiza en el Nasdaq (ANT) tras la apertura de las 15:30 hora europea, sin hora fija.",
+   "text_fr": "Prix fixé à 83 $ par action (au-dessus de la fourchette de 70–78 $), plus de 81 milliards $ levés. Cotation au Nasdaq (ANT) après l’ouverture de 9:30 ET, sans heure fixe.",
+   "text_it": "Prezzo fissato a 83 $ per azione (sopra la forchetta di 70–78 $), oltre 81 miliardi $ raccolti. Quotazione al Nasdaq (ANT) dopo l’apertura delle 9:30 ET, senza orario fisso.",
+   "text_pt": "Preço fixado em 83 $ por ação (acima do intervalo de 70–78 $), mais de 81 mil milhões $ captados. Negociação no Nasdaq (ANT) após a abertura das 9:30 ET, sem hora fixa.",
+   "text_zh": "定价每股83美元（高于70–78美元区间），募资逾810亿美元。将于美东9:30开盘后在纳斯达克（ANT）开始交易，时间未定。",
+   "text_ko": "공모가 주당 83달러(희망 범위 70~78달러 상회), 810억 달러 이상 조달. 9:30 ET 개장 후 나스닥(ANT)에서 거래 시작, 시각 미정."
+  },
+  {
+   "date": "2026-11-20",
+   "time": "10:00 ET",
+   "type": "Other",
+   "imp": "medium",
+   "title": "UMich consumer sentiment (final, Nov)",
+   "title_es": "Confianza del consumidor de Michigan (final, nov.)",
+   "title_fr": "Moral des ménages Michigan (finale, nov.)",
+   "title_it": "Fiducia consumatori Michigan (finale, nov.)",
+   "title_pt": "Confiança do consumidor Michigan (final, nov.)",
+   "title_zh": "密歇根大学消费者信心指数（11月终值）",
+   "title_ko": "미시간대 소비자심리지수(11월 확정)",
+   "text": "Final November reading with inflation expectations (10:00 am ET · 16:00 CET).",
+   "text_es": "Lectura final de noviembre con expectativas de inflación (10:00 am ET · 16:00 hora europea).",
+   "text_fr": "Lecture finale de novembre avec anticipations d’inflation (10:00 am ET · 16:00 CET).",
+   "text_it": "Lettura finale di novembre con aspettative d’inflazione (10:00 am ET · 16:00 CET).",
+   "text_pt": "Leitura final de novembro com expectativas de inflação (10:00 am ET · 16:00 CET).",
+   "text_zh": "11月终值及通胀预期（美东 10:00 am · 欧洲时间 16:00）。",
+   "text_ko": "11월 확정치와 기대인플레이션(미 동부 10:00 am · 유럽 시간 16:00)."
+  },
+  {
+   "date": "2026-11-20",
+   "time": "12:15 pm ET",
+   "type": "Fed",
+   "imp": "medium",
+   "title": "Fed Governor Cook speaks",
+   "title_es": "Habla la gobernadora de la Fed Cook",
+   "title_fr": "Discours de la gouverneure de la Fed Cook",
+   "title_it": "Parla la governatrice Fed Cook",
+   "title_pt": "Discurso da governadora da Fed Cook",
+   "title_zh": "美联储理事库克讲话",
+   "title_ko": "쿡 연준 이사 연설",
+   "text": "Speech at the Central Bank of Chile conference in Santiago (12:15 pm ET · 18:15 CET).",
+   "text_es": "Discurso en la conferencia del Banco Central de Chile en Santiago (12:15 pm ET · 18:15 hora europea).",
+   "text_fr": "Discours à la conférence de la Banque centrale du Chili à Santiago (12:15 pm ET · 18:15 CET).",
+   "text_it": "Intervento alla conferenza della Banca centrale del Cile a Santiago (12:15 pm ET · 18:15 CET).",
+   "text_pt": "Discurso na conferência do Banco Central do Chile em Santiago (12:15 pm ET · 18:15 CET).",
+   "text_zh": "在智利央行圣地亚哥年会上讲话（美东 12:15 pm · 欧洲时间 18:15）。",
+   "text_ko": "산티아고 칠레 중앙은행 콘퍼런스 연설(미 동부 12:15 pm · 유럽 시간 18:15)."
+  },
+  {
+   "date": "2026-11-20",
+   "time": "8:25 ET",
+   "type": "Fed",
+   "imp": "medium",
+   "title": "Fed Governor Waller speaks",
+   "title_es": "Habla el gobernador de la Fed Waller",
+   "title_fr": "Discours du gouverneur de la Fed Waller",
+   "title_it": "Parla il governatore Fed Waller",
+   "title_pt": "Discurso do governador da Fed Waller",
+   "title_zh": "美联储理事沃勒讲话",
+   "title_ko": "월러 연준 이사 연설",
+   "text": "Waller has said a 50 bp hike may be needed in December (8:25 am ET · 14:25 CET).",
+   "text_es": "Waller ha dicho que podría hacer falta una subida de 50 pb en diciembre (8:25 am ET · 14:25 hora europea).",
+   "text_fr": "Waller a évoqué une hausse de 50 pb en décembre (8:25 am ET · 14:25 CET).",
+   "text_it": "Waller ha detto che a dicembre potrebbe servire un rialzo di 50 pb (8:25 am ET · 14:25 CET).",
+   "text_pt": "Waller disse que pode ser precisa uma subida de 50 pb em dezembro (8:25 am ET · 14:25 CET).",
+   "text_zh": "沃勒曾表示 12 月可能需加息 50 个基点（美东 8:25 am · 欧洲时间 14:25）。",
+   "text_ko": "월러는 12월 50bp 인상이 필요할 수 있다고 언급(미 동부 8:25 am · 유럽 시간 14:25)."
+  },
+  {
+   "date": "2026-11-23",
+   "time": "9:45 ET",
+   "title": "S&P Global flash PMIs (November)",
+   "title_es": "PMI preliminares de S&P Global (noviembre)",
+   "text": "First read on November activity in manufacturing and services.",
+   "text_es": "Primera lectura de la actividad de noviembre en manufacturas y servicios.",
+   "type": "Growth",
+   "imp": "medium"
+  },
+  {
+   "date": "2026-11-23",
+   "time": "After close",
+   "type": "Earnings",
+   "imp": "medium",
+   "title": "Earnings: HPE, Agilent, Jacobs, Symbotic, Tuya",
+   "title_es": "Resultados: HPE, Agilent, Jacobs, Symbotic, Tuya",
+   "title_fr": "Résultats : HPE, Agilent, Jacobs, Symbotic, Tuya",
+   "title_it": "Risultati: HPE, Agilent, Jacobs, Symbotic, Tuya",
+   "title_pt": "Resultados: HPE, Agilent, Jacobs, Symbotic, Tuya",
+   "title_zh": "财报：HPE、安捷伦、Jacobs、Symbotic、涂鸦智能",
+   "title_ko": "실적 발표: HPE, 애질런트, 제이콥스, 심보틱, 투야",
+   "text": "Provisional dates per Earnings Whispers. No major US earnings were scheduled after the close on Friday, Nov 20.",
+   "text_es": "Fechas provisionales según Earnings Whispers. No había resultados importantes en EE. UU. tras el cierre del viernes 20 de noviembre.",
+   "text_fr": "Dates provisoires selon Earnings Whispers. Aucun résultat américain majeur n’était prévu après la clôture du vendredi 20 novembre.",
+   "text_it": "Date provvisorie secondo Earnings Whispers. Nessun risultato USA importante era previsto dopo la chiusura di venerdì 20 novembre.",
+   "text_pt": "Datas provisórias segundo a Earnings Whispers. Não havia resultados importantes nos EUA após o fecho de sexta-feira, 20 de novembro.",
+   "text_zh": "日期据 Earnings Whispers，为暂定。11 月 20 日周五收盘后无重要美股财报。",
+   "text_ko": "Earnings Whispers 기준 잠정 일정입니다. 11월 20일(금) 장 마감 후에는 주요 미국 실적 발표가 없었습니다."
+  },
+  {
+   "date": "2026-11-24",
+   "time": "TBC",
+   "title": "Earnings: Dell, Analog Devices, Medtronic",
+   "title_es": "Resultados: Dell, Analog Devices, Medtronic",
+   "text": "Dell is the key AI-hardware name of the week; report times vary by source.",
+   "text_es": "Dell es el nombre clave de hardware de IA de la semana; las horas varían según la fuente.",
+   "type": "Earnings",
+   "imp": "medium"
+  },
+  {
+   "date": "2026-11-25",
+   "time": "8:30 ET",
+   "title": "Q3 GDP (second estimate) and October PCE",
+   "text": "One preview expects headline PCE +0.3% m/m and 3.8% y/y, and core +0.3% m/m and 3.2% y/y; forecasts vary by source. Weekly jobless claims (moved up a day) and the Fed's Beige Book also come out.",
+   "type": "Growth",
+   "imp": "high",
+   "title_es": "PIB del 3T (2.ª estimación) e inflación PCE de octubre",
+   "text_es": "Un adelanto espera PCE general +0,3 % mensual y 3,8 % anual, y subyacente +0,3 % mensual y 3,2 % anual; las previsiones varían según la fuente. También salen las peticiones semanales de subsidio de desempleo (adelantadas un día) y el Libro Beige de la Fed."
+  },
+  {
+   "date": "2026-11-26",
+   "time": "All day",
+   "title": "Thanksgiving: US markets closed",
+   "text": "NYSE and Nasdaq closed.",
+   "type": "Holiday",
+   "imp": "high",
+   "title_es": "Acción de Gracias: bolsas de EE. UU. cerradas",
+   "text_es": "NYSE y Nasdaq cerrados.",
+   "title_fr": "Thanksgiving : marchés US fermés",
+   "text_fr": "NYSE et Nasdaq fermés.",
+   "title_it": "Thanksgiving: mercati USA chiusi",
+   "text_it": "NYSE e Nasdaq chiusi.",
+   "title_pt": "Thanksgiving: mercados dos EUA fechados",
+   "text_pt": "NYSE e Nasdaq fechados.",
+   "title_zh": "感恩节：美国市场休市",
+   "text_zh": "纽交所和纳斯达克休市。",
+   "title_ko": "추수감사절: 미국 증시 휴장",
+   "text_ko": "NYSE와 나스닥 휴장."
+  },
+  {
+   "date": "2026-11-27",
+   "time": "1:00 pm ET",
+   "title": "Black Friday: early close",
+   "text": "US stocks close early at 1:00 pm ET.",
+   "type": "Holiday",
+   "imp": "medium",
+   "title_es": "Black Friday: cierre anticipado",
+   "text_es": "La bolsa de EE. UU. cierra antes, a las 13:00 ET.",
+   "title_fr": "Black Friday : clôture anticipée",
+   "text_fr": "Les actions US clôturent tôt, à 13 h ET.",
+   "title_it": "Black Friday: chiusura anticipata",
+   "text_it": "Le borse USA chiudono in anticipo alle 13:00 ET.",
+   "title_pt": "Black Friday: fecho antecipado",
+   "text_pt": "As ações dos EUA fecham mais cedo, às 13:00 ET.",
+   "title_zh": "黑色星期五：提前收盘",
+   "text_zh": "美股于美东时间下午 1:00 提前收盘。",
+   "title_ko": "블랙프라이데이: 조기 폐장",
+   "text_ko": "미국 증시는 동부 시간 오후 1시에 조기 마감합니다."
+  },
+  {
+   "date": "2026-12-01",
+   "time": "10:00 ET",
+   "title": "JOLTS job openings (October)",
+   "text": "Monthly labor-market report.",
+   "type": "Jobs",
+   "imp": "medium",
+   "title_es": "Ofertas de empleo JOLTS (octubre)",
+   "text_es": "Informe mensual del mercado laboral.",
+   "title_fr": "Offres d’emploi JOLTS (octobre)",
+   "text_fr": "Rapport mensuel sur le marché du travail.",
+   "title_it": "Offerte di lavoro JOLTS (ottobre)",
+   "text_it": "Rapporto mensile sul mercato del lavoro.",
+   "title_pt": "Ofertas de emprego JOLTS (outubro)",
+   "text_pt": "Relatório mensal do mercado de trabalho.",
+   "title_zh": "JOLTS 职位空缺（10 月）",
+   "text_zh": "月度劳动力市场报告。",
+   "title_ko": "JOLTS 구인 건수 (10월)",
+   "text_ko": "월간 노동시장 보고서."
+  },
+  {
+   "date": "2026-12-04",
+   "time": "8:30 ET",
+   "title": "US jobs report (November)",
+   "text": "Released four days before the Fed meeting.",
+   "type": "Jobs",
+   "imp": "high",
+   "title_es": "Informe de empleo de EE. UU. (noviembre)",
+   "text_es": "Se publica cuatro días antes de la reunión de la Fed.",
+   "title_fr": "Rapport sur l’emploi US (novembre)",
+   "text_fr": "Publié quatre jours avant la réunion de la Fed.",
+   "title_it": "Rapporto sul lavoro USA (novembre)",
+   "text_it": "Pubblicato quattro giorni prima della riunione della Fed.",
+   "title_pt": "Relatório de emprego dos EUA (novembro)",
+   "text_pt": "Publicado quatro dias antes da reunião da Fed.",
+   "title_zh": "美国就业报告（11 月）",
+   "text_zh": "在美联储会议前四天发布。",
+   "title_ko": "미국 고용 보고서 (11월)",
+   "text_ko": "연준 회의 나흘 전 발표."
+  },
+  {
+   "date": "2026-12-09",
+   "time": "2:00 pm ET",
+   "title": "Fed rate decision",
+   "text": "Ends the Dec 8-9 meeting, with new projections; press conference at 2:30 pm ET.",
+   "type": "Fed",
+   "imp": "high",
+   "title_es": "Decisión de tipos de la Fed",
+   "text_es": "Cierra la reunión del 8-9 de diciembre, con nuevas proyecciones; rueda de prensa a las 14:30 ET.",
+   "title_fr": "Décision de taux de la Fed",
+   "text_fr": "Clôt la réunion des 8-9 déc., avec de nouvelles projections ; conférence de presse à 14 h 30 ET.",
+   "title_it": "Decisione della Fed sui tassi",
+   "text_it": "Chiude la riunione dell’8-9 dic, con nuove proiezioni; conferenza stampa alle 14:30 ET.",
+   "title_pt": "Decisão de juros da Fed",
+   "text_pt": "Encerra a reunião de 8-9 dez., com novas projeções; conferência de imprensa às 14:30 ET.",
+   "title_zh": "美联储利率决议",
+   "text_zh": "12 月 8-9 日会议结束，公布新的经济预测；美东时间下午 2:30 召开新闻发布会。",
+   "title_ko": "연준 금리 결정",
+   "text_ko": "12월 8~9일 회의 종료, 새 경제 전망 발표. 기자회견은 동부 시간 오후 2시 30분."
+  },
+  {
+   "date": "2026-12-10",
+   "time": "8:30 ET",
+   "title": "US CPI inflation (November)",
+   "text": "Released a day after the Fed decision.",
+   "type": "Inflation",
+   "imp": "high",
+   "title_es": "Inflación IPC de EE. UU. (noviembre)",
+   "text_es": "Se publica un día después de la decisión de la Fed.",
+   "title_fr": "Inflation CPI US (novembre)",
+   "text_fr": "Publié le lendemain de la décision de la Fed.",
+   "title_it": "Inflazione CPI USA (novembre)",
+   "text_it": "Pubblicato il giorno dopo la decisione della Fed.",
+   "title_pt": "Inflação CPI dos EUA (novembro)",
+   "text_pt": "Publicado um dia depois da decisão da Fed.",
+   "title_zh": "美国 CPI 通胀（11 月）",
+   "text_zh": "在美联储决议次日发布。",
+   "title_ko": "미국 CPI 물가 (11월)",
+   "text_ko": "연준 결정 다음 날 발표."
+  },
+  {
+   "date": "2026-12-15",
+   "time": "8:30 ET",
+   "title": "US PPI producer prices (November)",
+   "text": "",
+   "type": "Inflation",
+   "imp": "medium",
+   "title_es": "Precios de producción PPI de EE. UU. (noviembre)",
+   "title_fr": "Prix à la production PPI US (novembre)",
+   "title_it": "Prezzi alla produzione PPI USA (novembre)",
+   "title_pt": "Preços no produtor PPI dos EUA (novembro)",
+   "title_zh": "美国 PPI 生产者价格（11 月）",
+   "title_ko": "미국 PPI 생산자물가 (11월)"
+  },
+  {
+   "date": "2026-12-16",
+   "time": "8:30 ET",
+   "title": "US retail sales (November)",
+   "text": "Advance estimate. Date per third-party calendars.",
+   "type": "Growth",
+   "imp": "medium",
+   "title_es": "Ventas minoristas de EE. UU. (noviembre)",
+   "text_es": "Dato adelantado. Fecha según calendarios de terceros.",
+   "title_fr": "Ventes au détail US (novembre)",
+   "text_fr": "Estimation préliminaire. Date selon des calendriers tiers.",
+   "title_it": "Vendite al dettaglio USA (novembre)",
+   "text_it": "Stima preliminare. Data secondo calendari di terzi.",
+   "title_pt": "Vendas a retalho dos EUA (novembro)",
+   "text_pt": "Estimativa preliminar. Data segundo calendários de terceiros.",
+   "title_zh": "美国零售销售（11 月）",
+   "text_zh": "初值。日期来自第三方日历。",
+   "title_ko": "미국 소매판매 (11월)",
+   "text_ko": "속보치. 날짜는 제3자 캘린더 기준."
+  },
+  {
+   "date": "2026-12-23",
+   "time": "8:30 ET",
+   "title": "Q3 GDP (third estimate) and November PCE",
+   "text": "Last growth and inflation data of the year.",
+   "type": "Growth",
+   "imp": "high",
+   "title_es": "PIB del 3T (3.ª estimación) e inflación PCE de noviembre",
+   "text_es": "Últimos datos de crecimiento e inflación del año.",
+   "title_fr": "PIB T3 (troisième estimation) et PCE de novembre",
+   "text_fr": "Dernières données de croissance et d’inflation de l’année.",
+   "title_it": "PIL T3 (terza stima) e PCE di novembre",
+   "text_it": "Ultimi dati dell’anno su crescita e inflazione.",
+   "title_pt": "PIB do 3.º trimestre (terceira estimativa) e PCE de novembro",
+   "text_pt": "Últimos dados de crescimento e inflação do ano.",
+   "title_zh": "第三季度 GDP（第三次估算）和 11 月 PCE",
+   "text_zh": "年内最后一批增长和通胀数据。",
+   "title_ko": "3분기 GDP (3차 추정치) 및 11월 PCE",
+   "text_ko": "올해 마지막 성장·물가 지표."
+  },
+  {
+   "date": "2026-12-24",
+   "time": "1:00 pm ET",
+   "title": "Christmas Eve: early close (expected)",
+   "text": "US stocks usually close early at 1:00 pm ET.",
+   "type": "Holiday",
+   "imp": "medium",
+   "title_es": "Nochebuena: cierre anticipado (previsto)",
+   "text_es": "La bolsa de EE. UU. suele cerrar antes, a las 13:00 ET.",
+   "title_fr": "Veille de Noël : clôture anticipée (prévue)",
+   "text_fr": "Les actions US clôturent généralement tôt, à 13 h ET.",
+   "title_it": "Vigilia di Natale: chiusura anticipata (prevista)",
+   "text_it": "Le borse USA di solito chiudono in anticipo alle 13:00 ET.",
+   "title_pt": "Véspera de Natal: fecho antecipado (previsto)",
+   "text_pt": "As ações dos EUA costumam fechar mais cedo, às 13:00 ET.",
+   "title_zh": "平安夜：提前收盘（预计）",
+   "text_zh": "美股通常于美东时间下午 1:00 提前收盘。",
+   "title_ko": "크리스마스이브: 조기 폐장 (예상)",
+   "text_ko": "미국 증시는 보통 동부 시간 오후 1시에 조기 마감합니다."
+  },
+  {
+   "date": "2026-12-25",
+   "time": "All day",
+   "title": "Christmas: US markets closed",
+   "text": "",
+   "type": "Holiday",
+   "imp": "high",
+   "title_es": "Navidad: bolsas de EE. UU. cerradas",
+   "title_fr": "Noël : marchés US fermés",
+   "title_it": "Natale: mercati USA chiusi",
+   "title_pt": "Natal: mercados dos EUA fechados",
+   "title_zh": "圣诞节：美国市场休市",
+   "title_ko": "크리스마스: 미국 증시 휴장"
+  },
+  {
+   "date": "2026-12-30",
+   "time": "2:00 pm ET",
+   "title": "FOMC minutes (Dec 8-9 meeting)",
+   "text": "Expected date; not yet confirmed by the Fed.",
+   "type": "Fed",
+   "imp": "medium",
+   "title_es": "Actas de la Fed (reunión dic. 8-9)",
+   "text_es": "Fecha prevista; aún sin confirmar por la Fed.",
+   "title_fr": "Compte rendu du FOMC (réunion des 8-9 déc.)",
+   "text_fr": "Date prévue ; pas encore confirmée par la Fed.",
+   "title_it": "Verbali del FOMC (riunione dell’8-9 dic)",
+   "text_it": "Data prevista; non ancora confermata dalla Fed.",
+   "title_pt": "Atas do FOMC (reunião de 8-9 dez.)",
+   "text_pt": "Data prevista; ainda não confirmada pela Fed.",
+   "title_zh": "FOMC 会议纪要（12 月 8-9 日会议）",
+   "text_zh": "预计日期；美联储尚未确认。",
+   "title_ko": "FOMC 의사록 (12월 8~9일 회의)",
+   "text_ko": "예상 날짜이며 연준이 아직 확정하지 않았습니다."
+  },
+  {
+   "date": "2027-01-01",
+   "time": "All day",
+   "title": "New Year’s Day: US markets closed",
+   "text": "",
+   "type": "Holiday",
+   "imp": "high",
+   "title_es": "Año Nuevo: bolsas de EE. UU. cerradas",
+   "title_fr": "Jour de l’An : marchés US fermés",
+   "title_it": "Capodanno: mercati USA chiusi",
+   "title_pt": "Ano Novo: mercados dos EUA fechados",
+   "title_zh": "元旦：美国市场休市",
+   "title_ko": "새해 첫날: 미국 증시 휴장"
+  },
+  {
+   "date": "2027-01-08",
+   "time": "8:30 ET",
+   "title": "US jobs report (December)",
+   "text": "First jobs report of 2027.",
+   "type": "Jobs",
+   "imp": "high",
+   "title_es": "Informe de empleo de EE. UU. (diciembre)",
+   "text_es": "Primer informe de empleo de 2027.",
+   "title_fr": "Rapport sur l’emploi US (décembre)",
+   "text_fr": "Premier rapport sur l’emploi de 2027.",
+   "title_it": "Rapporto sul lavoro USA (dicembre)",
+   "text_it": "Primo rapporto sul lavoro del 2027.",
+   "title_pt": "Relatório de emprego dos EUA (dezembro)",
+   "text_pt": "Primeiro relatório de emprego de 2027.",
+   "title_zh": "美国就业报告（12 月）",
+   "text_zh": "2027 年首份就业报告。",
+   "title_ko": "미국 고용 보고서 (12월)",
+   "text_ko": "2027년 첫 고용 보고서."
+  },
+  {
+   "date": "2027-01-13",
+   "time": "8:30 ET",
+   "title": "US CPI inflation (December)",
+   "text": "",
+   "type": "Inflation",
+   "imp": "high",
+   "title_es": "Inflación IPC de EE. UU. (diciembre)",
+   "title_fr": "Inflation CPI US (décembre)",
+   "title_it": "Inflazione CPI USA (dicembre)",
+   "title_pt": "Inflação CPI dos EUA (dezembro)",
+   "title_zh": "美国 CPI 通胀（12 月）",
+   "title_ko": "미국 CPI 물가 (12월)"
+  },
+  {
+   "date": "2027-01-14",
+   "time": "8:30 ET",
+   "title": "US PPI producer prices (December)",
+   "text": "",
+   "type": "Inflation",
+   "imp": "medium",
+   "title_es": "Precios de producción PPI de EE. UU. (diciembre)",
+   "title_fr": "Prix à la production PPI US (décembre)",
+   "title_it": "Prezzi alla produzione PPI USA (dicembre)",
+   "title_pt": "Preços no produtor PPI dos EUA (dezembro)",
+   "title_zh": "美国 PPI 生产者价格（12 月）",
+   "title_ko": "미국 PPI 생산자물가 (12월)"
+  },
+  {
+   "date": "2027-01-18",
+   "time": "All day",
+   "title": "Martin Luther King Jr. Day: US markets closed",
+   "text": "",
+   "type": "Holiday",
+   "imp": "high",
+   "title_es": "Día de Martin Luther King: bolsas de EE. UU. cerradas",
+   "title_fr": "Martin Luther King Jr. Day : marchés US fermés",
+   "title_it": "Martin Luther King Jr. Day: mercati USA chiusi",
+   "title_pt": "Dia de Martin Luther King Jr.: mercados dos EUA fechados",
+   "title_zh": "马丁·路德·金纪念日：美国市场休市",
+   "title_ko": "마틴 루서 킹 데이: 미국 증시 휴장"
+  },
+  {
+   "date": "2027-01-27",
+   "time": "2:00 pm ET",
+   "title": "Fed rate decision",
+   "text": "Jan 26-27 meeting. Provisional until confirmed by the Fed.",
+   "type": "Fed",
+   "imp": "high",
+   "title_es": "Decisión de tipos de la Fed",
+   "text_es": "Reunión del 26-27 de enero. Provisional hasta que lo confirme la Fed.",
+   "title_fr": "Décision de taux de la Fed",
+   "text_fr": "Réunion des 26-27 janv. Provisoire jusqu’à confirmation par la Fed.",
+   "title_it": "Decisione della Fed sui tassi",
+   "text_it": "Riunione del 26-27 gen. Provvisoria fino alla conferma della Fed.",
+   "title_pt": "Decisão de juros da Fed",
+   "text_pt": "Reunião de 26-27 jan. Provisória até confirmação da Fed.",
+   "title_zh": "美联储利率决议",
+   "text_zh": "1 月 26-27 日会议。美联储确认前为暂定。",
+   "title_ko": "연준 금리 결정",
+   "text_ko": "1월 26~27일 회의. 연준 확정 전까지 잠정."
+  },
+  {
+   "date": "2027-02-05",
+   "time": "8:30 ET",
+   "title": "US jobs report (January)",
+   "text": "",
+   "type": "Jobs",
+   "imp": "high",
+   "title_es": "Informe de empleo de EE. UU. (enero)",
+   "title_fr": "Rapport sur l’emploi US (janvier)",
+   "title_it": "Rapporto sul lavoro USA (gennaio)",
+   "title_pt": "Relatório de emprego dos EUA (janeiro)",
+   "title_zh": "美国就业报告（1 月）",
+   "title_ko": "미국 고용 보고서 (1월)"
+  },
+  {
+   "date": "2027-02-11",
+   "time": "8:30 ET",
+   "title": "US CPI inflation (January)",
+   "text": "",
+   "type": "Inflation",
+   "imp": "high",
+   "title_es": "Inflación IPC de EE. UU. (enero)",
+   "title_fr": "Inflation CPI US (janvier)",
+   "title_it": "Inflazione CPI USA (gennaio)",
+   "title_pt": "Inflação CPI dos EUA (janeiro)",
+   "title_zh": "美国 CPI 通胀（1 月）",
+   "title_ko": "미국 CPI 물가 (1월)"
+  },
+  {
+   "date": "2027-02-12",
+   "time": "8:30 ET",
+   "title": "US PPI producer prices (January)",
+   "text": "",
+   "type": "Inflation",
+   "imp": "medium",
+   "title_es": "Precios de producción PPI de EE. UU. (enero)",
+   "title_fr": "Prix à la production PPI US (janvier)",
+   "title_it": "Prezzi alla produzione PPI USA (gennaio)",
+   "title_pt": "Preços no produtor PPI dos EUA (janeiro)",
+   "title_zh": "美国 PPI 生产者价格（1 月）",
+   "title_ko": "미국 PPI 생산자물가 (1월)"
+  },
+  {
+   "date": "2027-02-15",
+   "time": "All day",
+   "title": "Presidents’ Day: US markets closed",
+   "text": "",
+   "type": "Holiday",
+   "imp": "high",
+   "title_es": "Día de los Presidentes: bolsas de EE. UU. cerradas",
+   "title_fr": "Presidents’ Day : marchés US fermés",
+   "title_it": "Presidents’ Day: mercati USA chiusi",
+   "title_pt": "Dia dos Presidentes: mercados dos EUA fechados",
+   "title_zh": "总统日：美国市场休市",
+   "title_ko": "대통령의 날: 미국 증시 휴장"
+  },
+  {
+   "date": "2027-03-05",
+   "time": "8:30 ET",
+   "title": "US jobs report (February)",
+   "text": "",
+   "type": "Jobs",
+   "imp": "high",
+   "title_es": "Informe de empleo de EE. UU. (febrero)",
+   "title_fr": "Rapport sur l’emploi US (février)",
+   "title_it": "Rapporto sul lavoro USA (febbraio)",
+   "title_pt": "Relatório de emprego dos EUA (fevereiro)",
+   "title_zh": "美国就业报告（2 月）",
+   "title_ko": "미국 고용 보고서 (2월)"
+  },
+  {
+   "date": "2027-03-10",
+   "time": "8:30 ET",
+   "title": "US CPI inflation (February)",
+   "text": "",
+   "type": "Inflation",
+   "imp": "high",
+   "title_es": "Inflación IPC de EE. UU. (febrero)",
+   "title_fr": "Inflation CPI US (février)",
+   "title_it": "Inflazione CPI USA (febbraio)",
+   "title_pt": "Inflação CPI dos EUA (fevereiro)",
+   "title_zh": "美国 CPI 通胀（2 月）",
+   "title_ko": "미국 CPI 물가 (2월)"
+  },
+  {
+   "date": "2027-03-12",
+   "time": "8:30 ET",
+   "title": "US PPI producer prices (February)",
+   "text": "",
+   "type": "Inflation",
+   "imp": "medium",
+   "title_es": "Precios de producción PPI de EE. UU. (febrero)",
+   "title_fr": "Prix à la production PPI US (février)",
+   "title_it": "Prezzi alla produzione PPI USA (febbraio)",
+   "title_pt": "Preços no produtor PPI dos EUA (fevereiro)",
+   "title_zh": "美国 PPI 生产者价格（2 月）",
+   "title_ko": "미국 PPI 생산자물가 (2월)"
+  },
+  {
+   "date": "2027-03-17",
+   "time": "2:00 pm ET",
+   "title": "Fed rate decision",
+   "text": "Mar 16-17 meeting, with new projections. Provisional.",
+   "type": "Fed",
+   "imp": "high",
+   "title_es": "Decisión de tipos de la Fed",
+   "text_es": "Reunión del 16-17 de marzo, con nuevas proyecciones. Provisional.",
+   "title_fr": "Décision de taux de la Fed",
+   "text_fr": "Réunion des 16-17 mars, avec de nouvelles projections. Provisoire.",
+   "title_it": "Decisione della Fed sui tassi",
+   "text_it": "Riunione del 16-17 mar, con nuove proiezioni. Provvisoria.",
+   "title_pt": "Decisão de juros da Fed",
+   "text_pt": "Reunião de 16-17 mar., com novas projeções. Provisória.",
+   "title_zh": "美联储利率决议",
+   "text_zh": "3 月 16-17 日会议，公布新的经济预测。暂定。",
+   "title_ko": "연준 금리 결정",
+   "text_ko": "3월 16~17일 회의, 새 경제 전망 발표. 잠정."
+  },
+  {
+   "date": "2027-03-26",
+   "time": "All day",
+   "title": "Good Friday: US markets closed",
+   "text": "",
+   "type": "Holiday",
+   "imp": "high",
+   "title_es": "Viernes Santo: bolsas de EE. UU. cerradas",
+   "title_fr": "Vendredi saint : marchés US fermés",
+   "title_it": "Venerdì Santo: mercati USA chiusi",
+   "title_pt": "Sexta-feira Santa: mercados dos EUA fechados",
+   "title_zh": "耶稣受难日：美国市场休市",
+   "title_ko": "성금요일: 미국 증시 휴장"
+  },
+  {
+   "date": "2027-04-02",
+   "time": "8:30 ET",
+   "title": "US jobs report (March)",
+   "text": "",
+   "type": "Jobs",
+   "imp": "high",
+   "title_es": "Informe de empleo de EE. UU. (marzo)",
+   "title_fr": "Rapport sur l’emploi US (mars)",
+   "title_it": "Rapporto sul lavoro USA (marzo)",
+   "title_pt": "Relatório de emprego dos EUA (março)",
+   "title_zh": "美国就业报告（3 月）",
+   "title_ko": "미국 고용 보고서 (3월)"
+  },
+  {
+   "date": "2027-04-13",
+   "time": "8:30 ET",
+   "title": "US CPI inflation (March)",
+   "text": "",
+   "type": "Inflation",
+   "imp": "high",
+   "title_es": "Inflación IPC de EE. UU. (marzo)",
+   "title_fr": "Inflation CPI US (mars)",
+   "title_it": "Inflazione CPI USA (marzo)",
+   "title_pt": "Inflação CPI dos EUA (março)",
+   "title_zh": "美国 CPI 通胀（3 月）",
+   "title_ko": "미국 CPI 물가 (3월)"
+  },
+  {
+   "date": "2027-04-14",
+   "time": "8:30 ET",
+   "title": "US PPI producer prices (March)",
+   "text": "",
+   "type": "Inflation",
+   "imp": "medium",
+   "title_es": "Precios de producción PPI de EE. UU. (marzo)",
+   "title_fr": "Prix à la production PPI US (mars)",
+   "title_it": "Prezzi alla produzione PPI USA (marzo)",
+   "title_pt": "Preços no produtor PPI dos EUA (março)",
+   "title_zh": "美国 PPI 生产者价格（3 月）",
+   "title_ko": "미국 PPI 생산자물가 (3월)"
+  },
+  {
+   "date": "2027-04-28",
+   "time": "2:00 pm ET",
+   "title": "Fed rate decision",
+   "text": "Apr 27-28 meeting. Provisional.",
+   "type": "Fed",
+   "imp": "high",
+   "title_es": "Decisión de tipos de la Fed",
+   "text_es": "Reunión del 27-28 de abril. Provisional.",
+   "title_fr": "Décision de taux de la Fed",
+   "text_fr": "Réunion des 27-28 avr. Provisoire.",
+   "title_it": "Decisione della Fed sui tassi",
+   "text_it": "Riunione del 27-28 apr. Provvisoria.",
+   "title_pt": "Decisão de juros da Fed",
+   "text_pt": "Reunião de 27-28 abr. Provisória.",
+   "title_zh": "美联储利率决议",
+   "text_zh": "4 月 27-28 日会议。暂定。",
+   "title_ko": "연준 금리 결정",
+   "text_ko": "4월 27~28일 회의. 잠정."
+  },
+  {
+   "date": "2027-05-07",
+   "time": "8:30 ET",
+   "title": "US jobs report (April)",
+   "text": "",
+   "type": "Jobs",
+   "imp": "high",
+   "title_es": "Informe de empleo de EE. UU. (abril)",
+   "title_fr": "Rapport sur l’emploi US (avril)",
+   "title_it": "Rapporto sul lavoro USA (aprile)",
+   "title_pt": "Relatório de emprego dos EUA (abril)",
+   "title_zh": "美国就业报告（4 月）",
+   "title_ko": "미국 고용 보고서 (4월)"
+  },
+  {
+   "date": "2027-05-12",
+   "time": "8:30 ET",
+   "title": "US CPI inflation (April)",
+   "text": "",
+   "type": "Inflation",
+   "imp": "high",
+   "title_es": "Inflación IPC de EE. UU. (abril)",
+   "title_fr": "Inflation CPI US (avril)",
+   "title_it": "Inflazione CPI USA (aprile)",
+   "title_pt": "Inflação CPI dos EUA (abril)",
+   "title_zh": "美国 CPI 通胀（4 月）",
+   "title_ko": "미국 CPI 물가 (4월)"
+  },
+  {
+   "date": "2027-05-13",
+   "time": "8:30 ET",
+   "title": "US PPI producer prices (April)",
+   "text": "",
+   "type": "Inflation",
+   "imp": "medium",
+   "title_es": "Precios de producción PPI de EE. UU. (abril)",
+   "title_fr": "Prix à la production PPI US (avril)",
+   "title_it": "Prezzi alla produzione PPI USA (aprile)",
+   "title_pt": "Preços no produtor PPI dos EUA (abril)",
+   "title_zh": "美国 PPI 生产者价格（4 月）",
+   "title_ko": "미국 PPI 생산자물가 (4월)"
+  },
+  {
+   "date": "2027-05-31",
+   "time": "All day",
+   "title": "Memorial Day: US markets closed",
+   "text": "",
+   "type": "Holiday",
+   "imp": "high",
+   "title_es": "Memorial Day: bolsas de EE. UU. cerradas",
+   "title_fr": "Memorial Day : marchés US fermés",
+   "title_it": "Memorial Day: mercati USA chiusi",
+   "title_pt": "Memorial Day: mercados dos EUA fechados",
+   "title_zh": "阵亡将士纪念日：美国市场休市",
+   "title_ko": "메모리얼 데이: 미국 증시 휴장"
+  },
+  {
+   "date": "2027-06-04",
+   "time": "8:30 ET",
+   "title": "US jobs report (May)",
+   "text": "",
+   "type": "Jobs",
+   "imp": "high",
+   "title_es": "Informe de empleo de EE. UU. (mayo)",
+   "title_fr": "Rapport sur l’emploi US (mai)",
+   "title_it": "Rapporto sul lavoro USA (maggio)",
+   "title_pt": "Relatório de emprego dos EUA (maio)",
+   "title_zh": "美国就业报告（5 月）",
+   "title_ko": "미국 고용 보고서 (5월)"
+  },
+  {
+   "date": "2027-06-09",
+   "time": "2:00 pm ET",
+   "title": "Fed rate decision",
+   "text": "Jun 8-9 meeting, with new projections. Provisional.",
+   "type": "Fed",
+   "imp": "high",
+   "title_es": "Decisión de tipos de la Fed",
+   "text_es": "Reunión del 8-9 de junio, con nuevas proyecciones. Provisional.",
+   "title_fr": "Décision de taux de la Fed",
+   "text_fr": "Réunion des 8-9 juin, avec de nouvelles projections. Provisoire.",
+   "title_it": "Decisione della Fed sui tassi",
+   "text_it": "Riunione dell’8-9 giu, con nuove proiezioni. Provvisoria.",
+   "title_pt": "Decisão de juros da Fed",
+   "text_pt": "Reunião de 8-9 jun., com novas projeções. Provisória.",
+   "title_zh": "美联储利率决议",
+   "text_zh": "6 月 8-9 日会议，公布新的经济预测。暂定。",
+   "title_ko": "연준 금리 결정",
+   "text_ko": "6월 8~9일 회의, 새 경제 전망 발표. 잠정."
+  },
+  {
+   "date": "2027-06-10",
+   "time": "8:30 ET",
+   "title": "US CPI inflation (May)",
+   "text": "",
+   "type": "Inflation",
+   "imp": "high",
+   "title_es": "Inflación IPC de EE. UU. (mayo)",
+   "title_fr": "Inflation CPI US (mai)",
+   "title_it": "Inflazione CPI USA (maggio)",
+   "title_pt": "Inflação CPI dos EUA (maio)",
+   "title_zh": "美国 CPI 通胀（5 月）",
+   "title_ko": "미국 CPI 물가 (5월)"
+  },
+  {
+   "date": "2027-06-11",
+   "time": "8:30 ET",
+   "title": "US PPI producer prices (May)",
+   "text": "",
+   "type": "Inflation",
+   "imp": "medium",
+   "title_es": "Precios de producción PPI de EE. UU. (mayo)",
+   "title_fr": "Prix à la production PPI US (mai)",
+   "title_it": "Prezzi alla produzione PPI USA (maggio)",
+   "title_pt": "Preços no produtor PPI dos EUA (maio)",
+   "title_zh": "美国 PPI 生产者价格（5 月）",
+   "title_ko": "미국 PPI 생산자물가 (5월)"
+  }
+ ],
+ "plans": [
+  {
+   "name": "Free",
+   "price": "$0",
+   "intro": "Get started",
+   "features": "News on US, Asian and crypto markets, updated daily\nPrice bar and daily-close charts\nEconomic calendar 6+ months ahead, in US and European time\nWorld clock with European time and market hours\nVideos, search and favorites\nTry Ask Wallie: 4 free questions\nTry WallBlock Chat free for 10 minutes\nNo annoying ads",
+   "intro_es": "Para empezar",
+   "features_es": "Noticias de los mercados de EE. UU., Asia y cripto, actualizadas a diario\nBarra de precios y gráficos de cierre diario\nCalendario económico a más de 6 meses, en hora de EE. UU. y hora europea\nReloj mundial con la hora europea y el horario de las bolsas\nVídeos, buscador y favoritos\nPrueba Ask Wallie: 4 preguntas gratis\nPrueba WallBlock Chat gratis durante 10 minutos\nSin anuncios molestos",
+   "intro_fr": "Commencer",
+   "features_fr": "Actualités des marchés américains, asiatiques et crypto, mises à jour chaque jour\nBarre des prix et graphiques de clôture quotidienne\nCalendrier économique sur 6 mois et plus, à l’heure américaine et européenne\nHorloge mondiale avec l’heure européenne et les horaires des marchés\nVidéos, recherche et favoris\nEssayez Ask Wallie : 4 questions gratuites\nEssayez WallBlock Chat gratuitement pendant 10 minutes\nPas de publicités gênantes",
+   "intro_it": "Inizia",
+   "features_it": "Notizie sui mercati USA, asiatici e cripto, aggiornate ogni giorno\nBarra dei prezzi e grafici delle chiusure giornaliere\nCalendario economico a 6+ mesi, in ora USA ed europea\nOrologio mondiale con ora europea e orari dei mercati\nVideo, ricerca e preferiti\nProva Ask Wallie: 4 domande gratuite\nProva WallBlock Chat gratis per 10 minuti\nNiente pubblicità fastidiosa",
+   "intro_pt": "Começar",
+   "features_pt": "Notícias dos mercados dos EUA, da Ásia e cripto, atualizadas todos os dias\nBarra de preços e gráficos de fecho diário\nCalendário económico com 6+ meses, em hora dos EUA e europeia\nRelógio mundial com a hora europeia e horários dos mercados\nVídeos, pesquisa e favoritos\nExperimente o Ask Wallie: 4 perguntas grátis\nExperimente o WallBlock Chat grátis durante 10 minutos\nSem anúncios incómodos",
+   "intro_zh": "立即开始",
+   "features_zh": "美国、亚洲和加密市场新闻，每日更新\n价格栏和每日收盘图表\n6 个月以上的经济日历，显示美国和欧洲时间\n世界时钟，含欧洲时间和各市场交易时间\n视频、搜索和收藏\n试用 Ask Wallie：4 个免费问题\n免费试用 WallBlock Chat 10 分钟\n没有烦人的广告",
+   "intro_ko": "시작하기",
+   "features_ko": "미국·아시아·암호화폐 시장 뉴스, 매일 업데이트\n가격 바와 일일 종가 차트\n6개월 이상의 경제 캘린더, 미국·유럽 시간 표시\n유럽 시간과 시장 운영 시간이 표시되는 세계 시계\n영상, 검색, 즐겨찾기\nAsk Wallie 체험: 무료 질문 4개\nWallBlock Chat 10분 무료 체험\n성가신 광고 없음"
+  },
+  {
+   "name": "Pro",
+   "price": "$29.99",
+   "intro": "Everything in Free, plus:",
+   "features": "Unlimited WallBlock Chat: full conversations with deeper answers on the day’s news\nEmail alerts for breaking news and key data*\nNews the moment it breaks*\nPersonal watchlist of stocks and coins*\nArchive of past news*\nAsk Wallie: 4 free questions",
+   "intro_es": "Todo lo del plan Gratis, más:",
+   "features_es": "WallBlock Chat ilimitado: conversaciones completas con respuestas más profundas sobre las noticias del día\nAvisos por email de noticias de última hora y datos clave*\nNoticias al momento*\nLista de seguimiento de acciones y criptos*\nArchivo de noticias anteriores*\nAsk Wallie: 4 preguntas gratis",
+   "intro_fr": "Tout ce qu’offre Gratuit, plus :",
+   "features_fr": "WallBlock Chat illimité : conversations complètes avec des réponses plus approfondies sur l’actualité du jour\nAlertes e-mail pour les infos urgentes et les données clés*\nLes actualités dès qu’elles tombent*\nListe de suivi personnelle d’actions et de cryptos*\nArchives des actualités*\nAsk Wallie : 4 questions gratuites",
+   "intro_it": "Tutto ciò che c’è in Gratis, più:",
+   "features_it": "WallBlock Chat illimitata: conversazioni complete con risposte più approfondite sulle notizie del giorno\nAvvisi email per ultime notizie e dati chiave*\nNotizie appena escono*\nWatchlist personale di azioni e cripto*\nArchivio delle notizie passate*\nAsk Wallie: 4 domande gratuite",
+   "intro_pt": "Tudo o que o Grátis tem, e ainda:",
+   "features_pt": "WallBlock Chat ilimitado: conversas completas com respostas mais profundas sobre as notícias do dia\nAlertas por email de última hora e dados-chave*\nNotícias assim que acontecem*\nLista pessoal de ações e criptomoedas*\nArquivo de notícias anteriores*\nAsk Wallie: 4 perguntas grátis",
+   "intro_zh": "包含免费版全部功能，另加：",
+   "features_zh": "无限 WallBlock Chat：围绕当日新闻的完整对话和更深入的回答\n突发新闻和关键数据邮件提醒*\n新闻第一时间送达*\n个人股票和加密货币自选列表*\n历史新闻存档*\nAsk Wallie：4 个免费问题",
+   "intro_ko": "무료 요금제의 모든 기능, 그리고:",
+   "features_ko": "무제한 WallBlock Chat: 오늘의 뉴스에 대한 더 깊은 답변과 완전한 대화\n속보와 주요 지표 이메일 알림*\n뉴스 즉시 전달*\n개인 주식·코인 관심 목록*\n지난 뉴스 아카이브*\nAsk Wallie: 무료 질문 4개"
+  },
+  {
+   "name": "Premium",
+   "price": "$49.99",
+   "intro": "Everything in Pro, plus:",
+   "features": "Unlimited Ask Wallie, your AI agent\nInstant alerts by Telegram or WhatsApp*\nBreaking-news info and video the moment it happens*\nWallie’s daily morning briefing*\nLive charts*\nDeeper analysis and context on each story*",
+   "intro_es": "Todo lo de Pro, más:",
+   "features_es": "Ask Wallie ilimitado, Wallie, tu agente IA\nAvisos al instante por Telegram o WhatsApp*\nInformación y vídeo de la noticia en el momento en que ocurre*\nResumen diario de Wallie cada mañana*\nGráficos en directo*\nAnálisis y contexto más profundos en cada noticia*",
+   "intro_fr": "Tout ce qu’offre Pro, plus :",
+   "features_fr": "Ask Wallie illimité, Wallie, votre agent IA\nAlertes instantanées par Telegram ou WhatsApp*\nInfos et vidéo des flashs dès qu’ils tombent*\nLe briefing matinal quotidien de Wallie*\nGraphiques en direct*\nAnalyses et contexte plus approfondis sur chaque article*",
+   "intro_it": "Tutto ciò che c’è in Pro, più:",
+   "features_it": "Ask Wallie illimitato, Wallie, il tuo agente IA\nAvvisi istantanei su Telegram o WhatsApp*\nInfo e video delle ultime notizie nel momento in cui accadono*\nIl briefing mattutino quotidiano di Wallie*\nGrafici in tempo reale*\nAnalisi e contesto più approfonditi su ogni notizia*",
+   "intro_pt": "Tudo o que o Pro tem, e ainda:",
+   "features_pt": "Ask Wallie ilimitado, Wallie, o seu agente de IA\nAlertas instantâneos por Telegram ou WhatsApp*\nInformação e vídeo de última hora no momento em que acontece*\nO briefing matinal diário do Wallie*\nGráficos ao vivo*\nAnálise e contexto mais profundos em cada notícia*",
+   "intro_zh": "包含 Pro 全部功能，另加：",
+   "features_zh": "无限 Ask Wallie，你的 AI 智能体 Wallie\nTelegram 或 WhatsApp 即时提醒*\n突发新闻信息和视频第一时间送达*\nWallie 每日早间简报*\n实时图表*\n每条新闻更深入的分析和背景*",
+   "intro_ko": "Pro의 모든 기능, 그리고:",
+   "features_ko": "무제한 Ask Wallie, 나만의 AI 에이전트 Wallie\nTelegram 또는 WhatsApp 즉시 알림*\n속보 정보와 영상을 실시간으로*\nWallie의 매일 아침 브리핑*\n실시간 차트*\n뉴스별 더 깊은 분석과 배경*"
+  }
+ ],
+ "footer": "Friday close update, published Saturday, November 21, 2026 (12:30 pm ET / 18:30 CET): US closes from CNBC, AP and StockInvest; Asia from CNBC, Yahoo Finance and Upstox; commodities from Kitco and EnergyNow; bitcoin from CoinGecko and Crypto Bubbles (Saturday 10:40 am ET). Figures differ slightly between sources. Not financial advice.",
+ "pricing": {
+  "title": "Choose your WallBlock plan",
+  "subtitle": "Start free and try Wallie. Upgrade for unlimited answers, deeper chat and instant alerts. Cancel anytime.",
+  "popular": "Pro",
+  "compare": [
+   [
+    "News",
+    "Daily market news: Wall Street, Asia, crypto",
+    "yes",
+    "yes",
+    "yes"
+   ],
+   [
+    "News",
+    "How fast news arrives",
+    "Daily",
+    "The moment it breaks*",
+    "The moment it breaks*"
+   ],
+   [
+    "News",
+    "Deeper analysis and context on each story",
+    "no",
+    "no",
+    "soon"
+   ],
+   [
+    "News",
+    "Archive of past news",
+    "no",
+    "soon",
+    "soon"
+   ],
+   [
+    "Markets",
+    "Price bar, market buttons and daily charts",
+    "yes",
+    "yes",
+    "yes"
+   ],
+   [
+    "Markets",
+    "Live charts",
+    "no",
+    "no",
+    "soon"
+   ],
+   [
+    "Markets",
+    "Personal watchlist of stocks and coins",
+    "no",
+    "soon",
+    "soon"
+   ],
+   [
+    "Markets",
+    "Economic calendar in US and European time",
+    "yes",
+    "yes",
+    "yes"
+   ],
+   [
+    "Markets",
+    "World clock with market hours",
+    "yes",
+    "yes",
+    "yes"
+   ],
+   [
+    "Wallie AI",
+    "Ask Wallie: Wallie, your AI agent",
+    "4 questions",
+    "4 questions",
+    "Unlimited"
+   ],
+   [
+    "Wallie AI",
+    "WallBlock Chat: full conversations with deeper answers",
+    "10-min trial",
+    "Unlimited",
+    "Unlimited"
+   ],
+   [
+    "Wallie AI",
+    "Wallie’s daily morning briefing",
+    "no",
+    "no",
+    "soon"
+   ],
+   [
+    "Alerts",
+    "Email alerts for breaking news and key data",
+    "no",
+    "soon",
+    "soon"
+   ],
+   [
+    "Alerts",
+    "Instant alerts by Telegram or WhatsApp",
+    "no",
+    "no",
+    "soon"
+   ],
+   [
+    "Alerts",
+    "Breaking-news info and video the moment it happens",
+    "no",
+    "no",
+    "soon"
+   ],
+   [
+    "Extras",
+    "Videos, search and favorites",
+    "yes",
+    "yes",
+    "yes"
+   ],
+   [
+    "Extras",
+    "Ads",
+    "None",
+    "None",
+    "None"
+   ]
+  ],
+  "faq": [
+   [
+    "Can I cancel anytime?",
+    "Yes. When payments launch you will be able to cancel in one click from your account, with no penalty. You keep access until the end of the period you paid for."
+   ],
+   [
+    "Which payment methods will you accept?",
+    "Card in US dollars or euros, and PayPal. Payments are not live yet, so nothing is charged today."
+   ],
+   [
+    "Can I change plans later?",
+    "Yes. You will be able to move up or down between Free, Pro and Premium at any time."
+   ],
+   [
+    "What does “Coming soon” mean?",
+    "Those features are in preparation. They will be added to the plan without extra cost once they are ready."
+   ],
+   [
+    "Is WallBlock investment advice?",
+    "No. WallBlock News and Wallie inform about the markets only. Nothing on the site is a recommendation to buy or sell."
+   ]
+  ],
+  "title_es": "Elige tu plan de WallBlock",
+  "subtitle_es": "Empieza gratis y prueba a Wallie. Mejora tu plan para tener respuestas ilimitadas, un chat más completo y avisos al instante. Cancela cuando quieras.",
+  "compare_es": [
+   [
+    "Noticias",
+    "Noticias diarias de los mercados: Wall Street, Asia, cripto"
+   ],
+   [
+    "Noticias",
+    "Rapidez de las noticias"
+   ],
+   [
+    "Noticias",
+    "Análisis y contexto más profundos"
+   ],
+   [
+    "Noticias",
+    "Archivo de noticias"
+   ],
+   [
+    "Mercados",
+    "Barra de precios, botones de mercados y gráficos diarios"
+   ],
+   [
+    "Mercados",
+    "Gráficos en directo"
+   ],
+   [
+    "Mercados",
+    "Lista de seguimiento de acciones y criptos"
+   ],
+   [
+    "Mercados",
+    "Calendario económico en hora de EE. UU. y hora europea"
+   ],
+   [
+    "Mercados",
+    "Reloj mundial con horario de las bolsas"
+   ],
+   [
+    "Wallie IA",
+    "Ask Wallie: Wallie, tu agente IA"
+   ],
+   [
+    "Wallie IA",
+    "WallBlock Chat: conversaciones completas con respuestas más profundas"
+   ],
+   [
+    "Wallie IA",
+    "Resumen diario de Wallie"
+   ],
+   [
+    "Avisos",
+    "Avisos por email de última hora y datos clave"
+   ],
+   [
+    "Avisos",
+    "Avisos al instante por Telegram o WhatsApp"
+   ],
+   [
+    "Avisos",
+    "Información y vídeo de la noticia en el momento"
+   ],
+   [
+    "Extras",
+    "Vídeos, buscador y favoritos"
+   ],
+   [
+    "Extras",
+    "Anuncios"
+   ]
+  ],
+  "faq_es": [
+   [
+    "¿Puedo cancelar cuando quiera?",
+    "Sí. Cuando lancemos los pagos podrás cancelar con un clic desde tu cuenta, sin penalización. Mantienes el acceso hasta el final del periodo pagado."
+   ],
+   [
+    "¿Qué formas de pago aceptaréis?",
+    "Tarjeta en dólares o euros, y PayPal. Los pagos aún no están activos, así que hoy no se cobra nada."
+   ],
+   [
+    "¿Puedo cambiar de plan después?",
+    "Sí. Podrás pasar de Free a Pro o Premium, o volver, cuando quieras."
+   ],
+   [
+    "¿Qué significa «Próximamente»?",
+    "Son funciones en preparación. Se añadirán al plan sin coste extra cuando estén listas."
+   ],
+   [
+    "¿WallBlock es asesoramiento de inversión?",
+    "No. WallBlock News y Wallie solo informan sobre los mercados. Nada en la web es una recomendación de compra o venta."
+   ]
+  ],
+  "title_fr": "Choisissez votre offre WallBlock",
+  "subtitle_fr": "Commencez gratuitement et essayez Wallie. Passez à une offre supérieure pour des réponses illimitées, un chat plus approfondi et des alertes instantanées. Résiliable à tout moment.",
+  "compare_fr": [
+   [
+    "Actualités",
+    "Actualités quotidiennes des marchés : Wall Street, Asie, crypto"
+   ],
+   [
+    "Actualités",
+    "Rapidité des actualités"
+   ],
+   [
+    "Actualités",
+    "Analyses et contexte plus approfondis sur chaque article"
+   ],
+   [
+    "Actualités",
+    "Archives des actualités"
+   ],
+   [
+    "Marchés",
+    "Barre des prix, boutons de marché et graphiques quotidiens"
+   ],
+   [
+    "Marchés",
+    "Graphiques en direct"
+   ],
+   [
+    "Marchés",
+    "Liste de suivi personnelle d’actions et de cryptos"
+   ],
+   [
+    "Marchés",
+    "Calendrier économique à l’heure américaine et européenne"
+   ],
+   [
+    "Marchés",
+    "Horloge mondiale avec les horaires des marchés"
+   ],
+   [
+    "Wallie IA",
+    "Ask Wallie : Wallie, votre agent IA"
+   ],
+   [
+    "Wallie IA",
+    "WallBlock Chat : conversations complètes avec des réponses plus approfondies"
+   ],
+   [
+    "Wallie IA",
+    "Le briefing matinal quotidien de Wallie"
+   ],
+   [
+    "Alertes",
+    "Alertes e-mail pour les infos urgentes et les données clés"
+   ],
+   [
+    "Alertes",
+    "Alertes instantanées par Telegram ou WhatsApp"
+   ],
+   [
+    "Alertes",
+    "Infos et vidéo des flashs dès qu’ils tombent"
+   ],
+   [
+    "Extras",
+    "Vidéos, recherche et favoris"
+   ],
+   [
+    "Extras",
+    "Publicités"
+   ]
+  ],
+  "faq_fr": [
+   [
+    "Puis-je résilier à tout moment ?",
+    "Oui. Au lancement des paiements, vous pourrez résilier en un clic depuis votre compte, sans pénalité. Vous gardez l’accès jusqu’à la fin de la période payée."
+   ],
+   [
+    "Quels moyens de paiement accepterez-vous ?",
+    "Carte en dollars américains ou en euros, et PayPal. Les paiements ne sont pas encore actifs : rien n’est facturé aujourd’hui."
+   ],
+   [
+    "Puis-je changer d’offre plus tard ?",
+    "Oui. Vous pourrez passer à tout moment entre Gratuit, Pro et Premium."
+   ],
+   [
+    "Que signifie « Bientôt » ?",
+    "Ces fonctions sont en préparation. Elles seront ajoutées à l’offre sans coût supplémentaire dès qu’elles seront prêtes."
+   ],
+   [
+    "WallBlock est-il un conseil en investissement ?",
+    "Non. WallBlock News et Wallie informent uniquement sur les marchés. Rien sur le site n’est une recommandation d’achat ou de vente."
+   ]
+  ],
+  "title_it": "Scegli il tuo piano WallBlock",
+  "subtitle_it": "Inizia gratis e prova Wallie. Passa a un piano superiore per risposte illimitate, chat più approfondita e avvisi istantanei. Disdici quando vuoi.",
+  "compare_it": [
+   [
+    "Notizie",
+    "Notizie di mercato quotidiane: Wall Street, Asia, cripto"
+   ],
+   [
+    "Notizie",
+    "Velocità delle notizie"
+   ],
+   [
+    "Notizie",
+    "Analisi e contesto più approfonditi su ogni notizia"
+   ],
+   [
+    "Notizie",
+    "Archivio delle notizie passate"
+   ],
+   [
+    "Mercati",
+    "Barra dei prezzi, pulsanti dei mercati e grafici giornalieri"
+   ],
+   [
+    "Mercati",
+    "Grafici in tempo reale"
+   ],
+   [
+    "Mercati",
+    "Watchlist personale di azioni e cripto"
+   ],
+   [
+    "Mercati",
+    "Calendario economico in ora USA ed europea"
+   ],
+   [
+    "Mercati",
+    "Orologio mondiale con orari dei mercati"
+   ],
+   [
+    "Wallie IA",
+    "Ask Wallie: Wallie, il tuo agente IA"
+   ],
+   [
+    "Wallie IA",
+    "WallBlock Chat: conversazioni complete con risposte più approfondite"
+   ],
+   [
+    "Wallie IA",
+    "Il briefing mattutino quotidiano di Wallie"
+   ],
+   [
+    "Avvisi",
+    "Avvisi email per ultime notizie e dati chiave"
+   ],
+   [
+    "Avvisi",
+    "Avvisi istantanei su Telegram o WhatsApp"
+   ],
+   [
+    "Avvisi",
+    "Info e video delle ultime notizie nel momento in cui accadono"
+   ],
+   [
+    "Extra",
+    "Video, ricerca e preferiti"
+   ],
+   [
+    "Extra",
+    "Pubblicità"
+   ]
+  ],
+  "faq_it": [
+   [
+    "Posso disdire quando voglio?",
+    "Sì. Quando partiranno i pagamenti potrai disdire con un clic dal tuo account, senza penali. Mantieni l’accesso fino alla fine del periodo pagato."
+   ],
+   [
+    "Quali metodi di pagamento accetterete?",
+    "Carta in dollari USA o euro e PayPal. I pagamenti non sono ancora attivi, quindi oggi non viene addebitato nulla."
+   ],
+   [
+    "Posso cambiare piano in seguito?",
+    "Sì. Potrai passare tra Gratis, Pro e Premium in qualsiasi momento."
+   ],
+   [
+    "Cosa significa «Presto disponibile»?",
+    "Quelle funzioni sono in preparazione. Saranno aggiunte al piano senza costi extra appena pronte."
+   ],
+   [
+    "WallBlock è una consulenza di investimento?",
+    "No. WallBlock News e Wallie informano soltanto sui mercati. Nulla sul sito è una raccomandazione di acquisto o vendita."
+   ]
+  ],
+  "title_pt": "Escolha o seu plano WallBlock",
+  "subtitle_pt": "Comece grátis e experimente o Wallie. Faça upgrade para respostas ilimitadas, chat mais profundo e alertas instantâneos. Cancele quando quiser.",
+  "compare_pt": [
+   [
+    "Notícias",
+    "Notícias diárias dos mercados: Wall Street, Ásia, cripto"
+   ],
+   [
+    "Notícias",
+    "Rapidez das notícias"
+   ],
+   [
+    "Notícias",
+    "Análise e contexto mais profundos em cada notícia"
+   ],
+   [
+    "Notícias",
+    "Arquivo de notícias anteriores"
+   ],
+   [
+    "Mercados",
+    "Barra de preços, botões de mercado e gráficos diários"
+   ],
+   [
+    "Mercados",
+    "Gráficos ao vivo"
+   ],
+   [
+    "Mercados",
+    "Lista pessoal de ações e criptomoedas"
+   ],
+   [
+    "Mercados",
+    "Calendário económico em hora dos EUA e europeia"
+   ],
+   [
+    "Mercados",
+    "Relógio mundial com horários dos mercados"
+   ],
+   [
+    "Wallie IA",
+    "Ask Wallie: Wallie, o seu agente de IA"
+   ],
+   [
+    "Wallie IA",
+    "WallBlock Chat: conversas completas com respostas mais profundas"
+   ],
+   [
+    "Wallie IA",
+    "O briefing matinal diário do Wallie"
+   ],
+   [
+    "Alertas",
+    "Alertas por email de última hora e dados-chave"
+   ],
+   [
+    "Alertas",
+    "Alertas instantâneos por Telegram ou WhatsApp"
+   ],
+   [
+    "Alertas",
+    "Informação e vídeo de última hora no momento em que acontece"
+   ],
+   [
+    "Extras",
+    "Vídeos, pesquisa e favoritos"
+   ],
+   [
+    "Extras",
+    "Anúncios"
+   ]
+  ],
+  "faq_pt": [
+   [
+    "Posso cancelar a qualquer momento?",
+    "Sim. Quando os pagamentos arrancarem, poderá cancelar com um clique a partir da sua conta, sem penalização. Mantém o acesso até ao fim do período pago."
+   ],
+   [
+    "Que métodos de pagamento vão aceitar?",
+    "Cartão em dólares americanos ou euros, e PayPal. Os pagamentos ainda não estão ativos, por isso hoje nada é cobrado."
+   ],
+   [
+    "Posso mudar de plano mais tarde?",
+    "Sim. Poderá mudar entre Grátis, Pro e Premium a qualquer momento."
+   ],
+   [
+    "O que significa «Em breve»?",
+    "Essas funcionalidades estão em preparação. Serão adicionadas ao plano sem custo extra assim que estiverem prontas."
+   ],
+   [
+    "A WallBlock é aconselhamento de investimento?",
+    "Não. A WallBlock News e o Wallie apenas informam sobre os mercados. Nada no site é uma recomendação de compra ou venda."
+   ]
+  ],
+  "title_zh": "选择你的 WallBlock 方案",
+  "subtitle_zh": "免费开始并试用 Wallie。升级可享无限回答、更深入的聊天和即时提醒。随时可取消。",
+  "compare_zh": [
+   [
+    "新闻",
+    "每日市场新闻：华尔街、亚洲、加密货币"
+   ],
+   [
+    "新闻",
+    "新闻送达速度"
+   ],
+   [
+    "新闻",
+    "每条新闻更深入的分析和背景"
+   ],
+   [
+    "新闻",
+    "历史新闻存档"
+   ],
+   [
+    "市场",
+    "价格栏、市场按钮和每日图表"
+   ],
+   [
+    "市场",
+    "实时图表"
+   ],
+   [
+    "市场",
+    "个人股票和加密货币自选列表"
+   ],
+   [
+    "市场",
+    "美国和欧洲时间的经济日历"
+   ],
+   [
+    "市场",
+    "含市场交易时间的世界时钟"
+   ],
+   [
+    "Wallie AI",
+    "Ask Wallie：你的 AI 智能体 Wallie"
+   ],
+   [
+    "Wallie AI",
+    "WallBlock Chat：完整对话和更深入的回答"
+   ],
+   [
+    "Wallie AI",
+    "Wallie 每日早间简报"
+   ],
+   [
+    "提醒",
+    "突发新闻和关键数据邮件提醒"
+   ],
+   [
+    "提醒",
+    "Telegram 或 WhatsApp 即时提醒"
+   ],
+   [
+    "提醒",
+    "突发新闻信息和视频第一时间送达"
+   ],
+   [
+    "其他",
+    "视频、搜索和收藏"
+   ],
+   [
+    "其他",
+    "广告"
+   ]
+  ],
+  "faq_zh": [
+   [
+    "可以随时取消吗？",
+    "可以。支付功能上线后，你可以在账户中一键取消，无任何违约金，并可使用至已付费周期结束。"
+   ],
+   [
+    "将支持哪些付款方式？",
+    "美元或欧元银行卡，以及 PayPal。支付功能尚未开放，因此目前不会收取任何费用。"
+   ],
+   [
+    "以后可以更换方案吗？",
+    "可以。你可以随时在免费、Pro 和 Premium 之间升级或降级。"
+   ],
+   [
+    "“即将推出”是什么意思？",
+    "这些功能正在准备中，准备就绪后将免费加入相应方案。"
+   ],
+   [
+    "WallBlock 是投资建议吗？",
+    "不是。WallBlock News 和 Wallie 仅提供市场信息，网站上的任何内容都不是买卖建议。"
+   ]
+  ],
+  "title_ko": "WallBlock 요금제를 선택하세요",
+  "subtitle_ko": "무료로 시작해 Wallie를 체험해 보세요. 업그레이드하면 무제한 답변, 더 깊은 채팅, 즉시 알림을 이용할 수 있습니다. 언제든 해지할 수 있어요.",
+  "compare_ko": [
+   [
+    "뉴스",
+    "일일 시장 뉴스: 월가, 아시아, 암호화폐"
+   ],
+   [
+    "뉴스",
+    "뉴스 전달 속도"
+   ],
+   [
+    "뉴스",
+    "뉴스별 더 깊은 분석과 배경"
+   ],
+   [
+    "뉴스",
+    "지난 뉴스 아카이브"
+   ],
+   [
+    "시장",
+    "가격 바, 시장 버튼, 일일 차트"
+   ],
+   [
+    "시장",
+    "실시간 차트"
+   ],
+   [
+    "시장",
+    "개인 주식·코인 관심 목록"
+   ],
+   [
+    "시장",
+    "미국·유럽 시간 경제 캘린더"
+   ],
+   [
+    "시장",
+    "시장 운영 시간이 표시되는 세계 시계"
+   ],
+   [
+    "Wallie AI",
+    "Ask Wallie: 나만의 AI 에이전트 Wallie"
+   ],
+   [
+    "Wallie AI",
+    "WallBlock Chat: 더 깊은 답변과 완전한 대화"
+   ],
+   [
+    "Wallie AI",
+    "Wallie의 매일 아침 브리핑"
+   ],
+   [
+    "알림",
+    "속보와 주요 지표 이메일 알림"
+   ],
+   [
+    "알림",
+    "Telegram 또는 WhatsApp 즉시 알림"
+   ],
+   [
+    "알림",
+    "속보 정보와 영상을 실시간으로"
+   ],
+   [
+    "기타",
+    "영상, 검색, 즐겨찾기"
+   ],
+   [
+    "기타",
+    "광고"
+   ]
+  ],
+  "faq_ko": [
+   [
+    "언제든 해지할 수 있나요?",
+    "네. 결제가 시작되면 계정에서 클릭 한 번으로 위약금 없이 해지할 수 있으며, 결제한 기간이 끝날 때까지 계속 이용할 수 있습니다."
+   ],
+   [
+    "어떤 결제 수단을 지원하나요?",
+    "미국 달러 또는 유로 카드 결제와 PayPal입니다. 아직 결제가 시작되지 않아 현재는 아무것도 청구되지 않습니다."
+   ],
+   [
+    "나중에 요금제를 바꿀 수 있나요?",
+    "네. 무료, Pro, Premium 사이를 언제든 업그레이드하거나 다운그레이드할 수 있습니다."
+   ],
+   [
+    "'출시 예정'은 무슨 뜻인가요?",
+    "해당 기능은 준비 중이며, 준비되는 대로 추가 비용 없이 요금제에 포함됩니다."
+   ],
+   [
+    "WallBlock은 투자 조언인가요?",
+    "아닙니다. WallBlock News와 Wallie는 시장 정보만 제공합니다. 사이트의 어떤 내용도 매수나 매도 권유가 아닙니다."
+   ]
+  ]
+ },
+ "site": {
+  "about": "WallBlock News is a digital market-news outlet covering Wall Street and global markets: US politics and the Fed, Asia, crypto, ETFs, commodities, company earnings, economic data and geopolitics. Breaking News brings the stories that move markets as they happen. Our AI agents explain both sides of the market: Wallie is our guide, Bullish shows the bullish view and the opportunities, and Bearish shows the bearish view and the risks. We follow leading international sources every day and use AI tools to gather and summarize the news, reviewing each story before it is published. Our mission is to make market news clear and accessible to everyone. WallBlock News informs; it does not give investment advice.",
+  "disclaimer": "WallBlock News is for information only. It is not investment, financial, tax or legal advice, and nothing on this site is a recommendation to buy or sell any asset.\n\nPrices and figures may be delayed or approximate. Always check the original sources, which are named on each story. Summaries are written with the help of AI from public news sources and may contain errors.\n\nInvesting involves risk, including the loss of the money you invest.",
+  "privacy": "You don’t need an account to read WallBlock News, and the site uses no advertising trackers.\n\nYour favorites, color theme and voice settings are saved only in your own browser.\n\nIf you chat with Wallie while signed in to Claude, your question is processed by Claude to write the answer.\n\nLinks to TradingView, Finviz, Cointelegraph and other sites open those sites, which have their own privacy policies.",
+  "terms": "You may read and share WallBlock News for personal use. Content can change at any time and may contain errors.\n\nPaid plans (Pro and Premium) are not available yet. Their features and prices may change before launch.",
+  "contact": "",
+  "socials": [
+   {
+    "label": "Telegram",
+    "url": "https://t.me/emiwalliebot"
+   }
+  ],
+  "about_es": "WallBlock News es un medio digital de información financiera centrado en Wall Street y los mercados internacionales: política de EE. UU. y la Fed, Asia, cripto, ETF, materias primas, resultados de empresas, datos económicos y geopolítica. En Breaking News te contamos al momento lo que mueve los mercados. Nuestros agentes de IA explican las dos caras del mercado: Wallie es nuestro guía, Bullish muestra la visión alcista y las oportunidades, y Bearish la visión bajista y los riesgos. Seguimos a diario fuentes internacionales de referencia y usamos herramientas de IA para recopilar y resumir la información, revisando cada noticia antes de publicarla. Nuestra misión es que la información de los mercados sea clara y accesible para todos. WallBlock News informa; no ofrece asesoramiento de inversión.",
+  "disclaimer_es": "WallBlock News es solo informativo. No es asesoramiento de inversión, financiero, fiscal ni legal, y nada en esta web es una recomendación de comprar o vender ningún activo.\n\nLos precios y cifras pueden tener retraso o ser aproximados. Comprueba siempre las fuentes originales, que se citan en cada noticia. Los resúmenes se redactan con ayuda de IA a partir de fuentes públicas y pueden contener errores.\n\nInvertir conlleva riesgos, incluida la pérdida del dinero invertido.",
+  "privacy_es": "No necesitas cuenta para leer WallBlock News y la web no usa rastreadores publicitarios.\n\nTus favoritos, el tema de colores y los ajustes de voz se guardan solo en tu navegador.\n\nSi hablas con Wallie con la sesión iniciada en Claude, tu pregunta la procesa Claude para escribir la respuesta.\n\nLos enlaces a TradingView, Finviz, Cointelegraph y otras webs abren esas webs, que tienen sus propias políticas de privacidad.",
+  "terms_es": "Puedes leer y compartir WallBlock News para uso personal. El contenido puede cambiar en cualquier momento y contener errores.\n\nLos planes de pago (Pro y Premium) aún no están disponibles. Sus funciones y precios pueden cambiar antes del lanzamiento.",
+  "about_fr": "WallBlock News est un média numérique d’information financière consacré à Wall Street et aux marchés mondiaux : politique américaine et Fed, Asie, crypto, ETF, matières premières, résultats d’entreprises, données économiques et géopolitique. Breaking News relaie en direct ce qui fait bouger les marchés. Nos agents IA expliquent les deux faces du marché : Wallie est notre guide, Bullish présente la vision haussière et les opportunités, Bearish la vision baissière et les risques. Nous suivons chaque jour des sources internationales de référence et utilisons des outils d’IA pour rassembler et résumer l’information, en vérifiant chaque article avant publication. Notre mission : rendre l’information de marché claire et accessible à tous. WallBlock News informe ; il ne donne pas de conseil en investissement.",
+  "disclaimer_fr": "WallBlock News est fourni à titre d’information uniquement. Ce n’est pas un conseil en investissement, financier, fiscal ou juridique, et rien sur ce site n’est une recommandation d’acheter ou de vendre un actif.\n\nLes prix et chiffres peuvent être différés ou approximatifs. Vérifiez toujours les sources originales, citées dans chaque article. Les résumés sont rédigés avec l’aide de l’IA à partir de sources d’information publiques et peuvent contenir des erreurs.\n\nInvestir comporte des risques, y compris la perte de l’argent investi.",
+  "privacy_fr": "Vous n’avez pas besoin de compte pour lire WallBlock News, et le site n’utilise aucun traceur publicitaire.\n\nVos favoris, votre thème de couleur et vos réglages de voix sont enregistrés uniquement dans votre navigateur.\n\nSi vous discutez avec Wallie en étant connecté à Claude, votre question est traitée par Claude pour rédiger la réponse.\n\nLes liens vers TradingView, Finviz, Cointelegraph et d’autres sites ouvrent ces sites, qui ont leurs propres politiques de confidentialité.",
+  "terms_fr": "Vous pouvez lire et partager WallBlock News pour un usage personnel. Le contenu peut changer à tout moment et contenir des erreurs.\n\nLes offres payantes (Pro et Premium) ne sont pas encore disponibles. Leurs fonctions et prix peuvent changer avant le lancement.",
+  "about_it": "WallBlock News è una testata digitale di informazione finanziaria dedicata a Wall Street e ai mercati globali: politica USA e Fed, Asia, cripto, ETF, materie prime, utili aziendali, dati economici e geopolitica. Con Breaking News ti raccontiamo in tempo reale ciò che muove i mercati. I nostri agenti IA spiegano le due facce del mercato: Wallie è la nostra guida, Bullish mostra la visione rialzista e le opportunità, Bearish quella ribassista e i rischi. Seguiamo ogni giorno fonti internazionali di riferimento e usiamo strumenti di IA per raccogliere e riassumere le notizie, verificando ogni articolo prima della pubblicazione. La nostra missione è rendere l’informazione sui mercati chiara e accessibile a tutti. WallBlock News informa; non offre consulenza sugli investimenti.",
+  "disclaimer_it": "WallBlock News ha solo scopo informativo. Non è una consulenza di investimento, finanziaria, fiscale o legale, e nulla su questo sito è una raccomandazione ad acquistare o vendere un’attività.\n\nPrezzi e dati possono essere in ritardo o approssimativi. Controlla sempre le fonti originali, indicate in ogni notizia. I riassunti sono scritti con l’aiuto dell’IA a partire da fonti di notizie pubbliche e possono contenere errori.\n\nInvestire comporta rischi, inclusa la perdita del denaro investito.",
+  "privacy_it": "Non serve un account per leggere WallBlock News e il sito non usa tracker pubblicitari.\n\nI tuoi preferiti, il tema colore e le impostazioni della voce sono salvati solo nel tuo browser.\n\nSe chatti con Wallie mentre sei connesso a Claude, la tua domanda viene elaborata da Claude per scrivere la risposta.\n\nI link a TradingView, Finviz, Cointelegraph e altri siti aprono quei siti, che hanno le proprie informative sulla privacy.",
+  "terms_it": "Puoi leggere e condividere WallBlock News per uso personale. I contenuti possono cambiare in qualsiasi momento e contenere errori.\n\nI piani a pagamento (Pro e Premium) non sono ancora disponibili. Funzioni e prezzi possono cambiare prima del lancio.",
+  "about_pt": "A WallBlock News é um meio digital de informação financeira focado em Wall Street e nos mercados globais: política dos EUA e Fed, Ásia, cripto, ETF, matérias-primas, resultados de empresas, dados económicos e geopolítica. No Breaking News contamos no momento o que mexe com os mercados. Os nossos agentes de IA explicam os dois lados do mercado: Wallie é o nosso guia, Bullish mostra a visão de alta e as oportunidades, e Bearish a visão de baixa e os riscos. Acompanhamos diariamente fontes internacionais de referência e usamos ferramentas de IA para recolher e resumir a informação, revendo cada notícia antes de a publicar. A nossa missão é tornar a informação dos mercados clara e acessível a todos. A WallBlock News informa; não presta aconselhamento de investimento.",
+  "disclaimer_pt": "A WallBlock News é apenas informativa. Não é aconselhamento de investimento, financeiro, fiscal ou jurídico, e nada neste site é uma recomendação para comprar ou vender qualquer ativo.\n\nOs preços e valores podem ter atraso ou ser aproximados. Confirme sempre as fontes originais, indicadas em cada notícia. Os resumos são escritos com a ajuda de IA a partir de fontes de notícias públicas e podem conter erros.\n\nInvestir envolve riscos, incluindo a perda do dinheiro investido.",
+  "privacy_pt": "Não precisa de conta para ler a WallBlock News, e o site não usa rastreadores publicitários.\n\nOs seus favoritos, tema de cores e definições de voz ficam guardados apenas no seu navegador.\n\nSe conversar com o Wallie com sessão iniciada no Claude, a sua pergunta é processada pelo Claude para escrever a resposta.\n\nOs links para TradingView, Finviz, Cointelegraph e outros sites abrem esses sites, que têm as suas próprias políticas de privacidade.",
+  "terms_pt": "Pode ler e partilhar a WallBlock News para uso pessoal. O conteúdo pode mudar a qualquer momento e conter erros.\n\nOs planos pagos (Pro e Premium) ainda não estão disponíveis. As funcionalidades e os preços podem mudar antes do lançamento.",
+  "about_zh": "WallBlock News 是一家专注华尔街与全球市场的数字财经媒体，涵盖美国政治与美联储、亚洲、加密货币、ETF、大宗商品、企业财报、经济数据和地缘政治。“突发新闻”第一时间报道影响市场的消息。我们的AI智能体从两个角度解读市场：Wallie是我们的向导，Bullish展示看涨观点与机会，Bearish展示看跌观点与风险。我们每天跟踪权威国际信息源，借助AI工具收集和总结新闻，每篇内容发布前均经审核。我们的使命是让市场信息清晰易懂、人人可及。WallBlock News 只提供信息，不构成投资建议。",
+  "disclaimer_zh": "WallBlock News 仅供参考。它不构成投资、财务、税务或法律建议，本网站上的任何内容都不是买卖任何资产的推荐。\n\n价格和数据可能存在延迟或为近似值。请务必查看每条新闻中注明的原始来源。摘要借助 AI 根据公开新闻来源撰写，可能存在错误。\n\n投资有风险，包括损失所投入的资金。",
+  "privacy_zh": "阅读 WallBlock News 无需注册账户，网站不使用广告追踪器。\n\n你的收藏、配色主题和语音设置只保存在你自己的浏览器中。\n\n如果你在登录 Claude 的状态下与 Wallie 聊天，你的问题将由 Claude 处理以生成回答。\n\nTradingView、Finviz、Cointelegraph 等网站的链接会打开这些网站，它们有各自的隐私政策。",
+  "terms_zh": "你可以出于个人用途阅读和分享 WallBlock News。内容可能随时变化，也可能存在错误。\n\n付费方案（Pro 和 Premium）尚未开放，其功能和价格在上线前可能变化。",
+  "about_ko": "WallBlock News는 월가와 글로벌 시장을 다루는 디지털 금융 뉴스 매체입니다. 미국 정치와 연준, 아시아, 암호화폐, ETF, 원자재, 기업 실적, 경제 지표, 지정학을 다룹니다. 속보(Breaking News)에서는 시장을 움직이는 소식을 실시간으로 전합니다. AI 에이전트가 시장의 양면을 설명합니다. Wallie는 가이드, Bullish는 강세 관점과 기회, Bearish는 약세 관점과 위험을 보여줍니다. 매일 주요 국제 출처를 확인하고 AI 도구로 뉴스를 수집·요약하며, 모든 기사는 게시 전에 검토합니다. 시장 정보를 누구나 쉽고 명확하게 접할 수 있도록 하는 것이 우리의 사명입니다. WallBlock News는 정보를 제공할 뿐 투자 조언을 하지 않습니다.",
+  "disclaimer_ko": "WallBlock News는 정보 제공만을 목적으로 합니다. 투자, 금융, 세무 또는 법률 조언이 아니며, 이 사이트의 어떤 내용도 자산의 매수나 매도를 권유하지 않습니다.\n\n가격과 수치는 지연되거나 근사치일 수 있습니다. 각 기사에 표시된 원래 출처를 꼭 확인하세요. 요약은 공개된 뉴스 출처를 바탕으로 AI의 도움을 받아 작성되며 오류가 있을 수 있습니다.\n\n투자에는 투자 원금 손실을 포함한 위험이 따릅니다.",
+  "privacy_ko": "WallBlock News를 읽는 데 계정이 필요 없으며, 사이트는 광고 추적기를 사용하지 않습니다.\n\n즐겨찾기, 색상 테마, 음성 설정은 사용자의 브라우저에만 저장됩니다.\n\nClaude에 로그인한 상태로 Wallie와 대화하면 답변 작성을 위해 질문이 Claude에서 처리됩니다.\n\nTradingView, Finviz, Cointelegraph 등의 링크를 누르면 해당 사이트가 열리며, 각 사이트에는 자체 개인정보 처리방침이 있습니다.",
+  "terms_ko": "WallBlock News는 개인적 용도로 읽고 공유할 수 있습니다. 콘텐츠는 언제든 바뀔 수 있으며 오류가 있을 수 있습니다.\n\n유료 요금제(Pro와 Premium)는 아직 제공되지 않습니다. 기능과 가격은 출시 전에 바뀔 수 있습니다."
+ },
+ "footer_es": "Actualización con el cierre del viernes, publicada el sábado 21 de noviembre de 2026 (18:30 hora europea / 12:30 ET): cierres de EE. UU. de CNBC, AP y StockInvest; Asia de CNBC, Yahoo Finance y Upstox; materias primas de Kitco y EnergyNow; bitcoin de CoinGecko y Crypto Bubbles (sábado 10:40 ET). Las cifras difieren ligeramente entre fuentes. No es asesoramiento financiero.",
+ "bubbles": {
+  "asof": "Nov 21, 2026, ≈10:40 am ET (16:40 CET)",
+  "asof_es": "21 nov 2026, ≈10:40 am ET (16:40 hora europea)",
+  "asof_fr": "21 nov. 2026, ≈10:40 am ET (16:40 CET)",
+  "asof_it": "21 nov 2026, ≈10:40 am ET (16:40 CET)",
+  "asof_pt": "21 nov 2026, ≈10:40 am ET (16:40 CET)",
+  "asof_zh": "2026年11月21日，约美东时间上午 10:40（欧洲中部时间 16:40）",
+  "asof_ko": "2026년 11월 21일, 미 동부 오전 10:40경(중앙유럽 16:40)",
+  "source": "CoinGecko, Crypto Bubbles",
+  "coins": [
+   {
+    "r": 1,
+    "n": "Bitcoin",
+    "s": "BTC",
+    "p": 59817.0,
+    "mc": 1200000000000,
+    "d1": -0.2
+   },
+   {
+    "r": 2,
+    "n": "Ethereum",
+    "s": "ETH",
+    "p": 1680.0,
+    "mc": 205300000000,
+    "d1": 0.8
+   },
+   {
+    "r": 3,
+    "n": "Tether",
+    "s": "USDT",
+    "p": 0.9985,
+    "mc": 174600000000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 4,
+    "n": "BNB",
+    "s": "BNB",
+    "p": 545.9,
+    "mc": 71700000000,
+    "d1": -0.8
+   },
+   {
+    "r": 5,
+    "n": "USDC",
+    "s": "USDC",
+    "p": 1.001,
+    "mc": 68400000000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 6,
+    "n": "XRP",
+    "s": "XRP",
+    "p": 0.9231,
+    "mc": 58600000000,
+    "d1": 1.3
+   },
+   {
+    "r": 7,
+    "n": "Solana",
+    "s": "SOL",
+    "p": 70.37,
+    "mc": 41600000000,
+    "d1": 2.8
+   },
+   {
+    "r": 8,
+    "n": "TRON",
+    "s": "TRX",
+    "p": 0.305,
+    "mc": 29000000000,
+    "d1": 0.3
+   },
+   {
+    "r": 9,
+    "n": "Hyperliquid",
+    "s": "HYPE",
+    "p": 60.77,
+    "mc": 14400000000,
+    "d1": -0.4
+   },
+   {
+    "r": 10,
+    "n": "Zcash",
+    "s": "ZEC",
+    "p": 789.97,
+    "mc": 13400000000,
+    "d1": 2.3
+   },
+   {
+    "r": 11,
+    "n": "Monero",
+    "s": "XMR",
+    "p": 474.29,
+    "mc": 8900000000,
+    "d1": 6.3
+   },
+   {
+    "r": 12,
+    "n": "Dogecoin",
+    "s": "DOGE",
+    "p": 0.05513,
+    "mc": 8600000000,
+    "d1": 1.9
+   },
+   {
+    "r": 13,
+    "n": "LEO Token",
+    "s": "LEO",
+    "p": 9.124,
+    "mc": 8400000000,
+    "d1": -0.9
+   },
+   {
+    "r": 14,
+    "n": "WhiteBIT Coin",
+    "s": "WBT",
+    "p": 56.66,
+    "mc": 6800000000,
+    "d1": -3.4
+   },
+   {
+    "r": 15,
+    "n": "Chainlink",
+    "s": "LINK",
+    "p": 8.584,
+    "mc": 6600000000,
+    "d1": 2.4
+   },
+   {
+    "r": 16,
+    "n": "Cardano",
+    "s": "ADA",
+    "p": 0.1441,
+    "mc": 5400000000,
+    "d1": 2.6
+   },
+   {
+    "r": 17,
+    "n": "Ethena USDe",
+    "s": "USDE",
+    "p": 1.0,
+    "mc": 4900000000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 18,
+    "n": "Stellar",
+    "s": "XLM",
+    "p": 0.1287,
+    "mc": 4600000000,
+    "d1": 1.2
+   },
+   {
+    "r": 19,
+    "n": "Dai",
+    "s": "DAI",
+    "p": 0.9993,
+    "mc": 4400000000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 20,
+    "n": "QuantixAI",
+    "s": "QAI",
+    "p": 999.15,
+    "mc": 4000000000,
+    "d1": 0.0
+   },
+   {
+    "r": 21,
+    "n": "Bitcoin Cash",
+    "s": "BCH",
+    "p": 198.18,
+    "mc": 4000000000,
+    "d1": 3.4
+   },
+   {
+    "r": 22,
+    "n": "NEAR Protocol",
+    "s": "NEAR",
+    "p": 2.852,
+    "mc": 3700000000,
+    "d1": 0.2
+   },
+   {
+    "r": 23,
+    "n": "Litecoin",
+    "s": "LTC",
+    "p": 39.97,
+    "mc": 3100000000,
+    "d1": -0.3
+   },
+   {
+    "r": 24,
+    "n": "Canton Network",
+    "s": "CC",
+    "p": 0.07547,
+    "mc": 3100000000,
+    "d1": 0.2
+   },
+   {
+    "r": 25,
+    "n": "Avalanche",
+    "s": "AVAX",
+    "p": 6.615,
+    "mc": 3000000000,
+    "d1": 1.7
+   },
+   {
+    "r": 26,
+    "n": "Ripple USD",
+    "s": "RLUSD",
+    "p": 1.001,
+    "mc": 2900000000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 27,
+    "n": "Tether Gold",
+    "s": "XAUT",
+    "p": 3545.0,
+    "mc": 2900000000,
+    "d1": -0.1
+   },
+   {
+    "r": 28,
+    "n": "USD1",
+    "s": "USD1",
+    "p": 1.0,
+    "mc": 2900000000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 29,
+    "n": "Uniswap",
+    "s": "UNI",
+    "p": 4.706,
+    "mc": 2900000000,
+    "d1": 5.6
+   },
+   {
+    "r": 30,
+    "n": "Toncoin",
+    "s": "TON",
+    "p": 0.9568,
+    "mc": 2800000000,
+    "d1": -4.1
+   },
+   {
+    "r": 31,
+    "n": "Sui",
+    "s": "SUI",
+    "p": 0.6462,
+    "mc": 2700000000,
+    "d1": -1.4
+   },
+   {
+    "r": 32,
+    "n": "Global Dollar",
+    "s": "USDG",
+    "p": 1.001,
+    "mc": 2600000000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 33,
+    "n": "Rain",
+    "s": "RAIN",
+    "p": 0.003543,
+    "mc": 2500000000,
+    "d1": -2.6
+   },
+   {
+    "r": 34,
+    "n": "Ondo US Dollar Yield",
+    "s": "USDY",
+    "p": 1.154,
+    "mc": 2400000000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 35,
+    "n": "PayPal USD",
+    "s": "PYUSD",
+    "p": 1.001,
+    "mc": 2300000000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 36,
+    "n": "Hedera",
+    "s": "HBAR",
+    "p": 0.05155,
+    "mc": 2300000000,
+    "d1": 0.3
+   },
+   {
+    "r": 37,
+    "n": "Bittensor",
+    "s": "TAO",
+    "p": 187.64,
+    "mc": 2200000000,
+    "d1": 6.1
+   },
+   {
+    "r": 38,
+    "n": "Shiba Inu",
+    "s": "SHIB",
+    "p": 3.635e-06,
+    "mc": 2100000000,
+    "d1": 2.2
+   },
+   {
+    "r": 39,
+    "n": "Cronos",
+    "s": "CRO",
+    "p": 0.04121,
+    "mc": 2100000000,
+    "d1": 3.7
+   },
+   {
+    "r": 40,
+    "n": "Spiko Amundi Overnight Swap Fund (EUR)",
+    "s": "EURSAFO",
+    "p": 1.12,
+    "mc": 2100000000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 41,
+    "n": "Quant",
+    "s": "QNT",
+    "p": 139.38,
+    "mc": 2000000000,
+    "d1": 2.6
+   },
+   {
+    "r": 42,
+    "n": "Circle USYC",
+    "s": "USYC",
+    "p": 1.14,
+    "mc": 2000000000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 43,
+    "n": "MemeCore",
+    "s": "M",
+    "p": 0.7686,
+    "mc": 1800000000,
+    "d1": -9.6
+   },
+   {
+    "r": 44,
+    "n": "Falcon USD",
+    "s": "USDF",
+    "p": 0.9958,
+    "mc": 1700000000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 45,
+    "n": "OKB",
+    "s": "OKB",
+    "p": 78.74,
+    "mc": 1700000000,
+    "d1": 0.0
+   },
+   {
+    "r": 46,
+    "n": "United Stables",
+    "s": "U",
+    "p": 0.9994,
+    "mc": 1600000000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 47,
+    "n": "PAX Gold",
+    "s": "PAXG",
+    "p": 3548.0,
+    "mc": 1600000000,
+    "d1": 0.0
+   },
+   {
+    "r": 48,
+    "n": "Aave",
+    "s": "AAVE",
+    "p": 100.48,
+    "mc": 1500000000,
+    "d1": 3.1
+   },
+   {
+    "r": 49,
+    "n": "USDD",
+    "s": "USDD",
+    "p": 0.9982,
+    "mc": 1400000000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 50,
+    "n": "Pepe",
+    "s": "PEPE",
+    "p": 3.404e-06,
+    "mc": 1400000000,
+    "d1": 0.6
+   },
+   {
+    "r": 51,
+    "n": "World Liberty Financial",
+    "s": "WLFI",
+    "p": 0.04407,
+    "mc": 1400000000,
+    "d1": -1.3
+   },
+   {
+    "r": 52,
+    "n": "Ondo",
+    "s": "ONDO",
+    "p": 0.2796,
+    "mc": 1400000000,
+    "d1": 1.1
+   },
+   {
+    "r": 53,
+    "n": "Ethena",
+    "s": "ENA",
+    "p": 0.0987,
+    "mc": 1300000000,
+    "d1": 1.0
+   },
+   {
+    "r": 54,
+    "n": "BFUSD",
+    "s": "BFUSD",
+    "p": 0.9991,
+    "mc": 1300000000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 55,
+    "n": "HTX DAO",
+    "s": "HTX",
+    "p": 1.451e-06,
+    "mc": 1300000000,
+    "d1": -1.7
+   },
+   {
+    "r": 56,
+    "n": "Aster",
+    "s": "ASTER",
+    "p": 0.4916,
+    "mc": 1300000000,
+    "d1": 0.4
+   },
+   {
+    "r": 57,
+    "n": "Mantle",
+    "s": "MNT",
+    "p": 0.3697,
+    "mc": 1200000000,
+    "d1": -3.1
+   },
+   {
+    "r": 58,
+    "n": "JUST",
+    "s": "JST",
+    "p": 0.144,
+    "mc": 1200000000,
+    "d1": -0.7
+   },
+   {
+    "r": 59,
+    "n": "Venice Token",
+    "s": "VVV",
+    "p": 23.12,
+    "mc": 1100000000,
+    "d1": 17.1
+   },
+   {
+    "r": 60,
+    "n": "Polkadot",
+    "s": "DOT",
+    "p": 0.6576,
+    "mc": 1100000000,
+    "d1": -0.6
+   },
+   {
+    "r": 61,
+    "n": "Morpho",
+    "s": "MORPHO",
+    "p": 1.566,
+    "mc": 1100000000,
+    "d1": 3.8
+   },
+   {
+    "r": 62,
+    "n": "Internet Computer",
+    "s": "ICP",
+    "p": 1.939,
+    "mc": 1100000000,
+    "d1": -3.3
+   },
+   {
+    "r": 63,
+    "n": "Bitget Token",
+    "s": "BGB",
+    "p": 1.543,
+    "mc": 1100000000,
+    "d1": -1.5
+   },
+   {
+    "r": 64,
+    "n": "Sky (prev. Maker)",
+    "s": "SKY",
+    "p": 0.04401,
+    "mc": 1000000000,
+    "d1": 1.1
+   },
+   {
+    "r": 65,
+    "n": "Bitway",
+    "s": "BTW",
+    "p": 0.6529,
+    "mc": 990900000,
+    "d1": 2.8
+   },
+   {
+    "r": 66,
+    "n": "USDGO",
+    "s": "USDGO",
+    "p": 1.001,
+    "mc": 984200000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 67,
+    "n": "Open USD",
+    "s": "OUSD",
+    "p": 0.9996,
+    "mc": 978500000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 68,
+    "n": "Blockchain Capital",
+    "s": "BCAP",
+    "p": 105.22,
+    "mc": 958800000,
+    "d1": 0.0
+   },
+   {
+    "r": 69,
+    "n": "Ethereum Classic",
+    "s": "ETC",
+    "p": 5.511,
+    "mc": 877000000,
+    "d1": 1.8
+   },
+   {
+    "r": 70,
+    "n": "Worldcoin",
+    "s": "WLD",
+    "p": 0.229,
+    "mc": 868900000,
+    "d1": -1.7
+   },
+   {
+    "r": 71,
+    "n": "Maker",
+    "s": "MKR",
+    "p": 1654.0,
+    "mc": 861100000,
+    "d1": 0.0
+   },
+   {
+    "r": 72,
+    "n": "Pump.fun",
+    "s": "PUMP",
+    "p": 0.00239,
+    "mc": 840300000,
+    "d1": 1.5
+   },
+   {
+    "r": 73,
+    "n": "POL (prev. MATIC)",
+    "s": "POL",
+    "p": 0.07652,
+    "mc": 815100000,
+    "d1": 2.4
+   },
+   {
+    "r": 74,
+    "n": "KuCoin",
+    "s": "KCS",
+    "p": 5.817,
+    "mc": 814800000,
+    "d1": -1.3
+   },
+   {
+    "r": 75,
+    "n": "Pieverse",
+    "s": "PIEVERSE",
+    "p": 2.97,
+    "mc": 814500000,
+    "d1": 13.4
+   },
+   {
+    "r": 76,
+    "n": "Arbitrum",
+    "s": "ARB",
+    "p": 0.1127,
+    "mc": 789400000,
+    "d1": -1.1
+   },
+   {
+    "r": 77,
+    "n": "Render",
+    "s": "RENDER",
+    "p": 1.305,
+    "mc": 726700000,
+    "d1": 3.5
+   },
+   {
+    "r": 78,
+    "n": "Jupiter",
+    "s": "JUP",
+    "p": 0.2174,
+    "mc": 722000000,
+    "d1": -2.0
+   },
+   {
+    "r": 79,
+    "n": "Kaspa",
+    "s": "KAS",
+    "p": 0.02579,
+    "mc": 718500000,
+    "d1": 2.7
+   },
+   {
+    "r": 80,
+    "n": "Midnight",
+    "s": "NIGHT",
+    "p": 0.04286,
+    "mc": 712900000,
+    "d1": 5.8
+   },
+   {
+    "r": 81,
+    "n": "GHO",
+    "s": "GHO",
+    "p": 0.9953,
+    "mc": 697500000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 82,
+    "n": "Pearl",
+    "s": "PEARL",
+    "p": 1.806,
+    "mc": 693900000,
+    "d1": -4.2
+   },
+   {
+    "r": 83,
+    "n": "Algorand",
+    "s": "ALGO",
+    "p": 0.07526,
+    "mc": 684500000,
+    "d1": 3.4
+   },
+   {
+    "r": 84,
+    "n": "Invesco Short Duration US Government Securities Fund",
+    "s": "USTB",
+    "p": 11.29,
+    "mc": 680900000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 85,
+    "n": "Jupiter Perps LP",
+    "s": "JLP",
+    "p": 3.62,
+    "mc": 666000000,
+    "d1": 1.4
+   },
+   {
+    "r": 86,
+    "n": "Gate",
+    "s": "GT",
+    "p": 6.36,
+    "mc": 665800000,
+    "d1": -1.7
+   },
+   {
+    "r": 87,
+    "n": "Cosmos",
+    "s": "ATOM",
+    "p": 1.186,
+    "mc": 645000000,
+    "d1": -2.2
+   },
+   {
+    "r": 88,
+    "n": "NEXO",
+    "s": "NEXO",
+    "p": 0.6375,
+    "mc": 640500000,
+    "d1": 0.3
+   },
+   {
+    "r": 89,
+    "n": "Injective",
+    "s": "INJ",
+    "p": 6.169,
+    "mc": 615400000,
+    "d1": 0.4
+   },
+   {
+    "r": 90,
+    "n": "Pi Network",
+    "s": "PI",
+    "p": 0.05203,
+    "mc": 594300000,
+    "d1": 4.3
+   },
+   {
+    "r": 91,
+    "n": "Lighter",
+    "s": "LIT",
+    "p": 2.422,
+    "mc": 591200000,
+    "d1": -1.6
+   },
+   {
+    "r": 92,
+    "n": "Janus Henderson Anemoy AAA CLO Fund",
+    "s": "JAAA",
+    "p": 1.057,
+    "mc": 587000000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 93,
+    "n": "Beldex",
+    "s": "BDX",
+    "p": 0.06879,
+    "mc": 551000000,
+    "d1": 0.4
+   },
+   {
+    "r": 94,
+    "n": "Usual USD",
+    "s": "USD0",
+    "p": 0.9988,
+    "mc": 537700000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 95,
+    "n": "XDC Network",
+    "s": "XDC",
+    "p": 0.02655,
+    "mc": 527700000,
+    "d1": -3.7
+   },
+   {
+    "r": 96,
+    "n": "EURC",
+    "s": "EURC",
+    "p": 1.088,
+    "mc": 501800000,
+    "d1": -0.3,
+    "st": 1
+   },
+   {
+    "r": 97,
+    "n": "TrueUSD",
+    "s": "TUSD",
+    "p": 0.9991,
+    "mc": 493600000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 98,
+    "n": "PancakeSwap",
+    "s": "CAKE",
+    "p": 1.475,
+    "mc": 489400000,
+    "d1": -1.8
+   },
+   {
+    "r": 99,
+    "n": "Spiko EU T-Bills Money Market Fund",
+    "s": "EUTBL",
+    "p": 1.17,
+    "mc": 473200000,
+    "d1": 0.0,
+    "st": 1
+   },
+   {
+    "r": 100,
+    "n": "Stacks",
+    "s": "STX",
+    "p": 0.2511,
+    "mc": 473000000,
+    "d1": 3.9
+   }
+  ]
+ },
+ "stocks": {
+  "period": "Live · 1:45 pm ET",
+  "period_es": "En directo · 1:45 pm ET",
+  "period_fr": "En direct · 1:45 pm ET",
+  "period_it": "In diretta · 1:45 pm ET",
+  "period_pt": "Ao vivo · 1:45 pm ET",
+  "period_zh": "盘中 · 美东 1:45 pm",
+  "period_ko": "장중 · 1:45 pm ET",
+  "asof": "Nov 20, 2026, ≈1:45 pm ET (19:45 CET)",
+  "asof_es": "20 nov 2026, ≈1:45 pm ET (19:45 hora europea)",
+  "asof_fr": "20 nov. 2026, ≈1:45 pm ET (19:45 CET)",
+  "asof_it": "20 nov 2026, ≈1:45 pm ET (19:45 CET)",
+  "asof_pt": "20 nov 2026, ≈1:45 pm ET (19:45 CET)",
+  "asof_zh": "2026年11月20日，约美东时间下午 1:45（欧洲中部时间 19:45）",
+  "asof_ko": "2026년 11월 20일, 미 동부 오후 1:45경(중앙유럽 19:45)",
+  "source": "Financhle, Google Finance",
+  "coins": [
+   {
+    "r": 1,
+    "s": "AAPL",
+    "n": "Apple",
+    "w": 8.33,
+    "p": 345.55,
+    "d1": -1.05
+   },
+   {
+    "r": 2,
+    "s": "MSFT",
+    "n": "Microsoft",
+    "w": 6.013,
+    "p": 490.3,
+    "d1": -1.61
+   },
+   {
+    "r": 3,
+    "s": "NVDA",
+    "n": "Nvidia",
+    "w": 5.437,
+    "p": 136.02,
+    "d1": -6.82
+   },
+   {
+    "r": 4,
+    "s": "AMZN",
+    "n": "Amazon",
+    "w": 4.063,
+    "p": 250.6,
+    "d1": -2.63
+   },
+   {
+    "r": 5,
+    "s": "GOOGL",
+    "n": "Alphabet Class A",
+    "w": 2.643,
+    "p": 272.69,
+    "d1": 0.01
+   },
+   {
+    "r": 6,
+    "s": "AVGO",
+    "n": "Broadcom",
+    "w": 2.418,
+    "p": 307.66,
+    "d1": -11.25
+   },
+   {
+    "r": 7,
+    "s": "GOOG",
+    "n": "Alphabet Class C",
+    "w": 2.124,
+    "p": 270.51,
+    "d1": -0.19
+   },
+   {
+    "r": 8,
+    "s": "META",
+    "n": "Meta Platforms",
+    "w": 2.075,
+    "p": 569.66,
+    "d1": -4.45
+   },
+   {
+    "r": 9,
+    "s": "LLY",
+    "n": "Eli Lilly & Co.",
+    "w": 1.79,
+    "p": 1354.1,
+    "d1": 0.22
+   },
+   {
+    "r": 10,
+    "s": "BRK.B",
+    "n": "Berkshire Hathaway",
+    "w": 1.758,
+    "p": 571.55,
+    "d1": -0.09
+   },
+   {
+    "r": 11,
+    "s": "TSLA",
+    "n": "Tesla",
+    "w": 1.636,
+    "p": 351.55,
+    "d1": -6.11
+   },
+   {
+    "r": 12,
+    "s": "JPM",
+    "n": "JPMorgan Chase & Co.",
+    "w": 1.381,
+    "p": 314.62,
+    "d1": -1.75
+   },
+   {
+    "r": 13,
+    "s": "AMD",
+    "n": "Advanced Micro Devices",
+    "w": 1.179,
+    "p": 437.08,
+    "d1": -10.65
+   },
+   {
+    "r": 14,
+    "s": "V",
+    "n": "Visa",
+    "w": 1.147,
+    "p": 407.41,
+    "d1": 1.28
+   },
+   {
+    "r": 15,
+    "s": "MU",
+    "n": "Micron Technology",
+    "w": 1.131,
+    "p": 606.14,
+    "d1": -12.21
+   },
+   {
+    "r": 16,
+    "s": "XOM",
+    "n": "ExxonMobil",
+    "w": 1.094,
+    "p": 161.12,
+    "d1": 1.38
+   },
+   {
+    "r": 17,
+    "s": "JNJ",
+    "n": "Johnson & Johnson",
+    "w": 1.081,
+    "p": 271.6,
+    "d1": 1.67
+   },
+   {
+    "r": 18,
+    "s": "WMT",
+    "n": "Walmart",
+    "w": 0.955,
+    "p": 129.77,
+    "d1": 2.96
+   },
+   {
+    "r": 19,
+    "s": "MA",
+    "n": "Mastercard",
+    "w": 0.845,
+    "p": 632.82,
+    "d1": 1.01
+   },
+   {
+    "r": 20,
+    "s": "ABBV",
+    "n": "Abbvie",
+    "w": 0.843,
+    "p": 288.76,
+    "d1": 1.84
+   },
+   {
+    "r": 21,
+    "s": "COST",
+    "n": "Costco Wholesale",
+    "w": 0.816,
+    "p": 1113.68,
+    "d1": 1.81
+   },
+   {
+    "r": 22,
+    "s": "CVX",
+    "n": "Chevron",
+    "w": 0.685,
+    "p": 209.83,
+    "d1": 1.61
+   },
+   {
+    "r": 23,
+    "s": "PG",
+    "n": "Procter & Gamble",
+    "w": 0.654,
+    "p": 170.3,
+    "d1": 1.46
+   },
+   {
+    "r": 24,
+    "s": "KO",
+    "n": "Coca-Cola",
+    "w": 0.625,
+    "p": 97.7,
+    "d1": 1.67
+   },
+   {
+    "r": 25,
+    "s": "CSCO",
+    "n": "Cisco Systems",
+    "w": 0.599,
+    "p": 91.95,
+    "d1": -2.9
+   },
+   {
+    "r": 26,
+    "s": "HD",
+    "n": "Home Depot",
+    "w": 0.566,
+    "p": 343.81,
+    "d1": 2.12
+   },
+   {
+    "r": 27,
+    "s": "PLTR",
+    "n": "Palantir Technologies",
+    "w": 0.559,
+    "p": 147.19,
+    "d1": -4.22
+   },
+   {
+    "r": 28,
+    "s": "MRK",
+    "n": "Merck & Co.",
+    "w": 0.548,
+    "p": 134.56,
+    "d1": 1.32
+   },
+   {
+    "r": 29,
+    "s": "GE",
+    "n": "GE Aerospace",
+    "w": 0.539,
+    "p": 314.39,
+    "d1": -1.41
+   },
+   {
+    "r": 30,
+    "s": "BAC",
+    "n": "Bank of America",
+    "w": 0.514,
+    "p": 47.86,
+    "d1": -1.46
+   }
+  ]
+ },
+ "metals": {
+  "period": "Metals: spot, 5 pm ET · Indices: close 4:00 pm ET",
+  "period_es": "Metales: spot, 17:00 ET · Índices: cierre 16:00 ET",
+  "period_fr": "Métaux : comptant · Indices : clôture 4:00 pm ET",
+  "period_it": "Metalli: spot · Indici: chiusura 4:00 pm ET",
+  "period_pt": "Metais: à vista · Índices: fechamento 4:00 pm ET",
+  "period_zh": "金属：现货 · 指数：收盘 美东 4:00 pm",
+  "period_ko": "금속: 현물 · 지수: 종가 4:00 pm ET",
+  "asof": "Nov 20, 2026, 5 pm ET (23:00 CET)",
+  "asof_es": "20 nov 2026, 17:00 ET (23:00 hora europea)",
+  "asof_fr": "20 nov. 2026, ≈4:45 pm ET (22:45 CET)",
+  "asof_it": "20 nov 2026, ≈4:45 pm ET (22:45 CET)",
+  "asof_pt": "20 nov 2026, ≈4:45 pm ET (22:45 CET)",
+  "asof_zh": "2026年11月20日，约美东时间下午 4:45（欧洲中部时间 22:45）",
+  "asof_ko": "2026년 11월 20일, 미 동부 오후 4:45경(중앙유럽 22:45)",
+  "source": "Kitco, Trading Economics, CNBC",
+  "coins": [
+   {
+    "s": "GOLD",
+    "n": "Gold",
+    "p": 3537.9,
+    "d1": -2.38,
+    "tv": "https://www.tradingview.com/symbols/COMEX-GC1!/",
+    "s_es": "ORO",
+    "n_es": "Oro",
+    "s_fr": "OR",
+    "n_fr": "Or",
+    "s_it": "ORO",
+    "n_it": "Oro",
+    "s_pt": "OURO",
+    "n_pt": "Ouro",
+    "s_zh": "黄金",
+    "n_zh": "黄金",
+    "s_ko": "금",
+    "n_ko": "금",
+    "note": "spot, Kitco",
+    "note_es": "spot, Kitco",
+    "note_fr": "au comptant, Trading Economics",
+    "note_it": "spot, Trading Economics",
+    "note_pt": "à vista, Trading Economics",
+    "note_zh": "现货，Trading Economics",
+    "note_ko": "현물, Trading Economics"
+   },
+   {
+    "s": "SILVER",
+    "n": "Silver",
+    "p": 41.12,
+    "d1": -3.83,
+    "tv": "https://www.tradingview.com/symbols/COMEX-SI1!/",
+    "s_es": "PLATA",
+    "n_es": "Plata",
+    "s_fr": "ARGENT",
+    "n_fr": "Argent",
+    "s_it": "ARGENTO",
+    "n_it": "Argento",
+    "s_pt": "PRATA",
+    "n_pt": "Prata",
+    "s_zh": "白银",
+    "n_zh": "白银",
+    "s_ko": "은",
+    "n_ko": "은",
+    "note": "spot, Kitco",
+    "note_es": "spot, Kitco",
+    "note_fr": "au comptant, Trading Economics",
+    "note_it": "spot, Trading Economics",
+    "note_pt": "à vista, Trading Economics",
+    "note_zh": "现货，Trading Economics",
+    "note_ko": "현물, Trading Economics"
+   },
+   {
+    "s": "PLATINUM",
+    "n": "Platinum",
+    "p": 1283.4,
+    "d1": -4.76,
+    "tv": "https://www.tradingview.com/symbols/NYMEX-PL1!/",
+    "s_es": "PLATINO",
+    "n_es": "Platino",
+    "s_fr": "PLATINE",
+    "n_fr": "Platine",
+    "s_it": "PLATINO",
+    "n_it": "Platino",
+    "s_pt": "PLATINA",
+    "n_pt": "Platina",
+    "s_zh": "铂金",
+    "n_zh": "铂金",
+    "s_ko": "백금",
+    "n_ko": "백금",
+    "note": "spot, Trading Economics",
+    "note_es": "contado, Trading Economics",
+    "note_fr": "au comptant, Trading Economics",
+    "note_it": "spot, Trading Economics",
+    "note_pt": "à vista, Trading Economics",
+    "note_zh": "现货，Trading Economics",
+    "note_ko": "현물, Trading Economics"
+   },
+   {
+    "s": "PALLADIUM",
+    "n": "Palladium",
+    "p": 892.0,
+    "d1": -2.89,
+    "tv": "https://www.tradingview.com/symbols/NYMEX-PA1!/",
+    "s_es": "PALADIO",
+    "n_es": "Paladio",
+    "s_fr": "PALLADIUM",
+    "n_fr": "Palladium",
+    "s_it": "PALLADIO",
+    "n_it": "Palladio",
+    "s_pt": "PALÁDIO",
+    "n_pt": "Paládio",
+    "s_zh": "钯金",
+    "n_zh": "钯金",
+    "s_ko": "팔라듐",
+    "n_ko": "팔라듐",
+    "note": "spot, Trading Economics",
+    "note_es": "contado, Trading Economics",
+    "note_fr": "au comptant, Trading Economics",
+    "note_it": "spot, Trading Economics",
+    "note_pt": "à vista, Trading Economics",
+    "note_zh": "现货，Trading Economics",
+    "note_ko": "현물, Trading Economics"
+   },
+   {
+    "s": "S&P 500",
+    "n": "S&P 500",
+    "p": null,
+    "d1": -3.7,
+    "tv": "https://www.tradingview.com/symbols/CME_MINI-ES1!/",
+    "s_es": "S&P 500",
+    "n_es": "S&P 500",
+    "s_fr": "S&P 500",
+    "n_fr": "S&P 500",
+    "s_it": "S&P 500",
+    "n_it": "S&P 500",
+    "s_pt": "S&P 500",
+    "n_pt": "S&P 500",
+    "s_zh": "S&P 500",
+    "n_zh": "S&P 500",
+    "s_ko": "S&P 500",
+    "n_ko": "S&P 500",
+    "note": "close 4:00 pm ET, 24/7 Wall St.",
+    "note_es": "cierre 4:00 pm ET, 24/7 Wall St.",
+    "note_fr": "clôture 4:00 pm ET, 24/7 Wall St.",
+    "note_it": "chiusura 4:00 pm ET, 24/7 Wall St.",
+    "note_pt": "fechamento 4:00 pm ET, 24/7 Wall St.",
+    "note_zh": "收盘 美东 4:00 pm，24/7 Wall St.",
+    "note_ko": "종가 4:00 pm ET, 24/7 Wall St."
+   },
+   {
+    "s": "NASDAQ 100",
+    "n": "Nasdaq 100",
+    "p": null,
+    "d1": -5.61,
+    "tv": "https://www.tradingview.com/symbols/CME_MINI-NQ1!/",
+    "s_es": "NASDAQ 100",
+    "n_es": "Nasdaq 100",
+    "s_fr": "NASDAQ 100",
+    "n_fr": "Nasdaq 100",
+    "s_it": "NASDAQ 100",
+    "n_it": "Nasdaq 100",
+    "s_pt": "NASDAQ 100",
+    "n_pt": "Nasdaq 100",
+    "s_zh": "NASDAQ 100",
+    "n_zh": "Nasdaq 100",
+    "s_ko": "NASDAQ 100",
+    "n_ko": "Nasdaq 100",
+    "note": "Nasdaq Composite, close 4:00 pm ET, 24/7 Wall St.",
+    "note_es": "Nasdaq Composite, cierre 4:00 pm ET, 24/7 Wall St.",
+    "note_fr": "Nasdaq Composite, clôture 4:00 pm ET, 24/7 Wall St.",
+    "note_it": "Nasdaq Composite, chiusura 4:00 pm ET, 24/7 Wall St.",
+    "note_pt": "Nasdaq Composite, fechamento 4:00 pm ET, 24/7 Wall St.",
+    "note_zh": "Nasdaq Composite, 收盘 美东 4:00 pm，24/7 Wall St.",
+    "note_ko": "Nasdaq Composite, 종가 4:00 pm ET, 24/7 Wall St."
+   },
+   {
+    "s": "DOW",
+    "n": "Dow Jones",
+    "p": null,
+    "d1": -1.93,
+    "tv": "https://www.tradingview.com/symbols/CBOT_MINI-YM1!/",
+    "s_es": "DOW",
+    "n_es": "Dow Jones",
+    "s_fr": "DOW",
+    "n_fr": "Dow Jones",
+    "s_it": "DOW",
+    "n_it": "Dow Jones",
+    "s_pt": "DOW",
+    "n_pt": "Dow Jones",
+    "s_zh": "DOW",
+    "n_zh": "Dow Jones",
+    "s_ko": "DOW",
+    "n_ko": "Dow Jones",
+    "note": "close 4:00 pm ET, 24/7 Wall St.",
+    "note_es": "cierre 4:00 pm ET, 24/7 Wall St.",
+    "note_fr": "clôture 4:00 pm ET, 24/7 Wall St.",
+    "note_it": "chiusura 4:00 pm ET, 24/7 Wall St.",
+    "note_pt": "fechamento 4:00 pm ET, 24/7 Wall St.",
+    "note_zh": "收盘 美东 4:00 pm，24/7 Wall St.",
+    "note_ko": "종가 4:00 pm ET, 24/7 Wall St."
+   }
+  ]
+ }
+}

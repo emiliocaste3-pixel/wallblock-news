@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://remarkable-flan-83896d.netlify.app/sitemap.xml
